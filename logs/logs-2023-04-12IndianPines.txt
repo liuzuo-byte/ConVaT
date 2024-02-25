@@ -1,0 +1,40 @@
+creating ./logs/logs-2023-04-12IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-12:20:58--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-12IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-12:20:58--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-12IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-12:20:59--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for testing(over 10249)
+creating ./logs/logs-2023-04-12IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-12:20:59--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for testing(over 10249)
+creating ./logs/logs-2023-04-12IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-12:21:23--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0

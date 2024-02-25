@@ -1,0 +1,44 @@
+creating ./logs/logs-2022-11-10Salinas.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-10:20:30--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/Salinas/0.20/train_gt.npy)
+10825 samples selected for training(over 54129)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/Salinas/0.20/test_gt.npy)
+43304 samples selected for training(over 54129)
+RUN:0
+10825 samples selected for training(over 54129)
+43304 samples selected for training(over 54129)
+RUN:0
+Train dataloader:158
+Validation dataloader:79
+----------Training parameters----------
+dataset:Salinas
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:400
+save_epoch:400
+patch_size:15
+lr:0.005
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:204
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 1.1667, 0.6295, 1.1873, 1.6810, 0.8750, 0.5922, 0.6550, 0.2081,
+        0.3782, 0.7149, 2.1916, 1.2182, 2.5628, 2.1916, 0.3228, 1.2992],
+       device='cuda:0')
+---------- pretrain model training----------

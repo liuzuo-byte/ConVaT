@@ -1,0 +1,905 @@
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:23--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:26--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:27--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:29--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7fc8f66b2d10>
+Network :
+---------- pretrain model training----------
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:29--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7fbd86a3cb10>
+Network :
+---------- pretrain model training----------
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:30--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7fbc23362bd0>
+Network :
+---------- pretrain model training----------
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:32--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7feac852fe50>
+Network :
+---------- pretrain model training----------
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:32--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7fc814130d90>
+Network :
+---------- pretrain model training----------
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:36--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7f9a400b1dd0>
+Network :
+---------- pretrain model training----------
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:39--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7febfaeafb50>
+Network :
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:-0.019479
+Epoch [2/100]    avg_loss:-0.029103
+Epoch [3/100]    avg_loss:-0.028423
+Epoch [4/100]    avg_loss:-0.039109
+Epoch [5/100]    avg_loss:-0.052803
+Epoch [6/100]    avg_loss:-0.069594
+Epoch [7/100]    avg_loss:-0.080799
+Epoch [8/100]    avg_loss:-0.098053
+Epoch [9/100]    avg_loss:-0.118991
+Epoch [10/100]    avg_loss:-0.143123
+Epoch [11/100]    avg_loss:-0.169938
+Epoch [12/100]    avg_loss:-0.196531
+Epoch [13/100]    avg_loss:-0.222195
+Epoch [14/100]    avg_loss:-0.251715
+Epoch [15/100]    avg_loss:-0.283595
+Epoch [16/100]    avg_loss:-0.312011
+Epoch [17/100]    avg_loss:-0.330818
+Epoch [18/100]    avg_loss:-0.361605
+Epoch [19/100]    avg_loss:-0.393870
+Epoch [20/100]    avg_loss:-0.421290
+Epoch [21/100]    avg_loss:-0.441841
+Epoch [22/100]    avg_loss:-0.460626
+Epoch [23/100]    avg_loss:-0.489588
+Epoch [24/100]    avg_loss:-0.525733
+Epoch [25/100]    avg_loss:-0.537477
+Epoch [26/100]    avg_loss:-0.570466
+Epoch [27/100]    avg_loss:-0.587924
+Epoch [28/100]    avg_loss:-0.604259
+Epoch [29/100]    avg_loss:-0.615546
+Epoch [30/100]    avg_loss:-0.641568
+Epoch [31/100]    avg_loss:-0.656198
+Epoch [32/100]    avg_loss:-0.673064
+Epoch [33/100]    avg_loss:-0.692057
+Epoch [34/100]    avg_loss:-0.704690
+Epoch [35/100]    avg_loss:-0.717742
+Epoch [36/100]    avg_loss:-0.715980
+Epoch [37/100]    avg_loss:-0.726831
+Epoch [38/100]    avg_loss:-0.726955
+Epoch [39/100]    avg_loss:-0.746995
+Epoch [40/100]    avg_loss:-0.755630
+Epoch [41/100]    avg_loss:-0.766981
+Epoch [42/100]    avg_loss:-0.769973
+Epoch [43/100]    avg_loss:-0.771077
+Epoch [44/100]    avg_loss:-0.764518
+Epoch [45/100]    avg_loss:-0.791317
+Epoch [46/100]    avg_loss:-0.799373
+Epoch [47/100]    avg_loss:-0.803769
+Epoch [48/100]    avg_loss:-0.811826
+Epoch [49/100]    avg_loss:-0.815854
+Epoch [50/100]    avg_loss:-0.821178
+Epoch [51/100]    avg_loss:-0.828347
+Epoch [52/100]    avg_loss:-0.825411
+Epoch [53/100]    avg_loss:-0.816123
+Epoch [54/100]    avg_loss:-0.831974
+Epoch [55/100]    avg_loss:-0.841307
+Epoch [56/100]    avg_loss:-0.829246
+Epoch [57/100]    avg_loss:-0.840939
+Epoch [58/100]    avg_loss:-0.847459
+Epoch [59/100]    avg_loss:-0.848441
+Epoch [60/100]    avg_loss:-0.849810
+Epoch [61/100]    avg_loss:-0.845822
+Epoch [62/100]    avg_loss:-0.855637
+Epoch [63/100]    avg_loss:-0.851916
+Epoch [64/100]    avg_loss:-0.864742
+Epoch [65/100]    avg_loss:-0.864205
+Epoch [66/100]    avg_loss:-0.860648
+Epoch [67/100]    avg_loss:-0.867238
+Epoch [68/100]    avg_loss:-0.869440
+Epoch [69/100]    avg_loss:-0.866006
+Epoch [70/100]    avg_loss:-0.864781
+Epoch [71/100]    avg_loss:-0.871738
+Epoch [72/100]    avg_loss:-0.872937
+Epoch [73/100]    avg_loss:-0.875531
+Epoch [74/100]    avg_loss:-0.883444
+Epoch [75/100]    avg_loss:-0.880774
+Epoch [76/100]    avg_loss:-0.878869
+Epoch [77/100]    avg_loss:-0.882851
+Epoch [78/100]    avg_loss:-0.885230
+Epoch [79/100]    avg_loss:-0.881993
+Epoch [80/100]    avg_loss:-0.886596
+Epoch [81/100]    avg_loss:-0.876531
+Epoch [82/100]    avg_loss:-0.865118
+Epoch [83/100]    avg_loss:-0.886222
+Epoch [84/100]    avg_loss:-0.890379
+Epoch [85/100]    avg_loss:-0.883546
+Epoch [86/100]    avg_loss:-0.890837
+Epoch [87/100]    avg_loss:-0.891950
+Epoch [88/100]    avg_loss:-0.894271
+Epoch [89/100]    avg_loss:-0.897787
+Epoch [90/100]    avg_loss:-0.900649
+Epoch [91/100]    avg_loss:-0.888953
+Epoch [92/100]    avg_loss:-0.895990
+Epoch [93/100]    avg_loss:-0.901605
+Epoch [94/100]    avg_loss:-0.906166
+Epoch [95/100]    avg_loss:-0.894471
+Epoch [96/100]    avg_loss:-0.902713
+Epoch [97/100]    avg_loss:-0.908124
+Epoch [98/100]    avg_loss:-0.899315
+Epoch [99/100]    avg_loss:-0.907579
+Epoch [100/100]    avg_loss:-0.908811
+The pretrain model training successfully!!!
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:10:42--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:30
+Validation dataloader:29
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.005
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+batch_size:32
+validation_percentage:0.1
+pca_bands:64
+bands:200
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7f237071ab50>
+supervision:full
+center_pixel:True
+Network :
+----------Training process----------
+Epoch [1/100    avg_loss:2.50, val_acc:0.37]
+Epoch [2/100    avg_loss:1.83, val_acc:0.43]
+Epoch [3/100    avg_loss:1.56, val_acc:0.49]
+Epoch [4/100    avg_loss:1.44, val_acc:0.50]
+Epoch [5/100    avg_loss:1.32, val_acc:0.51]
+Epoch [6/100    avg_loss:1.21, val_acc:0.44]
+Epoch [7/100    avg_loss:1.17, val_acc:0.53]
+Epoch [8/100    avg_loss:1.08, val_acc:0.50]
+Epoch [9/100    avg_loss:1.07, val_acc:0.50]
+Epoch [10/100    avg_loss:1.07, val_acc:0.52]
+Epoch [11/100    avg_loss:0.91, val_acc:0.52]
+Epoch [12/100    avg_loss:0.92, val_acc:0.53]
+Epoch [13/100    avg_loss:0.91, val_acc:0.55]
+Epoch [14/100    avg_loss:0.84, val_acc:0.56]
+Epoch [15/100    avg_loss:0.75, val_acc:0.53]
+Epoch [16/100    avg_loss:0.78, val_acc:0.57]
+Epoch [17/100    avg_loss:0.71, val_acc:0.55]
+Epoch [18/100    avg_loss:0.80, val_acc:0.56]
+Epoch [19/100    avg_loss:0.73, val_acc:0.56]
+Epoch [20/100    avg_loss:0.78, val_acc:0.55]
+Epoch [21/100    avg_loss:0.65, val_acc:0.57]
+Epoch [22/100    avg_loss:0.67, val_acc:0.53]
+Epoch [23/100    avg_loss:0.65, val_acc:0.57]
+Epoch [24/100    avg_loss:0.69, val_acc:0.57]
+Epoch [25/100    avg_loss:0.61, val_acc:0.57]
+Epoch [26/100    avg_loss:0.63, val_acc:0.56]
+Epoch [27/100    avg_loss:0.62, val_acc:0.55]
+Epoch [28/100    avg_loss:0.59, val_acc:0.58]
+Epoch [29/100    avg_loss:0.60, val_acc:0.53]
+Epoch [30/100    avg_loss:0.55, val_acc:0.55]
+Epoch [31/100    avg_loss:0.54, val_acc:0.57]
+Epoch [32/100    avg_loss:0.58, val_acc:0.57]
+Epoch [33/100    avg_loss:0.54, val_acc:0.54]
+Epoch [34/100    avg_loss:0.50, val_acc:0.54]
+Epoch [35/100    avg_loss:0.55, val_acc:0.55]
+Epoch [36/100    avg_loss:0.54, val_acc:0.54]
+Epoch [37/100    avg_loss:0.57, val_acc:0.56]
+Epoch [38/100    avg_loss:0.51, val_acc:0.56]
+Epoch [39/100    avg_loss:0.53, val_acc:0.56]
+Epoch [40/100    avg_loss:0.53, val_acc:0.55]
+Epoch [41/100    avg_loss:0.63, val_acc:0.57]
+Epoch [42/100    avg_loss:0.55, val_acc:0.58]
+Epoch [43/100    avg_loss:0.48, val_acc:0.55]
+Epoch [44/100    avg_loss:0.57, val_acc:0.56]
+Epoch [45/100    avg_loss:0.49, val_acc:0.57]
+Epoch [46/100    avg_loss:0.48, val_acc:0.57]
+Epoch [47/100    avg_loss:0.44, val_acc:0.55]
+Epoch [48/100    avg_loss:0.46, val_acc:0.57]
+Epoch [49/100    avg_loss:0.50, val_acc:0.54]
+Epoch [50/100    avg_loss:0.55, val_acc:0.58]
+Epoch [51/100    avg_loss:0.44, val_acc:0.51]
+Epoch [52/100    avg_loss:0.46, val_acc:0.56]
+Epoch [53/100    avg_loss:0.50, val_acc:0.57]
+Epoch [54/100    avg_loss:0.44, val_acc:0.55]
+Epoch [55/100    avg_loss:0.56, val_acc:0.54]
+Epoch [56/100    avg_loss:0.39, val_acc:0.56]
+Epoch [57/100    avg_loss:0.43, val_acc:0.57]
+Epoch [58/100    avg_loss:0.45, val_acc:0.55]
+Epoch [59/100    avg_loss:0.44, val_acc:0.55]
+Epoch [60/100    avg_loss:0.52, val_acc:0.59]
+Epoch [61/100    avg_loss:0.45, val_acc:0.55]
+Epoch [62/100    avg_loss:0.42, val_acc:0.57]
+Epoch [63/100    avg_loss:0.41, val_acc:0.56]
+Epoch [64/100    avg_loss:0.42, val_acc:0.54]
+Epoch [65/100    avg_loss:0.42, val_acc:0.56]
+Epoch [66/100    avg_loss:0.40, val_acc:0.58]
+Epoch [67/100    avg_loss:0.50, val_acc:0.48]
+Epoch [68/100    avg_loss:0.53, val_acc:0.56]
+Epoch [69/100    avg_loss:0.57, val_acc:0.57]
+Epoch [70/100    avg_loss:0.47, val_acc:0.56]
+Epoch [71/100    avg_loss:0.43, val_acc:0.56]
+Epoch [72/100    avg_loss:0.40, val_acc:0.54]
+Epoch [73/100    avg_loss:0.37, val_acc:0.58]
+Epoch [74/100    avg_loss:0.36, val_acc:0.57]
+Epoch [75/100    avg_loss:0.37, val_acc:0.58]
+Epoch [76/100    avg_loss:0.40, val_acc:0.57]
+Epoch [77/100    avg_loss:0.39, val_acc:0.59]
+Epoch [78/100    avg_loss:0.49, val_acc:0.58]
+Epoch [79/100    avg_loss:0.39, val_acc:0.57]
+Epoch [80/100    avg_loss:0.38, val_acc:0.58]
+Epoch [81/100    avg_loss:0.38, val_acc:0.56]
+Epoch [82/100    avg_loss:0.41, val_acc:0.55]
+Epoch [83/100    avg_loss:0.40, val_acc:0.59]
+Epoch [84/100    avg_loss:0.36, val_acc:0.58]
+Epoch [85/100    avg_loss:0.37, val_acc:0.54]
+Epoch [86/100    avg_loss:0.44, val_acc:0.58]
+Epoch [87/100    avg_loss:0.42, val_acc:0.56]
+Epoch [88/100    avg_loss:0.40, val_acc:0.57]
+Epoch [89/100    avg_loss:0.43, val_acc:0.58]
+Epoch [90/100    avg_loss:0.40, val_acc:0.57]
+Epoch [91/100    avg_loss:0.33, val_acc:0.57]
+Epoch [92/100    avg_loss:0.38, val_acc:0.57]
+Epoch [93/100    avg_loss:0.33, val_acc:0.56]
+Epoch [94/100    avg_loss:0.36, val_acc:0.58]
+Epoch [95/100    avg_loss:0.42, val_acc:0.55]
+Epoch [96/100    avg_loss:0.55, val_acc:0.58]
+Epoch [97/100    avg_loss:0.34, val_acc:0.58]
+Epoch [98/100    avg_loss:0.32, val_acc:0.56]
+Epoch [99/100    avg_loss:0.38, val_acc:0.56]
+Epoch [100/100    avg_loss:0.39, val_acc:0.57]
+----------Training result----------
+
+Confusion matrix:
+[[   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0]
+ [   0    1    8    1    0    0    0    0   11    0   10    8    0    0
+     2    0    0]
+ [   0    0  456   78   17    1    5    0   19    0  195  473   13    1
+    24    3    0]
+ [   0    0   95  205   13    2    5    0    8    0   78  314   12    0
+    11    4    0]
+ [   0    0   33   48   26    3    7    0    3    0   21   69    0    1
+     2    0    0]
+ [   0    0    9   16    2   68   52    0    1    0    9   31    0    0
+   245    2    0]
+ [   0    0   10   11   22    7  501    0    0    0   11   59    0    2
+    34    0    0]
+ [   0    0    2    0    0    4    6    2    4    0    1    3    0    0
+     2    1    0]
+ [   0    0    6    2    0    2    0    0  398    0    8    6    0    0
+     7    1    0]
+ [   0    0    3    3    0    0    4    0    0    0    1    5    0    0
+     2    0    0]
+ [   0    0  114   50    4    2    5    0    4    0  300  360    8    1
+    25    2    0]
+ [   0    0  202  112   14    1   14    1   10    0  155 1612   51    0
+    25    7    6]
+ [   0    0   94   53    2    3    1    0   15    0   46  244   47    0
+    23    6    0]
+ [   0    0    6    4   11    0   11    0    1    0    4   15    0  101
+    27    5    0]
+ [   0    0    4    3    0    1    5    0    0    0    8    6    0    0
+  1111    1    0]
+ [   0    0   21   21    5    6   23    0    5    0    8   45    7    1
+   175   30    0]
+ [   0    0    1    0    0    0    0    0    0    0    0   45    8    0
+     0    0   30]]
+
+Accuracy:
+52.9864
+
+F1 scores:
+[   nan 0.0476 0.3883 0.3028 0.1581 0.2542 0.7731 0.1429 0.8757 0.
+ 0.3468 0.5856 0.1382 0.6918 0.7786 0.1467 0.5   ]
+
+Kappa:
+0.4480
+IndianPines数据集的结果如下
+['4.76+-0.0' '38.83+-0.0' '30.28+-0.0' '15.81+-0.0' '25.42+-0.0'
+ '77.31+-0.0' '14.29+-0.0' '87.57+-0.0' '0.0+-0.0' '34.68+-0.0'
+ '58.56+-0.0' '13.82+-0.0' '69.18+-0.0' '77.86+-0.0' '14.67+-0.0'
+ '50.0+-0.0']
+acc_dataset [[52.98644986]]
+OAMean 52.99 +-0.00
+creating ./logs/logs-2022-11-02IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-11-02:13:05--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:14
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+supervision:full
+center_pixel:True
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7f45e49fee90>
+Network :
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:-0.004394
+Epoch [2/100]    avg_loss:-0.007896
+Epoch [3/100]    avg_loss:-0.013890
+Epoch [4/100]    avg_loss:-0.019937
+Epoch [5/100]    avg_loss:-0.023072
+Epoch [6/100]    avg_loss:-0.030971
+Epoch [7/100]    avg_loss:-0.039381
+Epoch [8/100]    avg_loss:-0.049965
+Epoch [9/100]    avg_loss:-0.064420
+Epoch [10/100]    avg_loss:-0.081761
+Epoch [11/100]    avg_loss:-0.100499
+Epoch [12/100]    avg_loss:-0.124392
+Epoch [13/100]    avg_loss:-0.158193
+Epoch [14/100]    avg_loss:-0.194990
+Epoch [15/100]    avg_loss:-0.244948
+Epoch [16/100]    avg_loss:-0.302729
+Epoch [17/100]    avg_loss:-0.367867
+Epoch [18/100]    avg_loss:-0.441705
+Epoch [19/100]    avg_loss:-0.508373
+Epoch [20/100]    avg_loss:-0.570524
+Epoch [21/100]    avg_loss:-0.639109
+Epoch [22/100]    avg_loss:-0.677834
+Epoch [23/100]    avg_loss:-0.713436
+Epoch [24/100]    avg_loss:-0.745031
+Epoch [25/100]    avg_loss:-0.778337
+Epoch [26/100]    avg_loss:-0.795145
+Epoch [27/100]    avg_loss:-0.812206
+Epoch [28/100]    avg_loss:-0.832940
+Epoch [29/100]    avg_loss:-0.839723
+Epoch [30/100]    avg_loss:-0.844701
+Epoch [31/100]    avg_loss:-0.862984
+Epoch [32/100]    avg_loss:-0.871622
+Epoch [33/100]    avg_loss:-0.883730
+Epoch [34/100]    avg_loss:-0.885656
+Epoch [35/100]    avg_loss:-0.893698
+Epoch [36/100]    avg_loss:-0.900531
+Epoch [37/100]    avg_loss:-0.904803
+Epoch [38/100]    avg_loss:-0.907814
+Epoch [39/100]    avg_loss:-0.908181
+Epoch [40/100]    avg_loss:-0.922504
+Epoch [41/100]    avg_loss:-0.914433
+Epoch [42/100]    avg_loss:-0.924678
+Epoch [43/100]    avg_loss:-0.927898
+Epoch [44/100]    avg_loss:-0.927567
+Epoch [45/100]    avg_loss:-0.929642
+Epoch [46/100]    avg_loss:-0.935716
+Epoch [47/100]    avg_loss:-0.935578
+Epoch [48/100]    avg_loss:-0.943462
+Epoch [49/100]    avg_loss:-0.939958
+Epoch [50/100]    avg_loss:-0.941450
+Epoch [51/100]    avg_loss:-0.942787
+Epoch [52/100]    avg_loss:-0.948289
+Epoch [53/100]    avg_loss:-0.944054
+Epoch [54/100]    avg_loss:-0.951391
+Epoch [55/100]    avg_loss:-0.952061
+Epoch [56/100]    avg_loss:-0.950863
+Epoch [57/100]    avg_loss:-0.952264
+Epoch [58/100]    avg_loss:-0.951947
+Epoch [59/100]    avg_loss:-0.952662
+Epoch [60/100]    avg_loss:-0.954654
+Epoch [61/100]    avg_loss:-0.954547
+Epoch [62/100]    avg_loss:-0.958288
+Epoch [63/100]    avg_loss:-0.957947
+Epoch [64/100]    avg_loss:-0.958800
+Epoch [65/100]    avg_loss:-0.958639
+Epoch [66/100]    avg_loss:-0.961486
+Epoch [67/100]    avg_loss:-0.963713
+Epoch [68/100]    avg_loss:-0.955792
+Epoch [69/100]    avg_loss:-0.958933
+Epoch [70/100]    avg_loss:-0.961195
+Epoch [71/100]    avg_loss:-0.963658
+Epoch [72/100]    avg_loss:-0.959438
+Epoch [73/100]    avg_loss:-0.960777
+Epoch [74/100]    avg_loss:-0.965482
+Epoch [75/100]    avg_loss:-0.969821
+Epoch [76/100]    avg_loss:-0.968241
+Epoch [77/100]    avg_loss:-0.966204
+Epoch [78/100]    avg_loss:-0.968124
+Epoch [79/100]    avg_loss:-0.966094
+Epoch [80/100]    avg_loss:-0.963617
+Epoch [81/100]    avg_loss:-0.972792
+Epoch [82/100]    avg_loss:-0.969269
+Epoch [83/100]    avg_loss:-0.968666
+Epoch [84/100]    avg_loss:-0.971626
+Epoch [85/100]    avg_loss:-0.966527
+Epoch [86/100]    avg_loss:-0.968155
+Epoch [87/100]    avg_loss:-0.970160
+Epoch [88/100]    avg_loss:-0.972246
+Epoch [89/100]    avg_loss:-0.971615
+Epoch [90/100]    avg_loss:-0.971820
+Epoch [91/100]    avg_loss:-0.971673
+Epoch [92/100]    avg_loss:-0.972951
+Epoch [93/100]    avg_loss:-0.970458
+Epoch [94/100]    avg_loss:-0.973367
+Epoch [95/100]    avg_loss:-0.976263
+Epoch [96/100]    avg_loss:-0.969678
+Epoch [97/100]    avg_loss:-0.969974
+Epoch [98/100]    avg_loss:-0.968811
+Epoch [99/100]    avg_loss:-0.973927
+Epoch [100/100]    avg_loss:-0.974919
+The pretrain model training successfully!!!

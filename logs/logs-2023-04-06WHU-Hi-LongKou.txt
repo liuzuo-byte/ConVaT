@@ -1,0 +1,33 @@
+creating ./logs/logs-2023-04-06WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-06:12:03--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/test_gt.npy)
+203642 samples selected for testing(over 204542)
+creating ./logs/logs-2023-04-06WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-06:12:05--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/test_gt.npy)
+203642 samples selected for testing(over 204542)
+creating ./logs/logs-2023-04-06WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-06:12:08--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/train_gt.npy)
+10227 samples selected for training(over 204542)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/test_gt.npy)
+194315 samples selected for testing(over 204542)

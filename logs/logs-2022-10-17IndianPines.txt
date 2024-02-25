@@ -1,0 +1,274 @@
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:17:43--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:17:51--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:17:58--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:18:03--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:18:04--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:18:06--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:30
+Validation dataloader:29
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:1
+save_epoch:5
+patch_size:11
+lr:0.0005
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+batch_size:32
+validation_percentage:0.1
+pca_bands:64
+bands:200
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7f02a6b22d50>
+supervision:full
+center_pixel:True
+Network :
+----------Training process----------
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:18:06--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:30
+Validation dataloader:29
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:1
+save_epoch:5
+patch_size:11
+lr:0.0005
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+batch_size:32
+validation_percentage:0.1
+pca_bands:64
+bands:200
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7fe1ec0d03d0>
+supervision:full
+center_pixel:True
+Network :
+----------Training process----------
+Epoch [1/1    avg_loss:1.49, val_acc:0.65]
+creating ./logs/logs-2022-10-17IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-17:18:09--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:30
+Validation dataloader:30
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:10
+save_epoch:5
+patch_size:11
+lr:0.0005
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+batch_size:32
+validation_percentage:0.1
+pca_bands:64
+bands:200
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7f45e8896c10>
+supervision:full
+center_pixel:True
+Network :
+----------Training process----------
+Epoch [1/10    avg_loss:1.63, val_acc:0.55]
+Epoch [2/10    avg_loss:1.10, val_acc:0.69]
+Epoch [3/10    avg_loss:0.80, val_acc:0.72]
+Epoch [4/10    avg_loss:0.67, val_acc:0.71]
+Epoch [5/10    avg_loss:0.65, val_acc:0.82]
+Epoch [6/10    avg_loss:0.51, val_acc:0.81]
+Epoch [7/10    avg_loss:0.44, val_acc:0.84]
+Epoch [8/10    avg_loss:0.39, val_acc:0.84]
+Epoch [9/10    avg_loss:0.26, val_acc:0.88]
+Epoch [10/10    avg_loss:0.21, val_acc:0.89]
+----------Training result----------
+
+Confusion matrix:
+[[   0    0    0    0    0    0    0    0    0    0    0    0    0    0
+     0    0    0]
+ [   0   33    0    0    0    7    0    0    0    0    1    0    0    0
+     0    0    0]
+ [   0    1 1132    5   10    1    0    0    0    0   44   88    4    0
+     0    0    0]
+ [   0    0   37  502   10    1    0    0    0    0    3  191    3    0
+     0    0    0]
+ [   0    0    4    0  204    0    0    0    0    0    0    5    0    0
+     0    0    0]
+ [   0    0    0    0    0  429    0    0    0    0    1    0    0    0
+     5    0    0]
+ [   0    0    0    0    0    0  635    0    0    0    2   16    0    0
+     1    3    0]
+ [   0    0    0    0    0   11    0   13    1    0    0    0    0    0
+     0    0    0]
+ [   0    0    0    0    0    0    0    0  430    0    0    0    0    0
+     0    0    0]
+ [   0    0    0    0    0    0   17    0    0    1    0    0    0    0
+     0    0    0]
+ [   0    0   31    0    0    0    0    0    0    0  754   90    0    0
+     0    0    0]
+ [   0    0    4    0    0    0    0    0    0    0   70 2126    9    0
+     0    1    0]
+ [   0    0   64    6    0    0    0    0    0    0   17   40  402    0
+     0    0    5]
+ [   0    0    0    0    5    0    0    0    0    0    0    0    0  180
+     0    0    0]
+ [   0    0    0    0    0    2    0    0    0    0    0    0    0    0
+  1126   11    0]
+ [   0    0    0    1    0   10   37    0    0    0    2    1   36    1
+    61  198    0]
+ [   0    0    0    0    0    0    0    0    0    0    0    0    6    0
+     0    0   78]]
+
+Accuracy:
+89.3550
+
+F1 scores:
+[   nan 0.88   0.8854 0.7962 0.9231 0.9576 0.9435 0.6842 0.9988 0.1053
+ 0.8525 0.892  0.8089 0.9836 0.9657 0.7071 0.9341]
+
+Kappa:
+0.8776
+IndianPines数据集的结果如下
+['88.0+-0.0' '88.54+-0.0' '79.62+-0.0' '92.31+-0.0' '95.76+-0.0'
+ '94.35+-0.0' '68.42+-0.0' '99.88+-0.0' '10.53+-0.0' '85.25+-0.0'
+ '89.2+-0.0' '80.89+-0.0' '98.36+-0.0' '96.57+-0.0' '70.71+-0.0'
+ '93.41+-0.0']
+acc_dataset [[89.35501355]]
+OAMean 89.36 +-0.00

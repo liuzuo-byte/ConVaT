@@ -1,0 +1,1179 @@
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:14:11--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:18:51--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 5857     0    14    16     0     4     5    64     8]
+ [    1 16744     0    32     0     0     0     7     0]
+ [    0     0  1853     3     0     0     0    12    21]
+ [   47    35     0  2616     0     8     0    42    10]
+ [    0     0     0     0  1202     0     0     0     9]
+ [    0     1     0     0     0  4525     0     0     0]
+ [    3     0     2     0     0     1  1187     2     2]
+ [   34     2    44    61     0     0    10  3162     1]
+ [    5     1    23     7    29     0     4     1   782]]
+
+Accuracy:
+98.5168
+
+F1 scores:
+[0.9831 0.9976 0.9689 0.9525 0.9844 0.9985 0.9879 0.9576 0.9282]
+
+AA:
+0.9719500000000001
+
+Kappa:
+0.9803
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:18:58--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/train_gt.npy)
+8555 samples selected for training(over 42776)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/test_gt.npy)
+34221 samples selected for training(over 42776)
+RUN:0
+8555 samples selected for training(over 42776)
+34221 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:122
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.05
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4623, 0.1643, 1.4595, 1.0000, 2.2788, 0.6093, 2.3045, 0.8329,
+        3.2434], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.702356
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:18:59--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/PaviaU/20//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/PaviaU/20//test_gt.npy)
+RUN:0
+2138 samples selected for training(over 42776)
+40638 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:30
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.05
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4608, 0.1642, 1.4571, 1.0000, 2.2836, 0.6096, 2.2836, 0.8315,
+        3.2553], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.548605
+Epoch [2/100]    avg_loss:6.162554
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:02--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/PaviaU/20//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/PaviaU/20//test_gt.npy)
+RUN:0
+180 samples selected for training(over 42776)
+42596 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:2
+Validation dataloader:2
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.05
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0., 1., 1., 1., 1., 1., 1., 1., 1., 1.], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:9.772160
+Epoch [2/100]    avg_loss:9.785242
+Epoch [3/100]    avg_loss:9.686389
+Epoch [4/100]    avg_loss:9.550781
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:04--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4509     0   139   633     0   341   176   607   206]
+ [    4 16110   330  1539     0   407     0     9   230]
+ [    9     0  1723    13     0     0     0   259    75]
+ [   86   174    15  2598     0    35     0   113    23]
+ [    0     0     0     0  1316     0     2     0     7]
+ [    0     0     0     0     0  4894    33    71    11]
+ [    4     0     0     0     0     0  1302     0     4]
+ [  107    30   352   101     0     0    93  2843   136]
+ [    6     1    10    24   137     0    37     8   704]]
+
+Accuracy:
+84.5126
+
+F1 scores:
+[0.7955 0.922  0.7414 0.6534 0.9474 0.916  0.8818 0.7509 0.6061]
+
+AA:
+0.802375
+
+Kappa:
+0.8008
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:05--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4557     0   142   604     0   326   177   630   175]
+ [    4 16216   326  1490     0   330     0     5   258]
+ [    8     0  1712    15     0     0     0   265    79]
+ [   91   176    14  2589     0    36     0   114    24]
+ [    0     0     0     0  1316     0     2     0     7]
+ [    0     0     0     0     0  4890    31    63    25]
+ [    3     0     0     0     0     0  1302     0     5]
+ [  117    31   367   116     0     0    85  2833   113]
+ [    1     1    11    23   136     0    37     7   711]]
+
+Accuracy:
+84.8108
+
+F1 scores:
+[0.8    0.9252 0.7362 0.657  0.9478 0.9234 0.8845 0.7476 0.6119]
+
+AA:
+0.8042
+
+Kappa:
+0.8044
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:07--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 1645   132   107   768    27   524   488  1312  1608]
+ [   71 11251   470  3296   160  2449    61   308   563]
+ [  123    35   758    10     0    43    60   500   550]
+ [  141   147    16  1764    64   105    32   511   264]
+ [    0     7     1   152  1106     9     3    38     9]
+ [  108   824    20   630    31  2953    67   139   237]
+ [  320     3     0    89     4    76   681    62    75]
+ [  431   168   336   333     5   253   314  1293   529]
+ [  124    49    15   120   101    33    38    59   388]]
+
+Accuracy:
+51.2701
+
+F1 scores:
+[0.3436 0.7202 0.3987 0.3457 0.7836 0.5156 0.446  0.328  0.1507]
+
+AA:
+0.4610625
+
+Kappa:
+0.4020
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:08--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3264   123   136  1402   213   401   216   560   296]
+ [  234 12150   243  3726    36  1524     8   569   139]
+ [  305   136   804    94    18    47    18   408   249]
+ [  260   116     3  2102   349    42     2    95    75]
+ [    5     2     0     7  1289     0     3    18     1]
+ [  131   642    84   403     5  3380    81   218    65]
+ [  345     1    32    11    85    55   646    59    76]
+ [ 1047   135   203   546   231    24    47  1242   187]
+ [  136     9     8   186   129     8    11    28   412]]
+
+Accuracy:
+59.3694
+
+F1 scores:
+[0.5291 0.7607 0.4477 0.3649 0.7005 0.6444 0.5517 0.3622 0.3395]
+
+AA:
+0.52145
+
+Kappa:
+0.4932
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:09--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3814    35   297   438    37   543   943   151   353]
+ [  232 13054   238  2816   443    94    13    11  1728]
+ [  252     6  1278    28     0     0    38   152   325]
+ [  291    94   110  2234    35    62    59    12   147]
+ [    5     0     0     6  1310     0     0     4     0]
+ [   21   416    19    36    30  4152   127     7   201]
+ [  116     0     0     0     0    10  1153     3    28]
+ [  911    83   678   193    17     7   346   928   499]
+ [   92     0    11    40   153    20    53     7   551]]
+
+Accuracy:
+66.8467
+
+F1 scores:
+[0.6179 0.8079 0.5427 0.5057 0.7821 0.839  0.5705 0.3759 0.2316]
+
+AA:
+0.581925
+
+Kappa:
+0.5878
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:10--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3275    21   618   723     0   463   624   224   663]
+ [    0 15264   243  1268     0  1169     0   575   110]
+ [    2     0  1352     0     0     0     0   617   108]
+ [   70   288    22  2351     0   122     0   141    50]
+ [    0     0     0     0  1325     0     0     0     0]
+ [    0     7     0     0     0  5001     0     0     1]
+ [    0     0     0     0     0     0  1300     0    10]
+ [  371   108   544    82     0     0    86  2135   336]
+ [    0     0     3     6   203     1    17     5   692]]
+
+Accuracy:
+76.7560
+
+F1 scores:
+[0.6341 0.8896 0.5563 0.6291 0.9288 0.8501 0.7791 0.5802 0.4777]
+
+AA:
+0.7113625
+
+Kappa:
+0.7039
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:10--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 2697    75   136   985     3    20   731  1597   213]
+ [  103 12396   139    50  1853  1684    13  1081  1275]
+ [   19     6    24  1733     1     0     0    90   206]
+ [  161   203    50    35    20   114    69  2300    32]
+ [    0     1     0     0   502    15    12     0   788]
+ [ 1712   688     1     0     1  1666    63    50   214]
+ [  651     0     0     0     0     0   351     0   307]
+ [  215   173   163  1587    11    59   302   710   425]
+ [  279     7    21    67    96     5    12   298   112]]
+
+Accuracy:
+44.3711
+
+F1 scores:
+[0.4388 0.7713 0.0184 0.0094 0.2639 0.4187 0.2453 0.1453 0.0501]
+
+AA:
+0.2403
+
+Kappa:
+0.3031
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:11--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4679     4   159   577     0   197   171   671   153]
+ [    6 16213   275  1619     0   146     2   150   218]
+ [  208     0  1466     5     0     0     3   297   100]
+ [  196   141    25  2433     0    18     0   177    54]
+ [    0     0     0     0  1325     0     0     0     0]
+ [    8    43     0     1     0  4828     6     0   123]
+ [   46     0     0     0     0    10  1242     4     8]
+ [  442    30   460   161     0     0    34  2403   132]
+ [   74     0     0     4   174     0    12     4   659]]
+
+Accuracy:
+82.7496
+
+F1 scores:
+[0.7627 0.9249 0.6568 0.6203 0.9384 0.9459 0.8935 0.6523 0.5552]
+
+AA:
+0.7734125000000001
+
+Kappa:
+0.7775
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:12--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3532    21   182  1256     0   140   146   856   478]
+ [    6 15988    67  1516     0   698     0   271    83]
+ [   62     0  1448     0     0     0     1   384   184]
+ [   64    22     0  2757     0     7     0   129    65]
+ [    0     0     0     0  1298     0     5    13     9]
+ [    0    92     0     2     0  4913     0     2     0]
+ [    3     0     0     0     0    11  1254     2    40]
+ [  138     0   301   109     0     0    64  2934   116]
+ [    0     0     0    29   126     0     2     2   768]]
+
+Accuracy:
+81.9138
+
+F1 scores:
+[0.6782 0.9201 0.7103 0.6328 0.9443 0.9117 0.9015 0.7108 0.5753]
+
+AA:
+0.7883500000000001
+
+Kappa:
+0.7683
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:13--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3121     2   333  1097     0   513   588   676   281]
+ [    0 17228   292   353     0   517     0   227    12]
+ [   16     0  1169     2     0     0     0   808    84]
+ [   21   328    63  2356     0   185     0    68    23]
+ [    0     0     0     0  1325     0     0     0     0]
+ [    7   133     0     0     0  4869     0     0     0]
+ [  443     0     0     0     0     0   867     0     0]
+ [  473    70   593   109     0     0    13  2293   111]
+ [  189     0     0    40   171     2    39    36   450]]
+
+Accuracy:
+79.0638
+
+F1 scores:
+[0.5737 0.9469 0.5162 0.673  0.9394 0.8777 0.6155 0.5902 0.4767]
+
+AA:
+0.70445
+
+Kappa:
+0.7263
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:14--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3132     3   369   731     0   190  1305   804    77]
+ [    5 15755   346  2146     0   316     6    37    18]
+ [  137     1  1736     6     0     0     4   175    20]
+ [  163   244    28  2453     0     9     6   116    25]
+ [    0     0     0     0  1320     0     0     5     0]
+ [    2    55     0     5     0  4805   142     0     0]
+ [    0     0     0     0     0     0  1307     1     2]
+ [  161    80   999    94     0     0   140  2181     7]
+ [   73     0    14    14   160     0    59    13   594]]
+
+Accuracy:
+78.1364
+
+F1 scores:
+[0.6091 0.9063 0.6232 0.5777 0.9412 0.9304 0.6109 0.6237 0.7114]
+
+AA:
+0.7406
+
+Kappa:
+0.7207
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:18--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4953     2   298   402     0   339    29   452   136]
+ [    0 16210   597  1764     0    28     0    20    10]
+ [  131     0  1409    21     0     0     0   219   299]
+ [  103   194     6  2444     0    72     0   143    82]
+ [   16     0     0    16  1240     0     0    46     7]
+ [    0     0     0     0     0  4979    29     0     1]
+ [  147     0     0     0     0    11  1095     3    54]
+ [  340    63   577   197     0     0     2  2430    53]
+ [   52     4     0    65    36     0     6     2   762]]
+
+Accuracy:
+83.3928
+
+F1 scores:
+[0.8019 0.9236 0.5675 0.6146 0.9535 0.954  0.8863 0.6966 0.6538]
+
+AA:
+0.7812375
+
+Kappa:
+0.7855
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:19--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 5119     6   185   482     0    44    74   505   196]
+ [    0 16842    83  1524     0   132     0     7    41]
+ [   54     0  1630    17     0     0     0   274   104]
+ [   82   213     3  2582     0    30     0    97    37]
+ [    0     0     0     0  1317     0     3     5     0]
+ [    0     0     0     0     0  4890   113     6     0]
+ [   30     0     0     0     0     0  1262     0    18]
+ [  179    64   396   180     0     0     6  2732   105]
+ [   10     1     2    64    76     0    12     6   756]]
+
+Accuracy:
+87.1678
+
+F1 scores:
+[0.8472 0.9421 0.7446 0.6543 0.9691 0.9678 0.9079 0.7491 0.6923]
+
+AA:
+0.8284
+
+Kappa:
+0.8332
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:21--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4928     0   171   459     0   253   170   489   141]
+ [    3 16395   190  1454     0   348     0     8   231]
+ [   22     0  1727    15     0     0     0   230    85]
+ [  111   186    15  2577     0    36     0    99    20]
+ [    0     0     0     0  1318     0     2     1     4]
+ [    0     0     0     0     0  4854   111    23    21]
+ [    4     0     0     0     0     0  1303     0     3]
+ [  205    36   339   106     0     0    90  2775   111]
+ [   11     1    11    35   121     0    38     8   702]]
+
+Accuracy:
+85.8743
+
+F1 scores:
+[0.8286 0.9303 0.7621 0.6702 0.9537 0.9246 0.8618 0.7608 0.6254]
+
+AA:
+0.8111125
+
+Kappa:
+0.8175
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:22--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4790     0   149   465     0   357   191   468   191]
+ [    6 16152   184  1592     0   411     0     5   279]
+ [   18     0  1767    13     0     0     0   189    92]
+ [  107   185    16  2566     0    34     0   117    19]
+ [    0     0     0     0  1316     0     4     0     5]
+ [    0     0     0     0     0  4881    40    67    21]
+ [    5     0     0     0     0     0  1301     0     4]
+ [  202    29   336    92     0     0   104  2759   140]
+ [    5     1     9    20   137     0    32     5   718]]
+
+Accuracy:
+85.1019
+
+F1 scores:
+[0.8157 0.9231 0.7784 0.6586 0.9474 0.913  0.8726 0.7588 0.5993]
+
+AA:
+0.8064
+
+Kappa:
+0.8081
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:23--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[  296     2  1053   166     8  1405  2739   303   639]
+ [  873 12306  1016  1370   177  1409     0  1054   424]
+ [   13     0  1494     9     0     0   469    40    54]
+ [  486    26   360  1072     8   975    25    10    82]
+ [    0     0     0     0  1324     0     1     0     0]
+ [    0  1165     0     0   215  3318   141   166     4]
+ [    5     0     0     0     2     6  1286    10     1]
+ [  128     0  1414    22     2    11  1561   218   306]
+ [    7     0    25     0   213     8   419    43   212]]
+
+Accuracy:
+50.5353
+
+F1 scores:
+[0.0703 0.7661 0.4016 0.3773 0.8088 0.5466 0.3235 0.0792 0.1601]
+
+AA:
+0.43289999999999995
+
+Kappa:
+0.3921
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:24--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4231     0   211   474     0   230   492   464   509]
+ [    2 15708   162  2431     0   198     0    14   114]
+ [  126     0  1470     9     0     0     0   210   264]
+ [  124    64     0  2726     0    34     0    44    52]
+ [  123     0     0     0  1052     0    73    49    28]
+ [    0    15     2     0     0  4975    17     0     0]
+ [   84     0     0     0     0     1  1215     0    10]
+ [  301    20   385   138     0     0    13  2513   292]
+ [  109     0     5    36    38     0    17     5   717]]
+
+Accuracy:
+81.2447
+
+F1 scores:
+[0.7226 0.9123 0.6815 0.6155 0.8712 0.9524 0.7746 0.722  0.4923]
+
+AA:
+0.752725
+
+Kappa:
+0.7602
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:26--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 2904     2   367   728     0   471  1148   674   317]
+ [    0 15912   126  1587     0   763     0    60   181]
+ [    2     0  1590     5     0     0     0   419    63]
+ [   70   198    22  2528     0   103     0   102    21]
+ [    0     0     0     0  1325     0     0     0     0]
+ [    0     3     0     0     0  4845   136     0    25]
+ [    1     0     0     0     0     2  1304     0     3]
+ [   62    51   529   111     0     0   212  2414   283]
+ [   21     0    18    18   162     1    41     9   657]]
+
+Accuracy:
+78.5966
+
+F1 scores:
+[0.6006 0.9146 0.6722 0.6303 0.9424 0.8656 0.6283 0.6578 0.5305]
+
+AA:
+0.7302124999999999
+
+Kappa:
+0.7267
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:28--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4331     0   165   675     0   335   287   582   236]
+ [    0 16128   253  1631     0   426     0    11   180]
+ [   10     0  1807    10     0     0     2   182    68]
+ [   76   164    16  2641     0    37     0    89    21]
+ [    0     0     0     0  1316     0     2     0     7]
+ [    0     0     0     0     0  4848    78    58    25]
+ [    3     0     0     0     0     0  1302     0     5]
+ [  112    30   344   108     0     0    86  2830   152]
+ [   11     0    14    24   136     0    36     6   700]]
+
+Accuracy:
+84.2873
+
+F1 scores:
+[0.7766 0.9229 0.7726 0.6495 0.9478 0.91   0.8392 0.7628 0.6032]
+
+AA:
+0.8009999999999999
+
+Kappa:
+0.7981
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:31--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:32--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:40--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 2372     0   251   166     0   131   738  2699   254]
+ [   13 17467   143   456     0   547     0     0     3]
+ [    1     0  1581     0     0     0     0    56   441]
+ [  258   156     9  2365     0    82     3   130    41]
+ [    0     0     0     0  1182     0    31   112     0]
+ [    0   112   131     0     0  4765     1     0     0]
+ [    0     0     0     0     0     0  1301     9     0]
+ [   22     0   912    23     0     0     3  2477   225]
+ [   26     1     1    43    86     1    65    44   660]]
+
+Accuracy:
+80.2188
+
+F1 scores:
+[0.5099 0.9606 0.6192 0.7758 0.9117 0.9046 0.7538 0.5391 0.5174]
+
+AA:
+0.7477750000000001
+
+Kappa:
+0.7430
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:46--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4224     0   174   890     0   247   323   687    66]
+ [   10 16013   515  2021     0    23     0    41     6]
+ [  101     0  1472     4     0     0     0   282   220]
+ [   67    75     6  2702     0    26     0   135    33]
+ [    7     0     0    14  1191     0    71    37     5]
+ [    0    13     0     0     0  4987     0     0     9]
+ [  130     0     0     0     0     0  1177     0     3]
+ [  170     4   435   170     0     0    16  2853    14]
+ [   54     4     0   115    21     0     1     1   731]]
+
+Accuracy:
+82.9890
+
+F1 scores:
+[0.7427 0.9219 0.6289 0.6031 0.9389 0.9691 0.8123 0.7412 0.7259]
+
+AA:
+0.7926625
+
+Kappa:
+0.7816
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:55--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:55--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:19:56--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:00--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:03--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 5852     0    12    25     0     2     4    65     8]
+ [    1 16729     0    31     0     0     0    23     0]
+ [    2     0  1840     2     0     0     0    29    16]
+ [   51    43     0  2602     0     7     0    47     8]
+ [    0     0     0     0  1201     0     0     0    10]
+ [    0     2     0     0     0  4524     0     0     0]
+ [    7     0     1     0     0     2  1183     2     2]
+ [   29     1    38    52     0     0    21  3172     1]
+ [    6     2    23     9    24     0     5     2   781]]
+
+Accuracy:
+98.4026
+
+F1 scores:
+[0.9822 0.9969 0.9677 0.9498 0.986  0.9986 0.9817 0.9534 0.9309]
+
+AA:
+0.9706250000000001
+
+Kappa:
+0.9788
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:23--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[  158     1   612   745     0   517  2987   625   966]
+ [    0 14159    26  2768     0  1331     0    27   318]
+ [    0     0  1627     4     0     0     8   189   251]
+ [   49   275    30  2171     0   264    38   120    97]
+ [    0     0     0     0  1325     0     0     0     0]
+ [    0     9     0     0     0  4643   324     0    33]
+ [    0     0     0     0     0     0  1293     0    17]
+ [   59    25  1132    93     0     0   623   816   914]
+ [    2     0    28    13   211     6    71    31   565]]
+
+Accuracy:
+62.8158
+
+F1 scores:
+[0.0459 0.8556 0.588  0.4913 0.9262 0.789  0.3886 0.2984 0.2764]
+
+AA:
+0.5766875
+
+Kappa:
+0.5397
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:26--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4003     1   257   699     0   316   540   439   356]
+ [    0 16018   160  1615     0   578     0     9   249]
+ [    5     0  1813     9     0     0     0   176    76]
+ [   68   170    16  2631     0    49     0    87    23]
+ [    0     0     0     0  1324     0     1     0     0]
+ [    0     0     0     0     0  4865    90    21    33]
+ [    4     0     0     0     0     0  1296     0    10]
+ [  121    50   344   107     0     0   155  2608   277]
+ [   11     0    13    18   150     0    27     4   704]]
+
+Accuracy:
+82.7824
+
+F1 scores:
+[0.7397 0.9188 0.7745 0.6478 0.9461 0.8995 0.7581 0.7445 0.5303]
+
+AA:
+0.77745
+
+Kappa:
+0.7793
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:28--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 3972     2   171   669     0   375   562   572   288]
+ [    0 15897   110  1675     0   656     0    28   263]
+ [   10     0  1682     9     0     0     0   295    83]
+ [   75   167    15  2595     0    60     0   114    18]
+ [    0     0     0     0  1320     0     1     0     4]
+ [    0     0     0     0     0  4872   102     8    27]
+ [    3     0     0     0     0     0  1301     0     6]
+ [  118    46   210   111     0     0   158  2805   214]
+ [   15     0    13    16   139     0    42     4   698]]
+
+Accuracy:
+82.5007
+
+F1 scores:
+[0.7353 0.9152 0.786  0.6392 0.9483 0.8881 0.7486 0.7492 0.5522]
+
+AA:
+0.7783500000000001
+
+Kappa:
+0.7758
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:29--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4332     1   171   610     0   329   361   589   218]
+ [    0 15971   188  1663     0   536     0     8   263]
+ [    7     0  1746    11     0     0     2   236    77]
+ [   65   170    14  2634     0    38     0   103    20]
+ [    0     0     0     0  1321     0     2     0     2]
+ [    0     0     0     0     0  4834   114    27    34]
+ [    1     0     0     0     0     0  1308     0     1]
+ [  105    43   265    90     0     0   136  2872   151]
+ [    8     0    13    19   144     0    44     5   694]]
+
+Accuracy:
+83.8389
+
+F1 scores:
+[0.7785 0.9175 0.7802 0.6527 0.947  0.8997 0.7983 0.7657 0.5815]
+
+AA:
+0.7928249999999999
+
+Kappa:
+0.7926
+creating ./logs/logs-2023-09-03PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-09-03:20:31--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/train_gt.npy)
+180 samples selected for training(over 42776)
+Training Percentage:0.0042
+Load train_gt successfully!(PATH:../dataset/PaviaU/20/test_gt.npy)
+42596 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[ 4381     0   183   599     0   331   274   622   221]
+ [    4 15980   263  1596     0   483     0    10   293]
+ [   11     0  1699    13     0     0     0   268    88]
+ [   79   179    16  2604     0    40     0   102    24]
+ [    0     0     0     0  1318     0     2     0     5]
+ [    2     0     0     0     0  4849    35    84    39]
+ [    3     0     0     0     0     0  1303     0     4]
+ [   96    29   268   102     0     0   101  2914   152]
+ [    7     0    11    18   139     0    37     7   708]]
+
+Accuracy:
+83.9422
+
+F1 scores:
+[0.7827 0.9179 0.7519 0.653  0.9475 0.9053 0.8511 0.7599 0.5754]
+
+AA:
+0.79525
+
+Kappa:
+0.7939

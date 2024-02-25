@@ -1,0 +1,65 @@
+creating ./logs/logs-2022-10-31IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-10-31:18:19--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Setting up a new session...
+Visdom successfully connected to server
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.99/train_gt.npy)
+10146 samples selected for training(over 10249)
+Training Percentage:0.99
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.99/test_gt.npy)
+103 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+Setting up a new session...
+Visdom successfully connected to server
+10146 samples selected for training(over 10249)
+103 samples selected for training(over 10249)
+Running an experiment with the SSSERN_by_SE model, RUN [1/1]
+RUN:0
+1024 samples selected for validation(over 10249)
+Running an experiment with the SSSERN_by_SE model
+Train dataloader:74
+Validation dataloader:7
+----------Training parameters----------
+dataset:IndianPines
+model:SSSERN_by_SE
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.99
+sample_nums:20
+epoch:100
+save_epoch:5
+patch_size:11
+lr:0.0005
+batch_size:128
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.5667,  0.3363,  0.5785,  2.0234,  0.9948,  0.6577, 16.9821,
+         1.0053, 23.7750,  0.4943,  0.1957,  0.8101,  2.3424,  0.3798,  1.2448,
+         5.1685], device='cuda:0')
+validation_percentage:0.1
+pca_bands:64
+bands:200
+scheduler:<torch.optim.lr_scheduler.ReduceLROnPlateau object at 0x7f947c68cd50>
+supervision:full
+center_pixel:True
+Network :
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:-0.157925
+Epoch [2/100]    avg_loss:-0.584034
+Epoch [3/100]    avg_loss:-0.808386
+Epoch [4/100]    avg_loss:-0.868837
+Epoch [5/100]    avg_loss:-0.922120
+Epoch [6/100]    avg_loss:-0.948745

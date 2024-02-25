@@ -1,0 +1,156 @@
+creating ./logs/logs-2023-03-16Salinas.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-16:11:10--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/Salinas/0.05/train_gt.npy)
+2706 samples selected for training(over 54129)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/Salinas/0.05/test_gt.npy)
+51423 samples selected for training(over 54129)
+RUN:0
+2706 samples selected for training(over 54129)
+51423 samples selected for training(over 54129)
+RUN:0
+Train dataloader:38
+Validation dataloader:77
+----------Training parameters----------
+dataset:Salinas
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.05
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:204
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 1.1700, 0.6290, 1.1818, 1.6714, 0.8731, 0.5909, 0.6536, 0.2074,
+        0.3774, 0.7134, 2.2075, 1.2188, 2.5435, 2.1667, 0.3223, 1.3000],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.411480
+Epoch [2/100]    avg_loss:7.263203
+Epoch [3/100]    avg_loss:6.082771
+Epoch [4/100]    avg_loss:6.307174
+Epoch [5/100]    avg_loss:5.252535
+Epoch [6/100]    avg_loss:5.242603
+Epoch [7/100]    avg_loss:5.463233
+Epoch [8/100]    avg_loss:5.464439
+Epoch [9/100]    avg_loss:5.269366
+Epoch [10/100]    avg_loss:5.045723
+Epoch [11/100]    avg_loss:4.828228
+Epoch [12/100]    avg_loss:4.655848
+Epoch [13/100]    avg_loss:4.571242
+Epoch [14/100]    avg_loss:4.505559
+Epoch [15/100]    avg_loss:4.494872
+Epoch [16/100]    avg_loss:4.434134
+Epoch [17/100]    avg_loss:4.463375
+Epoch [18/100]    avg_loss:4.425302
+Epoch [19/100]    avg_loss:4.392572
+Epoch [20/100]    avg_loss:4.357222
+Epoch [21/100]    avg_loss:4.347684
+Epoch [22/100]    avg_loss:4.312145
+Epoch [23/100]    avg_loss:4.245154
+Epoch [24/100]    avg_loss:4.248809
+Epoch [25/100]    avg_loss:4.171663
+Epoch [26/100]    avg_loss:4.144740
+Epoch [27/100]    avg_loss:4.076797
+Epoch [28/100]    avg_loss:4.064471
+Epoch [29/100]    avg_loss:3.974577
+Epoch [30/100]    avg_loss:3.965108
+Epoch [31/100]    avg_loss:3.917746
+Epoch [32/100]    avg_loss:3.883514
+Epoch [33/100]    avg_loss:3.868632
+Epoch [34/100]    avg_loss:3.844726
+Epoch [35/100]    avg_loss:3.797033
+Epoch [36/100]    avg_loss:3.770018
+Epoch [37/100]    avg_loss:3.743434
+Epoch [38/100]    avg_loss:3.684809
+Epoch [39/100]    avg_loss:3.685743
+Epoch [40/100]    avg_loss:3.635887
+Epoch [41/100]    avg_loss:3.592825
+Epoch [42/100]    avg_loss:3.552832
+Epoch [43/100]    avg_loss:3.536706
+Epoch [44/100]    avg_loss:3.529959
+Epoch [45/100]    avg_loss:3.506816
+Epoch [46/100]    avg_loss:3.480763
+Epoch [47/100]    avg_loss:3.461369
+Epoch [48/100]    avg_loss:3.449263
+Epoch [49/100]    avg_loss:3.410455
+Epoch [50/100]    avg_loss:3.378341
+Epoch [51/100]    avg_loss:3.412209
+Epoch [52/100]    avg_loss:3.359075
+Epoch [53/100]    avg_loss:3.330915
+Epoch [54/100]    avg_loss:3.320025
+Epoch [55/100]    avg_loss:3.308201
+Epoch [56/100]    avg_loss:3.295710
+Epoch [57/100]    avg_loss:3.295847
+Epoch [58/100]    avg_loss:3.255859
+Epoch [59/100]    avg_loss:3.226163
+Epoch [60/100]    avg_loss:3.280002
+Epoch [61/100]    avg_loss:3.226665
+Epoch [62/100]    avg_loss:3.242716
+Epoch [63/100]    avg_loss:3.182095
+Epoch [64/100]    avg_loss:3.160264
+Epoch [65/100]    avg_loss:3.156113
+Epoch [66/100]    avg_loss:3.162743
+Epoch [67/100]    avg_loss:3.157545
+Epoch [68/100]    avg_loss:3.129294
+Epoch [69/100]    avg_loss:3.068639
+Epoch [70/100]    avg_loss:3.068636
+Epoch [71/100]    avg_loss:3.055625
+Epoch [72/100]    avg_loss:3.080790
+Epoch [73/100]    avg_loss:3.028975
+Epoch [74/100]    avg_loss:3.050542
+Epoch [75/100]    avg_loss:3.020849
+Epoch [76/100]    avg_loss:2.992231
+Epoch [77/100]    avg_loss:3.022255
+Epoch [78/100]    avg_loss:2.982253
+Epoch [79/100]    avg_loss:2.988127
+Epoch [80/100]    avg_loss:2.977051
+Epoch [81/100]    avg_loss:2.934347
+Epoch [82/100]    avg_loss:2.915729
+Epoch [83/100]    avg_loss:2.900980
+Epoch [84/100]    avg_loss:2.880485
+Epoch [85/100]    avg_loss:2.902623
+Epoch [86/100]    avg_loss:2.920315
+Epoch [87/100]    avg_loss:2.928849
+Epoch [88/100]    avg_loss:2.881618
+Epoch [89/100]    avg_loss:2.848314
+Epoch [90/100]    avg_loss:2.864415
+Epoch [91/100]    avg_loss:2.819034
+Epoch [92/100]    avg_loss:2.808233
+Epoch [93/100]    avg_loss:2.799702
+Epoch [94/100]    avg_loss:2.803860
+Epoch [95/100]    avg_loss:2.761217
+Epoch [96/100]    avg_loss:2.782053
+Epoch [97/100]    avg_loss:2.780445
+Epoch [98/100]    avg_loss:2.782239
+Epoch [99/100]    avg_loss:2.743332
+Epoch [100/100]    avg_loss:2.714268
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-16Salinas.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-16:11:22--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/Salinas/0.05/train_gt.npy)
+2706 samples selected for training(over 54129)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/Salinas/0.05/test_gt.npy)
+51423 samples selected for training(over 54129)

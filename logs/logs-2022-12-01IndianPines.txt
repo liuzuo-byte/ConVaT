@@ -1,0 +1,446 @@
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:18:53--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:05--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:16--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:16--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:16--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:29--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:30--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:31--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:45--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:48--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2022-12-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2022-12-01:19:53--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+RUN:0
+2049 samples selected for training(over 10249)
+8200 samples selected for training(over 10249)
+RUN:0
+Train dataloader:6
+Validation dataloader:3
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:20
+epoch:30
+save_epoch:200
+patch_size:27
+lr:0.001
+batch_size:256
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:29
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.7222,  0.3386,  0.5813,  2.0532,  0.9948,  0.6610, 16.0833,
+         1.0052, 24.1250,  0.4974,  0.1965,  0.8178,  2.3537,  0.3814,  1.2532,
+         5.0789], device='cuda:0')
+---------- pretrain model training----------

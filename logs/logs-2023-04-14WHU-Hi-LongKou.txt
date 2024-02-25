@@ -1,0 +1,43 @@
+creating ./logs/logs-2023-04-14WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-14:15:12--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/train_gt.npy)
+10227 samples selected for training(over 204542)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/test_gt.npy)
+194315 samples selected for testing(over 204542)
+creating ./logs/logs-2023-04-14WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-14:15:13--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/train_gt.npy)
+10227 samples selected for training(over 204542)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/test_gt.npy)
+194315 samples selected for testing(over 204542)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0]
+ [    0 32748     9     0    23     0     0     0     6]
+ [    0     0  7918    14    15     0     0     0     8]
+ [    0     0     1  2860    18     0     0     0     0]
+ [    0    20     0     1 59945    21     9     0    55]
+ [    0     0     8     0    56  3874     0     0     6]
+ [    0     0     0     0    16     0 11200     0    42]
+ [    0     0     0     0     0     0     0 63610    12]
+ [    0     0     6     0    63     2    20    25  6475]]
+
+Accuracy:
+99.7588
+
+F1 scores:
+[   nan 0.9991 0.9962 0.9941 0.9975 0.9881 0.9961 0.9997 0.9814]
+
+Kappa:
+0.9968

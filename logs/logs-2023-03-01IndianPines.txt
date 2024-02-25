@@ -1,0 +1,3584 @@
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:20--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:11.772268
+Epoch [2/100]    avg_loss:6.954577
+Epoch [3/100]    avg_loss:6.680276
+Epoch [4/100]    avg_loss:7.927984
+Epoch [5/100]    avg_loss:7.304576
+Epoch [6/100]    avg_loss:6.138806
+Epoch [7/100]    avg_loss:5.382969
+Epoch [8/100]    avg_loss:5.174586
+Epoch [9/100]    avg_loss:5.245048
+Epoch [10/100]    avg_loss:5.387259
+Epoch [11/100]    avg_loss:5.520004
+Epoch [12/100]    avg_loss:5.591353
+Epoch [13/100]    avg_loss:5.629312
+Epoch [14/100]    avg_loss:5.653637
+Epoch [15/100]    avg_loss:5.642011
+Epoch [16/100]    avg_loss:5.568937
+Epoch [17/100]    avg_loss:5.434932
+Epoch [18/100]    avg_loss:5.404999
+Epoch [19/100]    avg_loss:5.308402
+Epoch [20/100]    avg_loss:5.251454
+Epoch [21/100]    avg_loss:5.206660
+Epoch [22/100]    avg_loss:5.110372
+Epoch [23/100]    avg_loss:5.085061
+Epoch [24/100]    avg_loss:5.046772
+Epoch [25/100]    avg_loss:5.059798
+Epoch [26/100]    avg_loss:5.050593
+Epoch [27/100]    avg_loss:5.063570
+Epoch [28/100]    avg_loss:4.985626
+Epoch [29/100]    avg_loss:5.096282
+Epoch [30/100]    avg_loss:4.996321
+Epoch [31/100]    avg_loss:4.930381
+Epoch [32/100]    avg_loss:4.976559
+Epoch [33/100]    avg_loss:4.997246
+Epoch [34/100]    avg_loss:4.954654
+Epoch [35/100]    avg_loss:4.965404
+Epoch [36/100]    avg_loss:4.938737
+Epoch [37/100]    avg_loss:4.969578
+Epoch [38/100]    avg_loss:4.965880
+Epoch [39/100]    avg_loss:4.893446
+Epoch [40/100]    avg_loss:4.920089
+Epoch [41/100]    avg_loss:4.934961
+Epoch [42/100]    avg_loss:4.916512
+Epoch [43/100]    avg_loss:4.930730
+Epoch [44/100]    avg_loss:5.057169
+Epoch [45/100]    avg_loss:4.909003
+Epoch [46/100]    avg_loss:4.909714
+Epoch [47/100]    avg_loss:4.897109
+Epoch [48/100]    avg_loss:4.901384
+Epoch [49/100]    avg_loss:4.865618
+Epoch [50/100]    avg_loss:4.852487
+Epoch [51/100]    avg_loss:4.889734
+Epoch [52/100]    avg_loss:4.926128
+Epoch [53/100]    avg_loss:4.801829
+Epoch [54/100]    avg_loss:4.849752
+Epoch [55/100]    avg_loss:4.806233
+Epoch [56/100]    avg_loss:4.871555
+Epoch [57/100]    avg_loss:4.858143
+Epoch [58/100]    avg_loss:4.864180
+Epoch [59/100]    avg_loss:4.804175
+Epoch [60/100]    avg_loss:4.798185
+Epoch [61/100]    avg_loss:4.819584
+Epoch [62/100]    avg_loss:4.820620
+Epoch [63/100]    avg_loss:4.848874
+Epoch [64/100]    avg_loss:4.826497
+Epoch [65/100]    avg_loss:4.753909
+Epoch [66/100]    avg_loss:4.788081
+Epoch [67/100]    avg_loss:4.826132
+Epoch [68/100]    avg_loss:4.747960
+Epoch [69/100]    avg_loss:4.770503
+Epoch [70/100]    avg_loss:4.757800
+Epoch [71/100]    avg_loss:4.744968
+Epoch [72/100]    avg_loss:4.858184
+Epoch [73/100]    avg_loss:4.790912
+Epoch [74/100]    avg_loss:4.773705
+Epoch [75/100]    avg_loss:4.748209
+Epoch [76/100]    avg_loss:4.855256
+Epoch [77/100]    avg_loss:4.684757
+Epoch [78/100]    avg_loss:4.768929
+Epoch [79/100]    avg_loss:4.734052
+Epoch [80/100]    avg_loss:4.725568
+Epoch [81/100]    avg_loss:4.714686
+Epoch [82/100]    avg_loss:4.697993
+Epoch [83/100]    avg_loss:4.721689
+Epoch [84/100]    avg_loss:4.639991
+Epoch [85/100]    avg_loss:4.659421
+Epoch [86/100]    avg_loss:4.634374
+Epoch [87/100]    avg_loss:4.677202
+Epoch [88/100]    avg_loss:4.640984
+Epoch [89/100]    avg_loss:4.655630
+Epoch [90/100]    avg_loss:4.667557
+Epoch [91/100]    avg_loss:4.659613
+Epoch [92/100]    avg_loss:4.686852
+Epoch [93/100]    avg_loss:4.602152
+Epoch [94/100]    avg_loss:4.614739
+Epoch [95/100]    avg_loss:4.661044
+Epoch [96/100]    avg_loss:4.613250
+Epoch [97/100]    avg_loss:4.591180
+Epoch [98/100]    avg_loss:4.584063
+Epoch [99/100]    avg_loss:4.563389
+Epoch [100/100]    avg_loss:4.526117
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:24--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:24--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:25--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:13.395291
+Epoch [2/100]    avg_loss:12.410348
+Epoch [3/100]    avg_loss:10.528210
+Epoch [4/100]    avg_loss:8.449578
+Epoch [5/100]    avg_loss:7.105273
+Epoch [6/100]    avg_loss:6.251731
+Epoch [7/100]    avg_loss:6.099342
+Epoch [8/100]    avg_loss:6.508189
+Epoch [9/100]    avg_loss:7.053427
+Epoch [10/100]    avg_loss:7.645249
+Epoch [11/100]    avg_loss:7.928059
+Epoch [12/100]    avg_loss:7.942842
+Epoch [13/100]    avg_loss:7.836440
+Epoch [14/100]    avg_loss:7.474853
+Epoch [15/100]    avg_loss:7.141335
+Epoch [16/100]    avg_loss:6.680299
+Epoch [17/100]    avg_loss:6.342370
+Epoch [18/100]    avg_loss:5.991136
+Epoch [19/100]    avg_loss:5.701112
+Epoch [20/100]    avg_loss:5.496486
+Epoch [21/100]    avg_loss:5.390978
+Epoch [22/100]    avg_loss:5.273626
+Epoch [23/100]    avg_loss:5.177502
+Epoch [24/100]    avg_loss:5.206202
+Epoch [25/100]    avg_loss:5.290408
+Epoch [26/100]    avg_loss:5.230772
+Epoch [27/100]    avg_loss:5.251340
+Epoch [28/100]    avg_loss:5.285991
+Epoch [29/100]    avg_loss:5.333874
+Epoch [30/100]    avg_loss:5.571978
+Epoch [31/100]    avg_loss:5.530179
+Epoch [32/100]    avg_loss:5.495394
+Epoch [33/100]    avg_loss:5.504115
+Epoch [34/100]    avg_loss:5.635279
+Epoch [35/100]    avg_loss:5.614277
+Epoch [36/100]    avg_loss:5.639244
+Epoch [37/100]    avg_loss:5.710763
+Epoch [38/100]    avg_loss:5.669465
+Epoch [39/100]    avg_loss:5.731596
+Epoch [40/100]    avg_loss:5.676902
+Epoch [41/100]    avg_loss:5.667264
+Epoch [42/100]    avg_loss:5.690520
+Epoch [43/100]    avg_loss:5.734809
+Epoch [44/100]    avg_loss:5.682216
+Epoch [45/100]    avg_loss:5.644631
+Epoch [46/100]    avg_loss:5.656405
+Epoch [47/100]    avg_loss:5.643785
+Epoch [48/100]    avg_loss:5.624289
+Epoch [49/100]    avg_loss:5.564617
+Epoch [50/100]    avg_loss:5.554266
+Epoch [51/100]    avg_loss:5.518658
+Epoch [52/100]    avg_loss:5.511041
+Epoch [53/100]    avg_loss:5.526121
+Epoch [54/100]    avg_loss:5.471659
+Epoch [55/100]    avg_loss:5.413097
+Epoch [56/100]    avg_loss:5.406903
+Epoch [57/100]    avg_loss:5.426703
+Epoch [58/100]    avg_loss:5.439003
+Epoch [59/100]    avg_loss:5.383977
+Epoch [60/100]    avg_loss:5.313322
+Epoch [61/100]    avg_loss:5.290410
+Epoch [62/100]    avg_loss:5.293655
+Epoch [63/100]    avg_loss:5.252957
+Epoch [64/100]    avg_loss:5.283433
+Epoch [65/100]    avg_loss:5.174264
+Epoch [66/100]    avg_loss:5.170431
+Epoch [67/100]    avg_loss:5.210275
+Epoch [68/100]    avg_loss:5.154386
+Epoch [69/100]    avg_loss:5.171926
+Epoch [70/100]    avg_loss:5.165795
+Epoch [71/100]    avg_loss:5.178171
+Epoch [72/100]    avg_loss:5.152087
+Epoch [73/100]    avg_loss:5.180590
+Epoch [74/100]    avg_loss:5.150407
+Epoch [75/100]    avg_loss:5.066583
+Epoch [76/100]    avg_loss:5.066641
+Epoch [77/100]    avg_loss:5.101261
+Epoch [78/100]    avg_loss:5.085302
+Epoch [79/100]    avg_loss:5.097582
+Epoch [80/100]    avg_loss:5.033581
+Epoch [81/100]    avg_loss:5.120957
+Epoch [82/100]    avg_loss:5.062161
+Epoch [83/100]    avg_loss:5.082506
+Epoch [84/100]    avg_loss:5.107950
+Epoch [85/100]    avg_loss:5.061309
+Epoch [86/100]    avg_loss:5.006576
+Epoch [87/100]    avg_loss:5.025710
+Epoch [88/100]    avg_loss:5.052224
+Epoch [89/100]    avg_loss:4.998753
+Epoch [90/100]    avg_loss:5.034729
+Epoch [91/100]    avg_loss:5.044008
+Epoch [92/100]    avg_loss:5.022604
+Epoch [93/100]    avg_loss:5.034294
+Epoch [94/100]    avg_loss:5.016054
+Epoch [95/100]    avg_loss:5.014519
+Epoch [96/100]    avg_loss:5.067906
+Epoch [97/100]    avg_loss:4.972811
+Epoch [98/100]    avg_loss:5.030690
+Epoch [99/100]    avg_loss:4.962955
+Epoch [100/100]    avg_loss:5.000527
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:28--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:36--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:13.673453
+Epoch [2/100]    avg_loss:13.630640
+Epoch [3/100]    avg_loss:13.352449
+Epoch [4/100]    avg_loss:13.122244
+Epoch [5/100]    avg_loss:12.755409
+Epoch [6/100]    avg_loss:12.201485
+Epoch [7/100]    avg_loss:11.550847
+Epoch [8/100]    avg_loss:10.998337
+Epoch [9/100]    avg_loss:10.426955
+Epoch [10/100]    avg_loss:9.804480
+Epoch [11/100]    avg_loss:8.851741
+Epoch [12/100]    avg_loss:8.385943
+Epoch [13/100]    avg_loss:7.790216
+Epoch [14/100]    avg_loss:7.328933
+Epoch [15/100]    avg_loss:6.847736
+Epoch [16/100]    avg_loss:6.511471
+Epoch [17/100]    avg_loss:6.293466
+Epoch [18/100]    avg_loss:6.075770
+Epoch [19/100]    avg_loss:6.037442
+Epoch [20/100]    avg_loss:6.033722
+Epoch [21/100]    avg_loss:6.114722
+Epoch [22/100]    avg_loss:6.176792
+Epoch [23/100]    avg_loss:6.345769
+Epoch [24/100]    avg_loss:6.437984
+Epoch [25/100]    avg_loss:6.532775
+Epoch [26/100]    avg_loss:6.874583
+Epoch [27/100]    avg_loss:7.078795
+Epoch [28/100]    avg_loss:7.256472
+Epoch [29/100]    avg_loss:7.456717
+Epoch [30/100]    avg_loss:7.664664
+Epoch [31/100]    avg_loss:7.769022
+Epoch [32/100]    avg_loss:7.900027
+Epoch [33/100]    avg_loss:8.037015
+Epoch [34/100]    avg_loss:8.149857
+Epoch [35/100]    avg_loss:8.179482
+Epoch [36/100]    avg_loss:8.177231
+Epoch [37/100]    avg_loss:8.179107
+Epoch [38/100]    avg_loss:8.188791
+Epoch [39/100]    avg_loss:8.107649
+Epoch [40/100]    avg_loss:8.054952
+Epoch [41/100]    avg_loss:7.962622
+Epoch [42/100]    avg_loss:7.907394
+Epoch [43/100]    avg_loss:7.765321
+Epoch [44/100]    avg_loss:7.639306
+Epoch [45/100]    avg_loss:7.523397
+Epoch [46/100]    avg_loss:7.386364
+Epoch [47/100]    avg_loss:7.257789
+Epoch [48/100]    avg_loss:7.073101
+Epoch [49/100]    avg_loss:6.920304
+Epoch [50/100]    avg_loss:6.837312
+Epoch [51/100]    avg_loss:6.638026
+Epoch [52/100]    avg_loss:6.588895
+Epoch [53/100]    avg_loss:6.404480
+Epoch [54/100]    avg_loss:6.328682
+Epoch [55/100]    avg_loss:6.166377
+Epoch [56/100]    avg_loss:6.054028
+Epoch [57/100]    avg_loss:5.921858
+Epoch [58/100]    avg_loss:5.843374
+Epoch [59/100]    avg_loss:5.768235
+Epoch [60/100]    avg_loss:5.670858
+Epoch [61/100]    avg_loss:5.575519
+Epoch [62/100]    avg_loss:5.519029
+Epoch [63/100]    avg_loss:5.463336
+Epoch [64/100]    avg_loss:5.367492
+Epoch [65/100]    avg_loss:5.467870
+Epoch [66/100]    avg_loss:5.331710
+Epoch [67/100]    avg_loss:5.263986
+Epoch [68/100]    avg_loss:5.276861
+Epoch [69/100]    avg_loss:5.259104
+Epoch [70/100]    avg_loss:5.239703
+Epoch [71/100]    avg_loss:5.248489
+Epoch [72/100]    avg_loss:5.183337
+Epoch [73/100]    avg_loss:5.189612
+Epoch [74/100]    avg_loss:5.231595
+Epoch [75/100]    avg_loss:5.238579
+Epoch [76/100]    avg_loss:5.194535
+Epoch [77/100]    avg_loss:5.224079
+Epoch [78/100]    avg_loss:5.169319
+Epoch [79/100]    avg_loss:5.171450
+Epoch [80/100]    avg_loss:5.195181
+Epoch [81/100]    avg_loss:5.173333
+Epoch [82/100]    avg_loss:5.270185
+Epoch [83/100]    avg_loss:5.318483
+Epoch [84/100]    avg_loss:5.244407
+Epoch [85/100]    avg_loss:5.240255
+Epoch [86/100]    avg_loss:5.270595
+Epoch [87/100]    avg_loss:5.292881
+Epoch [88/100]    avg_loss:5.323109
+Epoch [89/100]    avg_loss:5.313539
+Epoch [90/100]    avg_loss:5.345926
+Epoch [91/100]    avg_loss:5.363157
+Epoch [92/100]    avg_loss:5.386158
+Epoch [93/100]    avg_loss:5.422557
+Epoch [94/100]    avg_loss:5.438775
+Epoch [95/100]    avg_loss:5.385979
+Epoch [96/100]    avg_loss:5.449788
+Epoch [97/100]    avg_loss:5.499197
+Epoch [98/100]    avg_loss:5.501345
+Epoch [99/100]    avg_loss:5.466018
+Epoch [100/100]    avg_loss:5.532644
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:39--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:40--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.469785
+Epoch [2/100]    avg_loss:6.927343
+Epoch [3/100]    avg_loss:5.263035
+Epoch [4/100]    avg_loss:5.585080
+Epoch [5/100]    avg_loss:5.626096
+Epoch [6/100]    avg_loss:5.381976
+Epoch [7/100]    avg_loss:5.182067
+Epoch [8/100]    avg_loss:5.159896
+Epoch [9/100]    avg_loss:5.030181
+Epoch [10/100]    avg_loss:4.961979
+Epoch [11/100]    avg_loss:4.986160
+Epoch [12/100]    avg_loss:5.000037
+Epoch [13/100]    avg_loss:4.938156
+Epoch [14/100]    avg_loss:4.899949
+Epoch [15/100]    avg_loss:4.922485
+Epoch [16/100]    avg_loss:4.914700
+Epoch [17/100]    avg_loss:4.878437
+Epoch [18/100]    avg_loss:4.858352
+Epoch [19/100]    avg_loss:4.831766
+Epoch [20/100]    avg_loss:4.826003
+Epoch [21/100]    avg_loss:4.783243
+Epoch [22/100]    avg_loss:4.784332
+Epoch [23/100]    avg_loss:4.797329
+Epoch [24/100]    avg_loss:4.742787
+Epoch [25/100]    avg_loss:4.768314
+Epoch [26/100]    avg_loss:4.733399
+Epoch [27/100]    avg_loss:4.718096
+Epoch [28/100]    avg_loss:4.671733
+Epoch [29/100]    avg_loss:4.693120
+Epoch [30/100]    avg_loss:4.667277
+Epoch [31/100]    avg_loss:4.618179
+Epoch [32/100]    avg_loss:4.580259
+Epoch [33/100]    avg_loss:4.630307
+Epoch [34/100]    avg_loss:4.602658
+Epoch [35/100]    avg_loss:4.533137
+Epoch [36/100]    avg_loss:4.606482
+Epoch [37/100]    avg_loss:4.620755
+Epoch [38/100]    avg_loss:4.584937
+Epoch [39/100]    avg_loss:4.588451
+Epoch [40/100]    avg_loss:4.467538
+Epoch [41/100]    avg_loss:4.531178
+Epoch [42/100]    avg_loss:4.526278
+Epoch [43/100]    avg_loss:4.543432
+Epoch [44/100]    avg_loss:4.488041
+Epoch [45/100]    avg_loss:4.418888
+Epoch [46/100]    avg_loss:4.430228
+Epoch [47/100]    avg_loss:4.492636
+Epoch [48/100]    avg_loss:4.445706
+Epoch [49/100]    avg_loss:4.451645
+Epoch [50/100]    avg_loss:4.399795
+Epoch [51/100]    avg_loss:4.450065
+Epoch [52/100]    avg_loss:4.489892
+Epoch [53/100]    avg_loss:4.499429
+Epoch [54/100]    avg_loss:4.491981
+Epoch [55/100]    avg_loss:4.438872
+Epoch [56/100]    avg_loss:4.478815
+Epoch [57/100]    avg_loss:4.429575
+Epoch [58/100]    avg_loss:4.439070
+Epoch [59/100]    avg_loss:4.332998
+Epoch [60/100]    avg_loss:4.348163
+Epoch [61/100]    avg_loss:4.369307
+Epoch [62/100]    avg_loss:4.371348
+Epoch [63/100]    avg_loss:4.404254
+Epoch [64/100]    avg_loss:4.487192
+Epoch [65/100]    avg_loss:4.416916
+Epoch [66/100]    avg_loss:4.422199
+Epoch [67/100]    avg_loss:4.469818
+Epoch [68/100]    avg_loss:4.414838
+Epoch [69/100]    avg_loss:4.375914
+Epoch [70/100]    avg_loss:4.394412
+Epoch [71/100]    avg_loss:4.513927
+Epoch [72/100]    avg_loss:4.461378
+Epoch [73/100]    avg_loss:4.444443
+Epoch [74/100]    avg_loss:4.463117
+Epoch [75/100]    avg_loss:4.671429
+Epoch [76/100]    avg_loss:4.522234
+Epoch [77/100]    avg_loss:4.548401
+Epoch [78/100]    avg_loss:4.611681
+Epoch [79/100]    avg_loss:4.550439
+Epoch [80/100]    avg_loss:4.580919
+Epoch [81/100]    avg_loss:4.685005
+Epoch [82/100]    avg_loss:4.633044
+Epoch [83/100]    avg_loss:4.694202
+Epoch [84/100]    avg_loss:4.803746
+Epoch [85/100]    avg_loss:4.865225
+Epoch [86/100]    avg_loss:4.734094
+Epoch [87/100]    avg_loss:4.996334
+Epoch [88/100]    avg_loss:4.832125
+Epoch [89/100]    avg_loss:4.805776
+Epoch [90/100]    avg_loss:4.915547
+Epoch [91/100]    avg_loss:4.896211
+Epoch [92/100]    avg_loss:nan
+Epoch [93/100]    avg_loss:nan
+Epoch [94/100]    avg_loss:nan
+Epoch [95/100]    avg_loss:nan
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:44--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.873170
+Epoch [2/100]    avg_loss:6.693872
+Epoch [3/100]    avg_loss:5.366556
+Epoch [4/100]    avg_loss:5.606112
+Epoch [5/100]    avg_loss:5.682251
+Epoch [6/100]    avg_loss:5.528437
+Epoch [7/100]    avg_loss:5.272826
+Epoch [8/100]    avg_loss:5.175251
+Epoch [9/100]    avg_loss:5.080249
+Epoch [10/100]    avg_loss:5.015128
+Epoch [11/100]    avg_loss:4.940824
+Epoch [12/100]    avg_loss:4.939422
+Epoch [13/100]    avg_loss:4.978602
+Epoch [14/100]    avg_loss:4.874919
+Epoch [15/100]    avg_loss:4.850194
+Epoch [16/100]    avg_loss:4.878546
+Epoch [17/100]    avg_loss:4.827555
+Epoch [18/100]    avg_loss:4.855265
+Epoch [19/100]    avg_loss:4.804642
+Epoch [20/100]    avg_loss:4.780615
+Epoch [21/100]    avg_loss:4.744887
+Epoch [22/100]    avg_loss:4.733568
+Epoch [23/100]    avg_loss:4.740870
+Epoch [24/100]    avg_loss:4.669557
+Epoch [25/100]    avg_loss:4.692823
+Epoch [26/100]    avg_loss:4.631750
+Epoch [27/100]    avg_loss:4.613659
+Epoch [28/100]    avg_loss:4.623078
+Epoch [29/100]    avg_loss:4.676794
+Epoch [30/100]    avg_loss:4.744282
+Epoch [31/100]    avg_loss:4.593305
+Epoch [32/100]    avg_loss:4.620754
+Epoch [33/100]    avg_loss:4.630381
+Epoch [34/100]    avg_loss:4.638123
+Epoch [35/100]    avg_loss:4.624598
+Epoch [36/100]    avg_loss:4.626539
+Epoch [37/100]    avg_loss:4.653276
+Epoch [38/100]    avg_loss:4.602308
+Epoch [39/100]    avg_loss:4.643973
+Epoch [40/100]    avg_loss:4.622601
+Epoch [41/100]    avg_loss:4.617180
+Epoch [42/100]    avg_loss:4.558234
+Epoch [43/100]    avg_loss:4.568964
+Epoch [44/100]    avg_loss:4.537064
+Epoch [45/100]    avg_loss:4.649010
+Epoch [46/100]    avg_loss:4.595126
+Epoch [47/100]    avg_loss:4.577084
+Epoch [48/100]    avg_loss:4.527533
+Epoch [49/100]    avg_loss:4.462822
+Epoch [50/100]    avg_loss:4.573347
+Epoch [51/100]    avg_loss:4.532136
+Epoch [52/100]    avg_loss:4.439140
+Epoch [53/100]    avg_loss:4.610729
+Epoch [54/100]    avg_loss:4.402421
+Epoch [55/100]    avg_loss:4.407587
+Epoch [56/100]    avg_loss:4.444000
+Epoch [57/100]    avg_loss:4.373363
+Epoch [58/100]    avg_loss:4.335237
+Epoch [59/100]    avg_loss:4.321564
+Epoch [60/100]    avg_loss:4.409653
+Epoch [61/100]    avg_loss:4.333016
+Epoch [62/100]    avg_loss:4.472104
+Epoch [63/100]    avg_loss:4.490153
+Epoch [64/100]    avg_loss:4.371786
+Epoch [65/100]    avg_loss:4.414193
+Epoch [66/100]    avg_loss:4.500413
+Epoch [67/100]    avg_loss:4.414054
+Epoch [68/100]    avg_loss:4.479821
+Epoch [69/100]    avg_loss:4.512095
+Epoch [70/100]    avg_loss:4.512883
+Epoch [71/100]    avg_loss:4.457224
+Epoch [72/100]    avg_loss:4.512094
+Epoch [73/100]    avg_loss:4.536264
+Epoch [74/100]    avg_loss:4.497633
+Epoch [75/100]    avg_loss:4.525019
+Epoch [76/100]    avg_loss:4.653170
+Epoch [77/100]    avg_loss:4.681273
+Epoch [78/100]    avg_loss:4.615133
+Epoch [79/100]    avg_loss:4.650359
+Epoch [80/100]    avg_loss:4.481489
+Epoch [81/100]    avg_loss:4.626096
+Epoch [82/100]    avg_loss:4.513942
+Epoch [83/100]    avg_loss:4.564377
+Epoch [84/100]    avg_loss:4.583110
+Epoch [85/100]    avg_loss:4.569311
+Epoch [86/100]    avg_loss:4.739680
+Epoch [87/100]    avg_loss:5.181465
+Epoch [88/100]    avg_loss:nan
+Epoch [89/100]    avg_loss:nan
+Epoch [90/100]    avg_loss:nan
+Epoch [91/100]    avg_loss:nan
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:51--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:9.029297
+Epoch [2/100]    avg_loss:6.843757
+Epoch [3/100]    avg_loss:5.329724
+Epoch [4/100]    avg_loss:5.541248
+Epoch [5/100]    avg_loss:5.746504
+Epoch [6/100]    avg_loss:5.645073
+Epoch [7/100]    avg_loss:5.424131
+Epoch [8/100]    avg_loss:5.215257
+Epoch [9/100]    avg_loss:5.085080
+Epoch [10/100]    avg_loss:5.024468
+Epoch [11/100]    avg_loss:5.031506
+Epoch [12/100]    avg_loss:5.026341
+Epoch [13/100]    avg_loss:4.997991
+Epoch [14/100]    avg_loss:4.925352
+Epoch [15/100]    avg_loss:4.923414
+Epoch [16/100]    avg_loss:4.854146
+Epoch [17/100]    avg_loss:4.826034
+Epoch [18/100]    avg_loss:4.846956
+Epoch [19/100]    avg_loss:4.850651
+Epoch [20/100]    avg_loss:4.797920
+Epoch [21/100]    avg_loss:4.808272
+Epoch [22/100]    avg_loss:4.823852
+Epoch [23/100]    avg_loss:4.786029
+Epoch [24/100]    avg_loss:4.701440
+Epoch [25/100]    avg_loss:4.673018
+Epoch [26/100]    avg_loss:4.667299
+Epoch [27/100]    avg_loss:4.703280
+Epoch [28/100]    avg_loss:4.722568
+Epoch [29/100]    avg_loss:4.630520
+Epoch [30/100]    avg_loss:4.684455
+Epoch [31/100]    avg_loss:4.644385
+Epoch [32/100]    avg_loss:4.697247
+Epoch [33/100]    avg_loss:4.750518
+Epoch [34/100]    avg_loss:4.710022
+Epoch [35/100]    avg_loss:4.642724
+Epoch [36/100]    avg_loss:4.606824
+Epoch [37/100]    avg_loss:4.576769
+Epoch [38/100]    avg_loss:4.547083
+Epoch [39/100]    avg_loss:4.551299
+Epoch [40/100]    avg_loss:4.526806
+Epoch [41/100]    avg_loss:4.547205
+Epoch [42/100]    avg_loss:4.595533
+Epoch [43/100]    avg_loss:4.642021
+Epoch [44/100]    avg_loss:4.568689
+Epoch [45/100]    avg_loss:4.519195
+Epoch [46/100]    avg_loss:4.534570
+Epoch [47/100]    avg_loss:4.515076
+Epoch [48/100]    avg_loss:4.465327
+Epoch [49/100]    avg_loss:4.676092
+Epoch [50/100]    avg_loss:4.447005
+Epoch [51/100]    avg_loss:4.504513
+Epoch [52/100]    avg_loss:4.440827
+Epoch [53/100]    avg_loss:4.435976
+Epoch [54/100]    avg_loss:4.473637
+Epoch [55/100]    avg_loss:4.455986
+Epoch [56/100]    avg_loss:4.538343
+Epoch [57/100]    avg_loss:4.476605
+Epoch [58/100]    avg_loss:4.538266
+Epoch [59/100]    avg_loss:4.442408
+Epoch [60/100]    avg_loss:4.439419
+Epoch [61/100]    avg_loss:4.472035
+Epoch [62/100]    avg_loss:4.462644
+Epoch [63/100]    avg_loss:4.454650
+Epoch [64/100]    avg_loss:4.469828
+Epoch [65/100]    avg_loss:4.418453
+Epoch [66/100]    avg_loss:4.432799
+Epoch [67/100]    avg_loss:4.456232
+Epoch [68/100]    avg_loss:4.471827
+Epoch [69/100]    avg_loss:4.483238
+Epoch [70/100]    avg_loss:4.421001
+Epoch [71/100]    avg_loss:4.443521
+Epoch [72/100]    avg_loss:4.422876
+Epoch [73/100]    avg_loss:4.364730
+Epoch [74/100]    avg_loss:4.637604
+Epoch [75/100]    avg_loss:4.437134
+Epoch [76/100]    avg_loss:4.377662
+Epoch [77/100]    avg_loss:4.440772
+Epoch [78/100]    avg_loss:4.466298
+Epoch [79/100]    avg_loss:4.445012
+Epoch [80/100]    avg_loss:4.513324
+Epoch [81/100]    avg_loss:4.539993
+Epoch [82/100]    avg_loss:4.396545
+Epoch [83/100]    avg_loss:4.388007
+Epoch [84/100]    avg_loss:4.565538
+Epoch [85/100]    avg_loss:4.597026
+Epoch [86/100]    avg_loss:4.628072
+Epoch [87/100]    avg_loss:4.568406
+Epoch [88/100]    avg_loss:4.549103
+Epoch [89/100]    avg_loss:4.513059
+Epoch [90/100]    avg_loss:4.557340
+Epoch [91/100]    avg_loss:4.658094
+Epoch [92/100]    avg_loss:4.768456
+Epoch [93/100]    avg_loss:4.679271
+Epoch [94/100]    avg_loss:4.774983
+Epoch [95/100]    avg_loss:4.743087
+Epoch [96/100]    avg_loss:4.803999
+Epoch [97/100]    avg_loss:4.758494
+Epoch [98/100]    avg_loss:4.733939
+Epoch [99/100]    avg_loss:4.742076
+Epoch [100/100]    avg_loss:4.810609
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:54--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:08:57--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.987777
+Epoch [2/100]    avg_loss:6.709177
+Epoch [3/100]    avg_loss:5.390328
+Epoch [4/100]    avg_loss:5.553479
+Epoch [5/100]    avg_loss:5.753660
+Epoch [6/100]    avg_loss:5.662330
+Epoch [7/100]    avg_loss:5.458019
+Epoch [8/100]    avg_loss:5.219331
+Epoch [9/100]    avg_loss:5.077778
+Epoch [10/100]    avg_loss:5.041870
+Epoch [11/100]    avg_loss:5.042893
+Epoch [12/100]    avg_loss:5.063371
+Epoch [13/100]    avg_loss:5.008290
+Epoch [14/100]    avg_loss:4.980573
+Epoch [15/100]    avg_loss:4.921743
+Epoch [16/100]    avg_loss:4.889285
+Epoch [17/100]    avg_loss:4.847734
+Epoch [18/100]    avg_loss:4.851525
+Epoch [19/100]    avg_loss:4.901274
+Epoch [20/100]    avg_loss:4.911571
+Epoch [21/100]    avg_loss:4.804067
+Epoch [22/100]    avg_loss:4.863746
+Epoch [23/100]    avg_loss:4.767657
+Epoch [24/100]    avg_loss:4.732714
+Epoch [25/100]    avg_loss:4.751799
+Epoch [26/100]    avg_loss:4.667185
+Epoch [27/100]    avg_loss:4.692239
+Epoch [28/100]    avg_loss:4.709237
+Epoch [29/100]    avg_loss:4.636423
+Epoch [30/100]    avg_loss:4.684130
+Epoch [31/100]    avg_loss:4.620407
+Epoch [32/100]    avg_loss:4.637266
+Epoch [33/100]    avg_loss:4.802706
+Epoch [34/100]    avg_loss:4.640626
+Epoch [35/100]    avg_loss:4.588453
+Epoch [36/100]    avg_loss:4.622840
+Epoch [37/100]    avg_loss:4.652485
+Epoch [38/100]    avg_loss:4.521796
+Epoch [39/100]    avg_loss:4.608949
+Epoch [40/100]    avg_loss:4.532354
+Epoch [41/100]    avg_loss:4.611542
+Epoch [42/100]    avg_loss:4.495585
+Epoch [43/100]    avg_loss:4.467657
+Epoch [44/100]    avg_loss:4.571708
+Epoch [45/100]    avg_loss:4.514697
+Epoch [46/100]    avg_loss:4.488807
+Epoch [47/100]    avg_loss:4.447544
+Epoch [48/100]    avg_loss:4.398986
+Epoch [49/100]    avg_loss:4.392305
+Epoch [50/100]    avg_loss:4.443989
+Epoch [51/100]    avg_loss:4.409303
+Epoch [52/100]    avg_loss:4.415048
+Epoch [53/100]    avg_loss:4.433442
+Epoch [54/100]    avg_loss:4.533851
+Epoch [55/100]    avg_loss:4.491330
+Epoch [56/100]    avg_loss:4.450524
+Epoch [57/100]    avg_loss:4.477523
+Epoch [58/100]    avg_loss:4.389024
+Epoch [59/100]    avg_loss:4.492569
+Epoch [60/100]    avg_loss:4.410536
+Epoch [61/100]    avg_loss:4.430410
+Epoch [62/100]    avg_loss:4.455580
+Epoch [63/100]    avg_loss:4.557169
+Epoch [64/100]    avg_loss:4.507791
+Epoch [65/100]    avg_loss:4.505337
+Epoch [66/100]    avg_loss:4.433657
+Epoch [67/100]    avg_loss:4.499870
+Epoch [68/100]    avg_loss:4.454321
+Epoch [69/100]    avg_loss:4.526663
+Epoch [70/100]    avg_loss:4.448948
+Epoch [71/100]    avg_loss:4.444412
+Epoch [72/100]    avg_loss:4.558683
+Epoch [73/100]    avg_loss:4.455161
+Epoch [74/100]    avg_loss:4.536606
+Epoch [75/100]    avg_loss:4.546211
+Epoch [76/100]    avg_loss:4.550576
+Epoch [77/100]    avg_loss:4.426385
+Epoch [78/100]    avg_loss:4.661377
+Epoch [79/100]    avg_loss:4.565544
+Epoch [80/100]    avg_loss:4.514904
+Epoch [81/100]    avg_loss:4.598882
+Epoch [82/100]    avg_loss:4.485366
+Epoch [83/100]    avg_loss:4.507775
+Epoch [84/100]    avg_loss:4.579134
+Epoch [85/100]    avg_loss:4.465995
+Epoch [86/100]    avg_loss:4.647663
+Epoch [87/100]    avg_loss:4.655683
+Epoch [88/100]    avg_loss:4.801934
+Epoch [89/100]    avg_loss:4.849286
+Epoch [90/100]    avg_loss:4.672284
+Epoch [91/100]    avg_loss:4.769358
+Epoch [92/100]    avg_loss:4.810845
+Epoch [93/100]    avg_loss:4.759226
+Epoch [94/100]    avg_loss:4.774046
+Epoch [95/100]    avg_loss:4.981937
+Epoch [96/100]    avg_loss:4.957530
+Epoch [97/100]    avg_loss:4.949571
+Epoch [98/100]    avg_loss:5.000669
+Epoch [99/100]    avg_loss:5.109130
+Epoch [100/100]    avg_loss:5.192280
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:00--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:01--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.852084
+Epoch [2/100]    avg_loss:6.706980
+Epoch [3/100]    avg_loss:5.328788
+Epoch [4/100]    avg_loss:5.596282
+Epoch [5/100]    avg_loss:5.692045
+Epoch [6/100]    avg_loss:5.540058
+Epoch [7/100]    avg_loss:5.311232
+Epoch [8/100]    avg_loss:5.181369
+Epoch [9/100]    avg_loss:5.029073
+Epoch [10/100]    avg_loss:5.029455
+Epoch [11/100]    avg_loss:4.924003
+Epoch [12/100]    avg_loss:4.938050
+Epoch [13/100]    avg_loss:4.910368
+Epoch [14/100]    avg_loss:4.870698
+Epoch [15/100]    avg_loss:4.892127
+Epoch [16/100]    avg_loss:4.888102
+Epoch [17/100]    avg_loss:4.803501
+Epoch [18/100]    avg_loss:4.816552
+Epoch [19/100]    avg_loss:4.779715
+Epoch [20/100]    avg_loss:4.738936
+Epoch [21/100]    avg_loss:4.769647
+Epoch [22/100]    avg_loss:4.730211
+Epoch [23/100]    avg_loss:4.683045
+Epoch [24/100]    avg_loss:4.702397
+Epoch [25/100]    avg_loss:4.635385
+Epoch [26/100]    avg_loss:4.673296
+Epoch [27/100]    avg_loss:4.590686
+Epoch [28/100]    avg_loss:4.625596
+Epoch [29/100]    avg_loss:4.580732
+Epoch [30/100]    avg_loss:4.557616
+Epoch [31/100]    avg_loss:4.590687
+Epoch [32/100]    avg_loss:4.536881
+Epoch [33/100]    avg_loss:4.564371
+Epoch [34/100]    avg_loss:4.576465
+Epoch [35/100]    avg_loss:4.494835
+Epoch [36/100]    avg_loss:4.648507
+Epoch [37/100]    avg_loss:4.577018
+Epoch [38/100]    avg_loss:4.562352
+Epoch [39/100]    avg_loss:4.587533
+Epoch [40/100]    avg_loss:4.543992
+Epoch [41/100]    avg_loss:4.577047
+Epoch [42/100]    avg_loss:4.574162
+Epoch [43/100]    avg_loss:4.539167
+Epoch [44/100]    avg_loss:4.536376
+Epoch [45/100]    avg_loss:4.436909
+Epoch [46/100]    avg_loss:4.486888
+Epoch [47/100]    avg_loss:4.469543
+Epoch [48/100]    avg_loss:4.536370
+Epoch [49/100]    avg_loss:4.472668
+Epoch [50/100]    avg_loss:4.490851
+Epoch [51/100]    avg_loss:4.420630
+Epoch [52/100]    avg_loss:4.563870
+Epoch [53/100]    avg_loss:4.482168
+Epoch [54/100]    avg_loss:4.371059
+Epoch [55/100]    avg_loss:4.432408
+Epoch [56/100]    avg_loss:4.459648
+Epoch [57/100]    avg_loss:4.371013
+Epoch [58/100]    avg_loss:4.521668
+Epoch [59/100]    avg_loss:4.432312
+Epoch [60/100]    avg_loss:4.402367
+Epoch [61/100]    avg_loss:4.380849
+Epoch [62/100]    avg_loss:4.450231
+Epoch [63/100]    avg_loss:4.591840
+Epoch [64/100]    avg_loss:4.542738
+Epoch [65/100]    avg_loss:4.426575
+Epoch [66/100]    avg_loss:4.335242
+Epoch [67/100]    avg_loss:4.428632
+Epoch [68/100]    avg_loss:4.453409
+Epoch [69/100]    avg_loss:4.469977
+Epoch [70/100]    avg_loss:4.461977
+Epoch [71/100]    avg_loss:4.331255
+Epoch [72/100]    avg_loss:4.355321
+Epoch [73/100]    avg_loss:4.400248
+Epoch [74/100]    avg_loss:4.384437
+Epoch [75/100]    avg_loss:4.391652
+Epoch [76/100]    avg_loss:4.421749
+Epoch [77/100]    avg_loss:4.453581
+Epoch [78/100]    avg_loss:4.369748
+Epoch [79/100]    avg_loss:4.420229
+Epoch [80/100]    avg_loss:4.542766
+Epoch [81/100]    avg_loss:4.443973
+Epoch [82/100]    avg_loss:4.445600
+Epoch [83/100]    avg_loss:4.542516
+Epoch [84/100]    avg_loss:4.429298
+Epoch [85/100]    avg_loss:4.478947
+Epoch [86/100]    avg_loss:4.603508
+Epoch [87/100]    avg_loss:4.583977
+Epoch [88/100]    avg_loss:4.668129
+Epoch [89/100]    avg_loss:4.618234
+Epoch [90/100]    avg_loss:4.805158
+Epoch [91/100]    avg_loss:4.735787
+Epoch [92/100]    avg_loss:4.801149
+Epoch [93/100]    avg_loss:4.794359
+Epoch [94/100]    avg_loss:4.902401
+Epoch [95/100]    avg_loss:4.844223
+Epoch [96/100]    avg_loss:4.923347
+Epoch [97/100]    avg_loss:4.888121
+Epoch [98/100]    avg_loss:4.882474
+Epoch [99/100]    avg_loss:4.880854
+Epoch [100/100]    avg_loss:4.918593
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:08--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:10--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:12.741474
+Epoch [2/100]    avg_loss:8.004444
+Epoch [3/100]    avg_loss:6.586359
+Epoch [4/100]    avg_loss:7.608381
+Epoch [5/100]    avg_loss:7.164813
+Epoch [6/100]    avg_loss:6.115908
+Epoch [7/100]    avg_loss:5.530595
+Epoch [8/100]    avg_loss:5.341536
+Epoch [9/100]    avg_loss:5.335328
+Epoch [10/100]    avg_loss:5.409861
+Epoch [11/100]    avg_loss:5.498762
+Epoch [12/100]    avg_loss:5.558063
+Epoch [13/100]    avg_loss:5.662830
+Epoch [14/100]    avg_loss:5.673956
+Epoch [15/100]    avg_loss:5.746630
+Epoch [16/100]    avg_loss:5.693321
+Epoch [17/100]    avg_loss:5.692338
+Epoch [18/100]    avg_loss:5.601803
+Epoch [19/100]    avg_loss:5.502336
+Epoch [20/100]    avg_loss:5.512074
+Epoch [21/100]    avg_loss:5.387527
+Epoch [22/100]    avg_loss:5.340020
+Epoch [23/100]    avg_loss:5.267848
+Epoch [24/100]    avg_loss:5.207057
+Epoch [25/100]    avg_loss:5.196756
+Epoch [26/100]    avg_loss:5.154337
+Epoch [27/100]    avg_loss:5.140721
+Epoch [28/100]    avg_loss:5.089760
+Epoch [29/100]    avg_loss:5.076951
+Epoch [30/100]    avg_loss:5.035082
+Epoch [31/100]    avg_loss:5.048083
+Epoch [32/100]    avg_loss:5.040641
+Epoch [33/100]    avg_loss:4.977205
+Epoch [34/100]    avg_loss:4.988744
+Epoch [35/100]    avg_loss:4.943530
+Epoch [36/100]    avg_loss:5.040942
+Epoch [37/100]    avg_loss:4.951708
+Epoch [38/100]    avg_loss:4.917847
+Epoch [39/100]    avg_loss:4.923853
+Epoch [40/100]    avg_loss:4.878521
+Epoch [41/100]    avg_loss:4.926384
+Epoch [42/100]    avg_loss:4.929733
+Epoch [43/100]    avg_loss:4.884815
+Epoch [44/100]    avg_loss:4.928710
+Epoch [45/100]    avg_loss:4.879887
+Epoch [46/100]    avg_loss:4.938605
+Epoch [47/100]    avg_loss:4.855602
+Epoch [48/100]    avg_loss:4.865104
+Epoch [49/100]    avg_loss:4.865942
+Epoch [50/100]    avg_loss:4.856333
+Epoch [51/100]    avg_loss:4.888878
+Epoch [52/100]    avg_loss:4.879173
+Epoch [53/100]    avg_loss:4.847482
+Epoch [54/100]    avg_loss:4.843016
+Epoch [55/100]    avg_loss:4.799173
+Epoch [56/100]    avg_loss:4.731457
+Epoch [57/100]    avg_loss:4.803854
+Epoch [58/100]    avg_loss:4.791094
+Epoch [59/100]    avg_loss:4.868927
+Epoch [60/100]    avg_loss:4.804852
+Epoch [61/100]    avg_loss:4.767204
+Epoch [62/100]    avg_loss:4.812959
+Epoch [63/100]    avg_loss:4.763357
+Epoch [64/100]    avg_loss:4.760318
+Epoch [65/100]    avg_loss:4.781422
+Epoch [66/100]    avg_loss:4.730084
+Epoch [67/100]    avg_loss:4.722083
+Epoch [68/100]    avg_loss:4.740803
+Epoch [69/100]    avg_loss:4.753085
+Epoch [70/100]    avg_loss:4.717726
+Epoch [71/100]    avg_loss:4.728365
+Epoch [72/100]    avg_loss:4.731712
+Epoch [73/100]    avg_loss:4.714546
+Epoch [74/100]    avg_loss:4.723707
+Epoch [75/100]    avg_loss:4.746859
+Epoch [76/100]    avg_loss:4.700502
+Epoch [77/100]    avg_loss:4.672684
+Epoch [78/100]    avg_loss:4.649023
+Epoch [79/100]    avg_loss:4.738368
+Epoch [80/100]    avg_loss:4.612234
+Epoch [81/100]    avg_loss:4.642213
+Epoch [82/100]    avg_loss:4.605550
+Epoch [83/100]    avg_loss:4.615191
+Epoch [84/100]    avg_loss:4.629915
+Epoch [85/100]    avg_loss:4.707795
+Epoch [86/100]    avg_loss:4.634340
+Epoch [87/100]    avg_loss:4.649802
+Epoch [88/100]    avg_loss:4.655160
+Epoch [89/100]    avg_loss:4.655224
+Epoch [90/100]    avg_loss:4.690089
+Epoch [91/100]    avg_loss:4.663330
+Epoch [92/100]    avg_loss:4.730385
+Epoch [93/100]    avg_loss:4.634277
+Epoch [94/100]    avg_loss:4.648458
+Epoch [95/100]    avg_loss:4.597654
+Epoch [96/100]    avg_loss:4.620142
+Epoch [97/100]    avg_loss:4.628137
+Epoch [98/100]    avg_loss:4.579743
+Epoch [99/100]    avg_loss:4.569321
+Epoch [100/100]    avg_loss:4.567304
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:14--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.136857
+Epoch [2/100]    avg_loss:5.771961
+Epoch [3/100]    avg_loss:5.313610
+Epoch [4/100]    avg_loss:5.152533
+Epoch [5/100]    avg_loss:5.013985
+Epoch [6/100]    avg_loss:4.964712
+Epoch [7/100]    avg_loss:4.938981
+Epoch [8/100]    avg_loss:4.970003
+Epoch [9/100]    avg_loss:4.974610
+Epoch [10/100]    avg_loss:4.961578
+Epoch [11/100]    avg_loss:4.852394
+Epoch [12/100]    avg_loss:4.814924
+Epoch [13/100]    avg_loss:4.894855
+Epoch [14/100]    avg_loss:4.860402
+Epoch [15/100]    avg_loss:4.844543
+Epoch [16/100]    avg_loss:4.803724
+Epoch [17/100]    avg_loss:4.781721
+Epoch [18/100]    avg_loss:4.811916
+Epoch [19/100]    avg_loss:4.796066
+Epoch [20/100]    avg_loss:4.774663
+Epoch [21/100]    avg_loss:4.832224
+Epoch [22/100]    avg_loss:4.821332
+Epoch [23/100]    avg_loss:4.829299
+Epoch [24/100]    avg_loss:5.114106
+Epoch [25/100]    avg_loss:5.024452
+Epoch [26/100]    avg_loss:5.005675
+Epoch [27/100]    avg_loss:5.112612
+Epoch [28/100]    avg_loss:nan
+Epoch [29/100]    avg_loss:nan
+Epoch [30/100]    avg_loss:nan
+Epoch [31/100]    avg_loss:nan
+Epoch [32/100]    avg_loss:nan
+Epoch [33/100]    avg_loss:nan
+Epoch [34/100]    avg_loss:nan
+Epoch [35/100]    avg_loss:nan
+Epoch [36/100]    avg_loss:nan
+Epoch [37/100]    avg_loss:nan
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:18--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.402377
+Epoch [2/100]    avg_loss:6.813115
+Epoch [3/100]    avg_loss:5.307961
+Epoch [4/100]    avg_loss:5.605880
+Epoch [5/100]    avg_loss:5.619352
+Epoch [6/100]    avg_loss:5.343845
+Epoch [7/100]    avg_loss:5.141880
+Epoch [8/100]    avg_loss:5.097255
+Epoch [9/100]    avg_loss:4.989905
+Epoch [10/100]    avg_loss:5.026621
+Epoch [11/100]    avg_loss:5.011936
+Epoch [12/100]    avg_loss:4.909792
+Epoch [13/100]    avg_loss:4.874639
+Epoch [14/100]    avg_loss:4.900471
+Epoch [15/100]    avg_loss:4.931483
+Epoch [16/100]    avg_loss:4.934529
+Epoch [17/100]    avg_loss:4.882907
+Epoch [18/100]    avg_loss:4.845974
+Epoch [19/100]    avg_loss:4.858150
+Epoch [20/100]    avg_loss:4.798415
+Epoch [21/100]    avg_loss:4.767242
+Epoch [22/100]    avg_loss:4.748117
+Epoch [23/100]    avg_loss:4.720837
+Epoch [24/100]    avg_loss:4.713733
+Epoch [25/100]    avg_loss:4.685915
+Epoch [26/100]    avg_loss:4.668673
+Epoch [27/100]    avg_loss:4.606078
+Epoch [28/100]    avg_loss:4.692570
+Epoch [29/100]    avg_loss:4.588446
+Epoch [30/100]    avg_loss:4.626877
+Epoch [31/100]    avg_loss:4.608703
+Epoch [32/100]    avg_loss:4.545018
+Epoch [33/100]    avg_loss:4.556019
+Epoch [34/100]    avg_loss:4.525571
+Epoch [35/100]    avg_loss:4.544343
+Epoch [36/100]    avg_loss:4.517749
+Epoch [37/100]    avg_loss:4.504887
+Epoch [38/100]    avg_loss:4.483813
+Epoch [39/100]    avg_loss:4.519090
+Epoch [40/100]    avg_loss:4.506809
+Epoch [41/100]    avg_loss:4.537528
+Epoch [42/100]    avg_loss:4.514218
+Epoch [43/100]    avg_loss:4.455117
+Epoch [44/100]    avg_loss:4.393292
+Epoch [45/100]    avg_loss:4.358874
+Epoch [46/100]    avg_loss:4.372200
+Epoch [47/100]    avg_loss:4.440048
+Epoch [48/100]    avg_loss:4.363208
+Epoch [49/100]    avg_loss:4.370278
+Epoch [50/100]    avg_loss:4.487773
+Epoch [51/100]    avg_loss:4.379190
+Epoch [52/100]    avg_loss:4.344569
+Epoch [53/100]    avg_loss:4.300156
+Epoch [54/100]    avg_loss:4.352781
+Epoch [55/100]    avg_loss:4.490547
+Epoch [56/100]    avg_loss:4.370632
+Epoch [57/100]    avg_loss:4.356781
+Epoch [58/100]    avg_loss:4.348346
+Epoch [59/100]    avg_loss:4.409728
+Epoch [60/100]    avg_loss:4.318927
+Epoch [61/100]    avg_loss:4.475498
+Epoch [62/100]    avg_loss:4.584474
+Epoch [63/100]    avg_loss:4.502789
+Epoch [64/100]    avg_loss:4.765307
+Epoch [65/100]    avg_loss:4.784322
+Epoch [66/100]    avg_loss:4.763101
+Epoch [67/100]    avg_loss:4.945648
+Epoch [68/100]    avg_loss:4.811680
+Epoch [69/100]    avg_loss:4.900861
+Epoch [70/100]    avg_loss:4.958481
+Epoch [71/100]    avg_loss:5.145109
+Epoch [72/100]    avg_loss:5.379459
+Epoch [73/100]    avg_loss:5.455323
+Epoch [74/100]    avg_loss:5.150021
+Epoch [75/100]    avg_loss:nan
+Epoch [76/100]    avg_loss:nan
+Epoch [77/100]    avg_loss:nan
+Epoch [78/100]    avg_loss:nan
+Epoch [79/100]    avg_loss:nan
+Epoch [80/100]    avg_loss:nan
+Epoch [81/100]    avg_loss:nan
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:21--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.629858
+Epoch [2/100]    avg_loss:7.039969
+Epoch [3/100]    avg_loss:5.327250
+Epoch [4/100]    avg_loss:5.501076
+Epoch [5/100]    avg_loss:5.651953
+Epoch [6/100]    avg_loss:5.461552
+Epoch [7/100]    avg_loss:5.316182
+Epoch [8/100]    avg_loss:5.209276
+Epoch [9/100]    avg_loss:5.151887
+Epoch [10/100]    avg_loss:5.072679
+Epoch [11/100]    avg_loss:5.030699
+Epoch [12/100]    avg_loss:4.979144
+Epoch [13/100]    avg_loss:4.989136
+Epoch [14/100]    avg_loss:5.001422
+Epoch [15/100]    avg_loss:4.981629
+Epoch [16/100]    avg_loss:4.924653
+Epoch [17/100]    avg_loss:4.874361
+Epoch [18/100]    avg_loss:4.946965
+Epoch [19/100]    avg_loss:4.929166
+Epoch [20/100]    avg_loss:4.920472
+Epoch [21/100]    avg_loss:4.848357
+Epoch [22/100]    avg_loss:4.892475
+Epoch [23/100]    avg_loss:4.853335
+Epoch [24/100]    avg_loss:4.850582
+Epoch [25/100]    avg_loss:4.812697
+Epoch [26/100]    avg_loss:4.835091
+Epoch [27/100]    avg_loss:4.819204
+Epoch [28/100]    avg_loss:4.796423
+Epoch [29/100]    avg_loss:4.782271
+Epoch [30/100]    avg_loss:4.784965
+Epoch [31/100]    avg_loss:4.768698
+Epoch [32/100]    avg_loss:4.700776
+Epoch [33/100]    avg_loss:4.717567
+Epoch [34/100]    avg_loss:4.738356
+Epoch [35/100]    avg_loss:4.683477
+Epoch [36/100]    avg_loss:4.684303
+Epoch [37/100]    avg_loss:4.685083
+Epoch [38/100]    avg_loss:4.677372
+Epoch [39/100]    avg_loss:4.666616
+Epoch [40/100]    avg_loss:4.648585
+Epoch [41/100]    avg_loss:4.655893
+Epoch [42/100]    avg_loss:4.653099
+Epoch [43/100]    avg_loss:4.820919
+Epoch [44/100]    avg_loss:4.619291
+Epoch [45/100]    avg_loss:4.636848
+Epoch [46/100]    avg_loss:4.712366
+Epoch [47/100]    avg_loss:4.702972
+Epoch [48/100]    avg_loss:4.701196
+Epoch [49/100]    avg_loss:4.660626
+Epoch [50/100]    avg_loss:4.664135
+Epoch [51/100]    avg_loss:4.622713
+Epoch [52/100]    avg_loss:4.632802
+Epoch [53/100]    avg_loss:4.681907
+Epoch [54/100]    avg_loss:4.620530
+Epoch [55/100]    avg_loss:4.705014
+Epoch [56/100]    avg_loss:4.703246
+Epoch [57/100]    avg_loss:4.580169
+Epoch [58/100]    avg_loss:4.584950
+Epoch [59/100]    avg_loss:4.578913
+Epoch [60/100]    avg_loss:4.627446
+Epoch [61/100]    avg_loss:4.579901
+Epoch [62/100]    avg_loss:4.577019
+Epoch [63/100]    avg_loss:4.699453
+Epoch [64/100]    avg_loss:4.669105
+Epoch [65/100]    avg_loss:4.590549
+Epoch [66/100]    avg_loss:4.642091
+Epoch [67/100]    avg_loss:4.639738
+Epoch [68/100]    avg_loss:4.583818
+Epoch [69/100]    avg_loss:4.694799
+Epoch [70/100]    avg_loss:4.749105
+Epoch [71/100]    avg_loss:4.707506
+Epoch [72/100]    avg_loss:4.711056
+Epoch [73/100]    avg_loss:4.929566
+Epoch [74/100]    avg_loss:4.795023
+Epoch [75/100]    avg_loss:4.918351
+Epoch [76/100]    avg_loss:5.041051
+Epoch [77/100]    avg_loss:4.939172
+Epoch [78/100]    avg_loss:5.141191
+Epoch [79/100]    avg_loss:5.052767
+Epoch [80/100]    avg_loss:5.085316
+Epoch [81/100]    avg_loss:5.016260
+Epoch [82/100]    avg_loss:5.145238
+Epoch [83/100]    avg_loss:5.094813
+Epoch [84/100]    avg_loss:5.537040
+Epoch [85/100]    avg_loss:nan
+Epoch [86/100]    avg_loss:nan
+Epoch [87/100]    avg_loss:nan
+Epoch [88/100]    avg_loss:nan
+Epoch [89/100]    avg_loss:nan
+Epoch [90/100]    avg_loss:nan
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:44--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.497295
+Epoch [2/100]    avg_loss:7.017335
+Epoch [3/100]    avg_loss:5.243733
+Epoch [4/100]    avg_loss:5.548344
+Epoch [5/100]    avg_loss:5.648273
+Epoch [6/100]    avg_loss:5.339388
+Epoch [7/100]    avg_loss:5.090926
+Epoch [8/100]    avg_loss:5.009304
+Epoch [9/100]    avg_loss:5.033461
+Epoch [10/100]    avg_loss:4.941566
+Epoch [11/100]    avg_loss:4.854445
+Epoch [12/100]    avg_loss:4.797812
+Epoch [13/100]    avg_loss:4.748117
+Epoch [14/100]    avg_loss:4.714470
+Epoch [15/100]    avg_loss:4.678329
+Epoch [16/100]    avg_loss:4.636874
+Epoch [17/100]    avg_loss:4.631510
+Epoch [18/100]    avg_loss:4.576048
+Epoch [19/100]    avg_loss:4.558426
+Epoch [20/100]    avg_loss:4.516949
+Epoch [21/100]    avg_loss:4.506429
+Epoch [22/100]    avg_loss:4.571568
+Epoch [23/100]    avg_loss:4.546176
+Epoch [24/100]    avg_loss:4.493856
+Epoch [25/100]    avg_loss:4.489916
+Epoch [26/100]    avg_loss:4.488462
+Epoch [27/100]    avg_loss:4.467556
+Epoch [28/100]    avg_loss:4.483413
+Epoch [29/100]    avg_loss:4.456394
+Epoch [30/100]    avg_loss:4.442978
+Epoch [31/100]    avg_loss:4.449502
+Epoch [32/100]    avg_loss:4.500178
+Epoch [33/100]    avg_loss:4.482165
+Epoch [34/100]    avg_loss:4.477734
+Epoch [35/100]    avg_loss:4.517879
+Epoch [36/100]    avg_loss:4.574818
+Epoch [37/100]    avg_loss:4.489913
+Epoch [38/100]    avg_loss:4.481509
+Epoch [39/100]    avg_loss:4.465769
+Epoch [40/100]    avg_loss:4.430886
+Epoch [41/100]    avg_loss:4.376624
+Epoch [42/100]    avg_loss:4.380993
+Epoch [43/100]    avg_loss:4.340041
+Epoch [44/100]    avg_loss:4.286709
+Epoch [45/100]    avg_loss:4.287911
+Epoch [46/100]    avg_loss:4.260860
+Epoch [47/100]    avg_loss:4.246068
+Epoch [48/100]    avg_loss:4.201207
+Epoch [49/100]    avg_loss:4.193100
+Epoch [50/100]    avg_loss:4.152133
+Epoch [51/100]    avg_loss:4.123849
+Epoch [52/100]    avg_loss:4.090159
+Epoch [53/100]    avg_loss:4.183617
+Epoch [54/100]    avg_loss:4.170272
+Epoch [55/100]    avg_loss:4.130871
+Epoch [56/100]    avg_loss:4.113915
+Epoch [57/100]    avg_loss:4.168509
+Epoch [58/100]    avg_loss:4.186776
+Epoch [59/100]    avg_loss:4.155631
+Epoch [60/100]    avg_loss:4.204688
+Epoch [61/100]    avg_loss:4.174767
+Epoch [62/100]    avg_loss:4.224211
+Epoch [63/100]    avg_loss:4.182144
+Epoch [64/100]    avg_loss:4.204892
+Epoch [65/100]    avg_loss:4.221530
+Epoch [66/100]    avg_loss:4.362779
+Epoch [67/100]    avg_loss:4.374706
+Epoch [68/100]    avg_loss:4.372350
+Epoch [69/100]    avg_loss:4.337308
+Epoch [70/100]    avg_loss:4.363572
+Epoch [71/100]    avg_loss:4.359291
+Epoch [72/100]    avg_loss:4.406957
+Epoch [73/100]    avg_loss:4.344945
+Epoch [74/100]    avg_loss:4.388386
+Epoch [75/100]    avg_loss:4.475013
+Epoch [76/100]    avg_loss:4.343456
+Epoch [77/100]    avg_loss:4.350841
+Epoch [78/100]    avg_loss:4.328022
+Epoch [79/100]    avg_loss:4.290406
+Epoch [80/100]    avg_loss:4.279777
+Epoch [81/100]    avg_loss:4.327101
+Epoch [82/100]    avg_loss:4.346201
+Epoch [83/100]    avg_loss:4.367328
+Epoch [84/100]    avg_loss:4.353339
+Epoch [85/100]    avg_loss:4.266182
+Epoch [86/100]    avg_loss:4.294902
+Epoch [87/100]    avg_loss:4.268123
+Epoch [88/100]    avg_loss:4.255023
+Epoch [89/100]    avg_loss:4.246721
+Epoch [90/100]    avg_loss:4.236757
+Epoch [91/100]    avg_loss:4.255597
+Epoch [92/100]    avg_loss:4.238820
+Epoch [93/100]    avg_loss:4.276584
+Epoch [94/100]    avg_loss:4.280743
+Epoch [95/100]    avg_loss:4.333858
+Epoch [96/100]    avg_loss:4.314393
+Epoch [97/100]    avg_loss:4.292760
+Epoch [98/100]    avg_loss:4.292463
+Epoch [99/100]    avg_loss:4.325198
+Epoch [100/100]    avg_loss:4.339461
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:46--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:47--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.390919
+Epoch [2/100]    avg_loss:6.744016
+Epoch [3/100]    avg_loss:5.436492
+Epoch [4/100]    avg_loss:5.618111
+Epoch [5/100]    avg_loss:5.583276
+Epoch [6/100]    avg_loss:5.288889
+Epoch [7/100]    avg_loss:5.244135
+Epoch [8/100]    avg_loss:5.018905
+Epoch [9/100]    avg_loss:4.952591
+Epoch [10/100]    avg_loss:4.967584
+Epoch [11/100]    avg_loss:4.856197
+Epoch [12/100]    avg_loss:4.810071
+Epoch [13/100]    avg_loss:4.795320
+Epoch [14/100]    avg_loss:4.762499
+Epoch [15/100]    avg_loss:4.830381
+Epoch [16/100]    avg_loss:4.650577
+Epoch [17/100]    avg_loss:4.657357
+Epoch [18/100]    avg_loss:4.656748
+Epoch [19/100]    avg_loss:4.596819
+Epoch [20/100]    avg_loss:4.580410
+Epoch [21/100]    avg_loss:4.578302
+Epoch [22/100]    avg_loss:4.543218
+Epoch [23/100]    avg_loss:4.540416
+Epoch [24/100]    avg_loss:4.511855
+Epoch [25/100]    avg_loss:4.553791
+Epoch [26/100]    avg_loss:4.532083
+Epoch [27/100]    avg_loss:4.496348
+Epoch [28/100]    avg_loss:4.534550
+Epoch [29/100]    avg_loss:4.502434
+Epoch [30/100]    avg_loss:4.482545
+Epoch [31/100]    avg_loss:4.523920
+Epoch [32/100]    avg_loss:4.461578
+Epoch [33/100]    avg_loss:4.529804
+Epoch [34/100]    avg_loss:4.558170
+Epoch [35/100]    avg_loss:4.485521
+Epoch [36/100]    avg_loss:4.508470
+Epoch [37/100]    avg_loss:4.509717
+Epoch [38/100]    avg_loss:4.512881
+Epoch [39/100]    avg_loss:4.438289
+Epoch [40/100]    avg_loss:4.406588
+Epoch [41/100]    avg_loss:4.365935
+Epoch [42/100]    avg_loss:4.332833
+Epoch [43/100]    avg_loss:4.366995
+Epoch [44/100]    avg_loss:4.324773
+Epoch [45/100]    avg_loss:4.290889
+Epoch [46/100]    avg_loss:4.250379
+Epoch [47/100]    avg_loss:4.222390
+Epoch [48/100]    avg_loss:4.204057
+Epoch [49/100]    avg_loss:4.179109
+Epoch [50/100]    avg_loss:4.180226
+Epoch [51/100]    avg_loss:4.143729
+Epoch [52/100]    avg_loss:4.181348
+Epoch [53/100]    avg_loss:4.142449
+Epoch [54/100]    avg_loss:4.077499
+Epoch [55/100]    avg_loss:4.096052
+Epoch [56/100]    avg_loss:4.086141
+Epoch [57/100]    avg_loss:4.059882
+Epoch [58/100]    avg_loss:3.998345
+Epoch [59/100]    avg_loss:4.065627
+Epoch [60/100]    avg_loss:4.056479
+Epoch [61/100]    avg_loss:4.075227
+Epoch [62/100]    avg_loss:4.121459
+Epoch [63/100]    avg_loss:4.116103
+Epoch [64/100]    avg_loss:4.176560
+Epoch [65/100]    avg_loss:4.078422
+Epoch [66/100]    avg_loss:4.067849
+Epoch [67/100]    avg_loss:4.074743
+Epoch [68/100]    avg_loss:4.101138
+Epoch [69/100]    avg_loss:4.091999
+Epoch [70/100]    avg_loss:4.103009
+Epoch [71/100]    avg_loss:4.137255
+Epoch [72/100]    avg_loss:4.167023
+Epoch [73/100]    avg_loss:4.087502
+Epoch [74/100]    avg_loss:4.206145
+Epoch [75/100]    avg_loss:4.123477
+Epoch [76/100]    avg_loss:4.133833
+Epoch [77/100]    avg_loss:4.197585
+Epoch [78/100]    avg_loss:4.125684
+Epoch [79/100]    avg_loss:4.146349
+Epoch [80/100]    avg_loss:4.160539
+Epoch [81/100]    avg_loss:4.129896
+Epoch [82/100]    avg_loss:4.139751
+Epoch [83/100]    avg_loss:4.177472
+Epoch [84/100]    avg_loss:4.134697
+Epoch [85/100]    avg_loss:4.091793
+Epoch [86/100]    avg_loss:4.053260
+Epoch [87/100]    avg_loss:4.063829
+Epoch [88/100]    avg_loss:4.109231
+Epoch [89/100]    avg_loss:4.121718
+Epoch [90/100]    avg_loss:4.066344
+Epoch [91/100]    avg_loss:4.087233
+Epoch [92/100]    avg_loss:4.121880
+Epoch [93/100]    avg_loss:4.151472
+Epoch [94/100]    avg_loss:4.112357
+Epoch [95/100]    avg_loss:4.192665
+Epoch [96/100]    avg_loss:4.139901
+Epoch [97/100]    avg_loss:4.110606
+Epoch [98/100]    avg_loss:4.108770
+Epoch [99/100]    avg_loss:4.218219
+Epoch [100/100]    avg_loss:4.086480
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:50--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:09:50--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:41--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:42--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:42--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:44--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:44--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:46--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:19:49--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:16--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for training(over 10249)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.410150
+Epoch [2/100]    avg_loss:7.138325
+Epoch [3/100]    avg_loss:6.745459
+Epoch [4/100]    avg_loss:6.099335
+Epoch [5/100]    avg_loss:5.477804
+Epoch [6/100]    avg_loss:5.792371
+Epoch [7/100]    avg_loss:6.006624
+Epoch [8/100]    avg_loss:5.931436
+Epoch [9/100]    avg_loss:5.699400
+Epoch [10/100]    avg_loss:5.542470
+Epoch [11/100]    avg_loss:5.364232
+Epoch [12/100]    avg_loss:5.306762
+Epoch [13/100]    avg_loss:5.247319
+Epoch [14/100]    avg_loss:5.194780
+Epoch [15/100]    avg_loss:5.172505
+Epoch [16/100]    avg_loss:5.143936
+Epoch [17/100]    avg_loss:5.156692
+Epoch [18/100]    avg_loss:5.108509
+Epoch [19/100]    avg_loss:5.070673
+Epoch [20/100]    avg_loss:5.025859
+Epoch [21/100]    avg_loss:5.026306
+Epoch [22/100]    avg_loss:4.999302
+Epoch [23/100]    avg_loss:4.953131
+Epoch [24/100]    avg_loss:4.883536
+Epoch [25/100]    avg_loss:4.848689
+Epoch [26/100]    avg_loss:4.812830
+Epoch [27/100]    avg_loss:4.726509
+Epoch [28/100]    avg_loss:4.691631
+Epoch [29/100]    avg_loss:4.659532
+Epoch [30/100]    avg_loss:4.609600
+Epoch [31/100]    avg_loss:4.545791
+Epoch [32/100]    avg_loss:4.522648
+Epoch [33/100]    avg_loss:4.469829
+Epoch [34/100]    avg_loss:4.425187
+Epoch [35/100]    avg_loss:4.424506
+Epoch [36/100]    avg_loss:4.380751
+Epoch [37/100]    avg_loss:4.308451
+Epoch [38/100]    avg_loss:4.309093
+Epoch [39/100]    avg_loss:4.269651
+Epoch [40/100]    avg_loss:4.191702
+Epoch [41/100]    avg_loss:4.167827
+Epoch [42/100]    avg_loss:4.167525
+Epoch [43/100]    avg_loss:4.109478
+Epoch [44/100]    avg_loss:4.105072
+Epoch [45/100]    avg_loss:4.087196
+Epoch [46/100]    avg_loss:4.044217
+Epoch [47/100]    avg_loss:4.055591
+Epoch [48/100]    avg_loss:3.997386
+Epoch [49/100]    avg_loss:4.029416
+Epoch [50/100]    avg_loss:3.995718
+Epoch [51/100]    avg_loss:3.958646
+Epoch [52/100]    avg_loss:3.929572
+Epoch [53/100]    avg_loss:3.999143
+Epoch [54/100]    avg_loss:3.909197
+Epoch [55/100]    avg_loss:3.850649
+Epoch [56/100]    avg_loss:3.859972
+Epoch [57/100]    avg_loss:3.908948
+Epoch [58/100]    avg_loss:3.807414
+Epoch [59/100]    avg_loss:3.764128
+Epoch [60/100]    avg_loss:3.755477
+Epoch [61/100]    avg_loss:3.783406
+Epoch [62/100]    avg_loss:3.725004
+Epoch [63/100]    avg_loss:3.742633
+Epoch [64/100]    avg_loss:3.754988
+Epoch [65/100]    avg_loss:3.722136
+Epoch [66/100]    avg_loss:3.725134
+Epoch [67/100]    avg_loss:3.726224
+Epoch [68/100]    avg_loss:3.663737
+Epoch [69/100]    avg_loss:3.663042
+Epoch [70/100]    avg_loss:3.628682
+Epoch [71/100]    avg_loss:3.613648
+Epoch [72/100]    avg_loss:3.593384
+Epoch [73/100]    avg_loss:3.605180
+Epoch [74/100]    avg_loss:3.786080
+Epoch [75/100]    avg_loss:3.558226
+Epoch [76/100]    avg_loss:3.560264
+Epoch [77/100]    avg_loss:3.514829
+Epoch [78/100]    avg_loss:3.499641
+Epoch [79/100]    avg_loss:3.479575
+Epoch [80/100]    avg_loss:3.471380
+Epoch [81/100]    avg_loss:3.480702
+Epoch [82/100]    avg_loss:3.435038
+Epoch [83/100]    avg_loss:3.446305
+Epoch [84/100]    avg_loss:3.417929
+Epoch [85/100]    avg_loss:3.434782
+Epoch [86/100]    avg_loss:3.428018
+Epoch [87/100]    avg_loss:3.381143
+Epoch [88/100]    avg_loss:3.356573
+Epoch [89/100]    avg_loss:3.346991
+Epoch [90/100]    avg_loss:3.307710
+Epoch [91/100]    avg_loss:3.311535
+Epoch [92/100]    avg_loss:3.314129
+Epoch [93/100]    avg_loss:3.313156
+Epoch [94/100]    avg_loss:3.283700
+Epoch [95/100]    avg_loss:3.296908
+Epoch [96/100]    avg_loss:3.333682
+Epoch [97/100]    avg_loss:3.273616
+Epoch [98/100]    avg_loss:3.249715
+Epoch [99/100]    avg_loss:3.273428
+Epoch [100/100]    avg_loss:3.236084
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:20--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:21--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:22--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:23--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:25--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:26--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:28--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:30--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:31--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:34--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:35--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/train_gt.npy)
+2049 samples selected for training(over 10249)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.20/test_gt.npy)
+8200 samples selected for training(over 10249)
+No handles with labels found to put in legend.
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Assamese' (Lohit-Assamese.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dyuthi' (Dyuthi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Meera' (Meera.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jamrul' (JamrulNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-ExtraLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal light normal>) = 11.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chandas' (chandas1-2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Mitra Mono' (mitra.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Vemana2000' (vemana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samanata' (samanata.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Gujarati' (Samyak-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Mono' (NotoMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Tamil Classical' (Lohit-Tamil-Classical.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Telugu' (Lohit-Telugu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Droid Sans Fallback' (DroidSansFallbackFull.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'padmaa-Bold.1.1' (padmaa-Bold.1.1.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Karumbi' (Karumbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'AR PL UMing CN' (uming.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Samyak Tamil' (Samyak-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Bengali' (Lohit-Bengali.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sarai' (Sarai.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Gurmukhi' (Lohit-Gurmukhi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Gargi' (Gargi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Thin.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk Book' (PadaukBook-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'aakar' (aakar-medium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kalimati' (kalimati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Keraleeyam' (Keraleeyam.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'RaghuMalayalam' (RaghuMalayalamSans-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Malayalam' (Lohit-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Gujarati' (Lohit-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Manjari' (Manjari-Bold.otf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Manjari' (Manjari-Regular.otf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Pagul' (Pagul.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrow.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'AnjaliOldLipi' (AnjaliOldLipi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chilanka' (Chilanka-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Nakula' (nakula.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Likhan' (LikhanNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Suruma' (Suruma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Padauk Book' (PadaukBook-Regular.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Devanagari' (Lohit-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Ani' (ani.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Navilu' (Navilu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa-Medium-0.5.ttf) normal normal normal normal>) = 10.0
+findfont: score(<Font 'Gubbi' (Gubbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrowBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Samyak Malayalam' (Samyak-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Tamil' (Lohit-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'AR PL UKai CN' (ukai.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sahadeva' (sahadeva.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rachana' (Rachana-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'ori1Uni' (utkal.ttf) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Devanagari' (Samyak-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kalapi' (Kalapi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lohit Kannada' (Lohit-Kannada.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pothana2000' (Pothana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Uroob' (Uroob.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rekha' (Rekha.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Manjari' (Manjari-Thin.otf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-DemiLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-SemiBold.ttc) normal normal semibold normal>) = 10.24
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rachana' (Rachana-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Odia' (Lohit-Odia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/root/anaconda3/envs/lz/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:37--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.30/train_gt.npy)
+3074 samples selected for training(over 10249)
+Training Percentage:0.3
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.30/test_gt.npy)
+7175 samples selected for training(over 10249)
+No handles with labels found to put in legend.
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Assamese' (Lohit-Assamese.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dyuthi' (Dyuthi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Meera' (Meera.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jamrul' (JamrulNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-ExtraLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal light normal>) = 11.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chandas' (chandas1-2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Mitra Mono' (mitra.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Vemana2000' (vemana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samanata' (samanata.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Gujarati' (Samyak-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Mono' (NotoMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Tamil Classical' (Lohit-Tamil-Classical.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Telugu' (Lohit-Telugu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Droid Sans Fallback' (DroidSansFallbackFull.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'padmaa-Bold.1.1' (padmaa-Bold.1.1.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Karumbi' (Karumbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'AR PL UMing CN' (uming.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Samyak Tamil' (Samyak-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Bengali' (Lohit-Bengali.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sarai' (Sarai.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Gurmukhi' (Lohit-Gurmukhi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Gargi' (Gargi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Thin.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk Book' (PadaukBook-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'aakar' (aakar-medium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kalimati' (kalimati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Keraleeyam' (Keraleeyam.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'RaghuMalayalam' (RaghuMalayalamSans-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Malayalam' (Lohit-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Gujarati' (Lohit-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Manjari' (Manjari-Bold.otf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Manjari' (Manjari-Regular.otf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Pagul' (Pagul.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrow.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'AnjaliOldLipi' (AnjaliOldLipi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chilanka' (Chilanka-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Nakula' (nakula.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Likhan' (LikhanNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Suruma' (Suruma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Padauk Book' (PadaukBook-Regular.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Devanagari' (Lohit-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Ani' (ani.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Navilu' (Navilu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa-Medium-0.5.ttf) normal normal normal normal>) = 10.0
+findfont: score(<Font 'Gubbi' (Gubbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrowBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Samyak Malayalam' (Samyak-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Tamil' (Lohit-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'AR PL UKai CN' (ukai.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sahadeva' (sahadeva.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rachana' (Rachana-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'ori1Uni' (utkal.ttf) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Devanagari' (Samyak-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kalapi' (Kalapi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lohit Kannada' (Lohit-Kannada.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pothana2000' (Pothana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Uroob' (Uroob.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rekha' (Rekha.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Manjari' (Manjari-Thin.otf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-DemiLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-SemiBold.ttc) normal normal semibold normal>) = 10.24
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rachana' (Rachana-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Odia' (Lohit-Odia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/root/anaconda3/envs/lz/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:49--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/200/train_gt.npy)
+2583 samples selected for training(over 10249)
+Training Percentage:0.25
+Load train_gt successfully!(PATH:../dataset/IndianPines/200/test_gt.npy)
+7774 samples selected for training(over 10249)
+No handles with labels found to put in legend.
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Assamese' (Lohit-Assamese.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dyuthi' (Dyuthi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Meera' (Meera.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jamrul' (JamrulNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-ExtraLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal light normal>) = 11.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chandas' (chandas1-2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Mitra Mono' (mitra.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Vemana2000' (vemana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samanata' (samanata.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Gujarati' (Samyak-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Mono' (NotoMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Tamil Classical' (Lohit-Tamil-Classical.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Telugu' (Lohit-Telugu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Droid Sans Fallback' (DroidSansFallbackFull.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'padmaa-Bold.1.1' (padmaa-Bold.1.1.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Karumbi' (Karumbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'AR PL UMing CN' (uming.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Samyak Tamil' (Samyak-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Bengali' (Lohit-Bengali.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sarai' (Sarai.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Gurmukhi' (Lohit-Gurmukhi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Gargi' (Gargi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Thin.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk Book' (PadaukBook-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'aakar' (aakar-medium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kalimati' (kalimati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Keraleeyam' (Keraleeyam.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'RaghuMalayalam' (RaghuMalayalamSans-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Malayalam' (Lohit-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Gujarati' (Lohit-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Manjari' (Manjari-Bold.otf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Manjari' (Manjari-Regular.otf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Pagul' (Pagul.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrow.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'AnjaliOldLipi' (AnjaliOldLipi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chilanka' (Chilanka-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Nakula' (nakula.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Likhan' (LikhanNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Suruma' (Suruma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Padauk Book' (PadaukBook-Regular.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Devanagari' (Lohit-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Ani' (ani.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Navilu' (Navilu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa-Medium-0.5.ttf) normal normal normal normal>) = 10.0
+findfont: score(<Font 'Gubbi' (Gubbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrowBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Samyak Malayalam' (Samyak-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Tamil' (Lohit-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'AR PL UKai CN' (ukai.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sahadeva' (sahadeva.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rachana' (Rachana-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'ori1Uni' (utkal.ttf) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Devanagari' (Samyak-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kalapi' (Kalapi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lohit Kannada' (Lohit-Kannada.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pothana2000' (Pothana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Uroob' (Uroob.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rekha' (Rekha.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Manjari' (Manjari-Thin.otf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-DemiLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-SemiBold.ttc) normal normal semibold normal>) = 10.24
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rachana' (Rachana-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Odia' (Lohit-Odia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/root/anaconda3/envs/lz/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:20:51--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.30/train_gt.npy)
+3074 samples selected for training(over 10249)
+Training Percentage:0.3
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.30/test_gt.npy)
+7175 samples selected for training(over 10249)
+No handles with labels found to put in legend.
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeFiveSym' (STIXSizFiveSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmr10' (cmr10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmmi10' (cmmi10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'cmtt10' (cmtt10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif Display' (DejaVuSerifDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBolIta.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'STIXSizeThreeSym' (STIXSizThreeSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans Display' (DejaVuSansDisplay.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'cmb10' (cmb10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'STIXSizeTwoSym' (STIXSizTwoSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Oblique.ttf) oblique normal 400 normal>) = 1.05
+findfont: score(<Font 'cmss10' (cmss10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUni.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmex10' (cmex10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXSizeFourSym' (STIXSizFourSymBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXSizeOneSym' (STIXSizOneSymReg.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'cmsy10' (cmsy10.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneral.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'STIXGeneral' (STIXGeneralItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-BoldOblique.ttf) oblique normal 700 normal>) = 1.335
+findfont: score(<Font 'STIXGeneral' (STIXGeneralBol.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'STIXNonUnicode' (STIXNonUniIta.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Tlwg Mono' (TlwgMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Assamese' (Lohit-Assamese.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-LI.ttf) italic normal light normal>) = 11.24
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstDecorative' (KacstDecorative.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Dyuthi' (Dyuthi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstFarsi' (KacstFarsi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPen' (KacstPen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Meera' (Meera.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Jamrul' (JamrulNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Norasi' (Norasi-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeMono' (FreeMonoBoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-ExtraLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Umpush' (Umpush-LightOblique.ttf) oblique normal light normal>) = 11.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Medium.ttc) normal normal medium normal>) = 10.145
+findfont: score(<Font 'FreeMono' (FreeMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chandas' (chandas1-2.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'KacstPoster' (KacstPoster.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Garuda' (Garuda-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Mitra Mono' (mitra.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Vemana2000' (vemana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samanata' (samanata.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Gujarati' (Samyak-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Mono' (NotoMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Tamil Classical' (Lohit-Tamil-Classical.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans.ttf) normal normal 400 normal>) = 0.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans' (DejaVuSans-Bold.ttf) normal normal 700 normal>) = 0.33499999999999996
+findfont: score(<Font 'FreeSerif' (FreeSerifBoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Umpush' (Umpush-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Garuda' (Garuda-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Telugu' (Lohit-Telugu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Droid Sans Fallback' (DroidSansFallbackFull.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSans' (FreeSans.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSans' (FreeSansBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Kinnari' (Kinnari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'padmaa-Bold.1.1' (padmaa-Bold.1.1.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Karumbi' (Karumbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'DejaVu Serif' (DejaVuSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Loma' (Loma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstArt' (KacstArt.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sawasdee' (Sawasdee.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'AR PL UMing CN' (uming.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Samyak Tamil' (Samyak-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-M.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Khmer OS System' (KhmerOSsys.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Bengali' (Lohit-Bengali.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sarai' (Sarai.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstNaskh' (KacstNaskh.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Lohit Gurmukhi' (Lohit-Gurmukhi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Gargi' (Gargi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Thin.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstDigital' (KacstDigital.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Mono' (TlwgMono-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Bold.ttc) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'DejaVu Sans Mono' (DejaVuSansMono.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Garuda' (Garuda.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk Book' (PadaukBook-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Laksaman' (Laksaman.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Light.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'KacstOne' (KacstOne-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'aakar' (aakar-medium.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kalimati' (kalimati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstQurn' (KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Condensed' (Ubuntu-C.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'Keraleeyam' (Keraleeyam.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Laksaman' (Laksaman-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'RaghuMalayalam' (RaghuMalayalamSans-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-MI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'LKLUG' (lklug.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Malayalam' (Lohit-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Gujarati' (Lohit-Gujarati.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeMono' (FreeMonoBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Black.ttc) normal normal black normal>) = 10.525
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-Regular.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-BI.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Manjari' (Manjari-Bold.otf) normal normal bold normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Italic.ttf) italic normal 400 condensed>) = 11.25
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-BoldItalic.ttf) italic normal 700 condensed>) = 11.535
+findfont: score(<Font 'Manjari' (Manjari-Regular.otf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Waree' (Waree-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Pagul' (Pagul.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Loma' (Loma-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrow.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitle' (KacstTitle.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Umpush' (Umpush-Light.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'AnjaliOldLipi' (AnjaliOldLipi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstLetter' (KacstLetter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'FreeSerif' (FreeSerifBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'KacstOffice' (KacstOffice.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Chilanka' (Chilanka-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Regular.ttf) normal normal 400 condensed>) = 10.25
+findfont: score(<Font 'KacstBook' (KacstBook.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Nakula' (nakula.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Likhan' (LikhanNormal.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Suruma' (Suruma.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Phetsarath OT' (Phetsarath_OT.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstTitleL' (KacstTitleL.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Padauk Book' (PadaukBook-Regular.ttf) normal normal book normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Norasi' (Norasi-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Purisa' (Purisa-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Devanagari' (Lohit-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Serif' (LiberationSerif-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Ani' (ani.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Navilu' (Navilu.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'padmaa' (padmaa-Medium-0.5.ttf) normal normal normal normal>) = 10.0
+findfont: score(<Font 'Gubbi' (Gubbi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Padauk' (Padauk-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'OpenSymbol' (opens___.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Mukti Narrow' (MuktiNarrowBold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'FreeSerif' (FreeSerif.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typo' (TlwgTypo-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Samyak Malayalam' (Samyak-Malayalam.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Khmer OS' (KhmerOS.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Lohit Tamil' (Lohit-Tamil.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSans' (FreeSansOblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kinnari' (Kinnari-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Liberation Sans Narrow' (LiberationSansNarrow-Bold.ttf) normal normal 700 condensed>) = 10.535
+findfont: score(<Font 'Loma' (Loma-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Sawasdee' (Sawasdee-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'AR PL UKai CN' (ukai.ttc) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Sahadeva' (sahadeva.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Ubuntu Mono' (UbuntuMono-RI.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Ubuntu' (Ubuntu-B.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rachana' (Rachana-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'ori1Uni' (utkal.ttf) normal normal medium normal>) = 10.145
+findfont: score(<Font 'Tlwg Typewriter' (TlwgTypewriter-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'FreeSerif' (FreeSerifItalic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Abyssinica SIL' (AbyssinicaSIL-R.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'mry_KacstQurn' (mry_KacstQurn.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Saab' (Saab.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Samyak Devanagari' (Samyak-Devanagari.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Umpush' (Umpush-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'KacstScreen' (KacstScreen.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Waree' (Waree.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Loma' (Loma-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Kalapi' (Kalapi.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Bold.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Lohit Kannada' (Lohit-Kannada.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'KacstOne' (KacstOne.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Pothana2000' (Pothana2000.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Liberation Mono' (LiberationMono-Italic.ttf) italic normal 400 normal>) = 11.05
+findfont: score(<Font 'Laksaman' (Laksaman-BoldItalic.ttf) italic normal 700 normal>) = 11.335
+findfont: score(<Font 'Ubuntu' (Ubuntu-L.ttf) normal normal light normal>) = 10.24
+findfont: score(<Font 'Uroob' (Uroob.ttf) normal normal 700 normal>) = 10.335
+findfont: score(<Font 'Rekha' (Rekha.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Manjari' (Manjari-Thin.otf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Purisa' (Purisa-BoldOblique.ttf) oblique normal 700 normal>) = 11.335
+findfont: score(<Font 'Noto Sans CJK JP' (NotoSansCJK-DemiLight.ttc) normal normal light normal>) = 10.24
+findfont: score(<Font 'Noto Serif CJK JP' (NotoSerifCJK-SemiBold.ttc) normal normal semibold normal>) = 10.24
+findfont: score(<Font 'Liberation Sans' (LiberationSans-Regular.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Rachana' (Rachana-Regular.ttf) normal normal regular normal>) = 10.05
+findfont: score(<Font 'Tlwg Typist' (TlwgTypist-Oblique.ttf) oblique normal 400 normal>) = 11.05
+findfont: score(<Font 'Lohit Odia' (Lohit-Odia.ttf) normal normal 400 normal>) = 10.05
+findfont: score(<Font 'Tibetan Machine Uni' (TibetanMachineUni.ttf) normal normal 400 normal>) = 10.05
+findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/root/anaconda3/envs/lz/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:21:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:21:17--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:21:19--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:21:20--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:21:22--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:21:58--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:22:00--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+creating ./logs/logs-2023-03-01IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-01:22:02--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)

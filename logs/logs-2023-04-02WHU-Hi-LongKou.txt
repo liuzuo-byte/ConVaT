@@ -1,0 +1,704 @@
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:16:49--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:16:53--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:02--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:03--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:33--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:39--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:41--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:44--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:45--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:46--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:17:54--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:18:03--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:18:12--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:18:13--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:18:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:18:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:18:25--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:02--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:03--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//test_gt.npy)
+RUN:0
+0 samples selected for training(over 204542)
+0 samples selected for testing(over 204542)
+RUN:0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:09--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//test_gt.npy)
+RUN:0
+0 samples selected for training(over 204542)
+0 samples selected for testing(over 204542)
+RUN:0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:24--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//test_gt.npy)
+RUN:0
+0 samples selected for training(over 204542)
+0 samples selected for testing(over 204542)
+RUN:0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:25--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//test_gt.npy)
+RUN:0
+0 samples selected for training(over 204542)
+0 samples selected for testing(over 204542)
+RUN:0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:29--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.10//test_gt.npy)
+RUN:0
+20454 samples selected for training(over 204542)
+184088 samples selected for testing(over 204542)
+RUN:0
+Train dataloader:298
+Validation dataloader:299
+----------Training parameters----------
+dataset:WHU-Hi-LongKou
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:9
+n_bands:270
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2930, 1.2079, 3.3366, 0.1599, 2.4361, 0.8532, 0.1508, 1.4180],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:6.365990
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:32--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05//test_gt.npy)
+RUN:0
+10227 samples selected for training(over 204542)
+194315 samples selected for testing(over 204542)
+RUN:0
+Train dataloader:150
+Validation dataloader:298
+----------Training parameters----------
+dataset:WHU-Hi-LongKou
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.05
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:9
+n_bands:270
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2933, 1.2076, 3.3289, 0.1601, 2.4444, 0.8533, 0.1509, 1.4213],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:6.880706
+Epoch [2/100]    avg_loss:5.767952
+Epoch [3/100]    avg_loss:5.190383
+Epoch [4/100]    avg_loss:5.064977
+Epoch [5/100]    avg_loss:5.089971
+Epoch [6/100]    avg_loss:4.951729
+Epoch [7/100]    avg_loss:4.789417
+Epoch [8/100]    avg_loss:4.606278
+Epoch [9/100]    avg_loss:4.491356
+Epoch [10/100]    avg_loss:4.416103
+Epoch [11/100]    avg_loss:4.315179
+Epoch [12/100]    avg_loss:4.244111
+Epoch [13/100]    avg_loss:4.166611
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:19:40--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/train_gt.npy)
+10227 samples selected for training(over 204542)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/test_gt.npy)
+194315 samples selected for training(over 204542)
+RUN:0
+10227 samples selected for training(over 204542)
+194315 samples selected for testing(over 204542)
+RUN:0
+Train dataloader:150
+Validation dataloader:300
+----------Training parameters----------
+dataset:WHU-Hi-LongKou
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.05
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:9
+n_bands:270
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2933, 1.2076, 3.3289, 0.1601, 2.4444, 0.8533, 0.1509, 1.4213],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.019128
+Epoch [2/100]    avg_loss:5.826179
+Epoch [3/100]    avg_loss:5.433881
+Epoch [4/100]    avg_loss:5.132344
+Epoch [5/100]    avg_loss:5.134054
+Epoch [6/100]    avg_loss:5.100632
+Epoch [7/100]    avg_loss:5.008180
+Epoch [8/100]    avg_loss:4.888236
+Epoch [9/100]    avg_loss:4.784890
+Epoch [10/100]    avg_loss:4.665651
+Epoch [11/100]    avg_loss:4.554642
+Epoch [12/100]    avg_loss:4.485086
+Epoch [13/100]    avg_loss:4.437261
+Epoch [14/100]    avg_loss:4.358029
+Epoch [15/100]    avg_loss:4.288550
+Epoch [16/100]    avg_loss:4.224419
+Epoch [17/100]    avg_loss:4.162400
+Epoch [18/100]    avg_loss:4.130303
+Epoch [19/100]    avg_loss:4.057790
+Epoch [20/100]    avg_loss:4.008587
+Epoch [21/100]    avg_loss:3.964135
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:20:38--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:20:51--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:01--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:08--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:09--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100//test_gt.npy)
+RUN:0
+900 samples selected for training(over 204542)
+203642 samples selected for testing(over 204542)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:WHU-Hi-LongKou
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:9
+n_bands:270
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0., 1., 1., 1., 1., 1., 1., 1., 1.], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.931398
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:16--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/test_gt.npy)
+203642 samples selected for training(over 204542)
+RUN:0
+900 samples selected for training(over 204542)
+203642 samples selected for testing(over 204542)
+RUN:0
+Train dataloader:13
+Validation dataloader:13
+----------Training parameters----------
+dataset:WHU-Hi-LongKou
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:100
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:9
+n_bands:270
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0., 1., 1., 1., 1., 1., 1., 1., 1.], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:9.077309
+Epoch [2/100]    avg_loss:6.311821
+Epoch [3/100]    avg_loss:7.004000
+Epoch [4/100]    avg_loss:8.828447
+Epoch [5/100]    avg_loss:7.423670
+Epoch [6/100]    avg_loss:5.629874
+Epoch [7/100]    avg_loss:5.770376
+Epoch [8/100]    avg_loss:6.756667
+Epoch [9/100]    avg_loss:7.202289
+Epoch [10/100]    avg_loss:6.868218
+Epoch [11/100]    avg_loss:6.105304
+Epoch [12/100]    avg_loss:5.575411
+Epoch [13/100]    avg_loss:5.402779
+Epoch [14/100]    avg_loss:5.357613
+Epoch [15/100]    avg_loss:5.382887
+Epoch [16/100]    avg_loss:5.542950
+Epoch [17/100]    avg_loss:5.617313
+Epoch [18/100]    avg_loss:5.774573
+Epoch [19/100]    avg_loss:5.877480
+Epoch [20/100]    avg_loss:5.842086
+Epoch [21/100]    avg_loss:5.827577
+Epoch [22/100]    avg_loss:5.737251
+Epoch [23/100]    avg_loss:5.688809
+Epoch [24/100]    avg_loss:5.555523
+Epoch [25/100]    avg_loss:5.475064
+Epoch [26/100]    avg_loss:5.321931
+Epoch [27/100]    avg_loss:5.249107
+Epoch [28/100]    avg_loss:5.185466
+Epoch [29/100]    avg_loss:5.049920
+Epoch [30/100]    avg_loss:5.006614
+Epoch [31/100]    avg_loss:4.975231
+Epoch [32/100]    avg_loss:4.942503
+Epoch [33/100]    avg_loss:4.875447
+Epoch [34/100]    avg_loss:4.873545
+Epoch [35/100]    avg_loss:4.817423
+Epoch [36/100]    avg_loss:4.888308
+Epoch [37/100]    avg_loss:4.818128
+Epoch [38/100]    avg_loss:4.759498
+Epoch [39/100]    avg_loss:4.829177
+Epoch [40/100]    avg_loss:4.810806
+Epoch [41/100]    avg_loss:4.835251
+Epoch [42/100]    avg_loss:4.777783
+Epoch [43/100]    avg_loss:4.800260
+Epoch [44/100]    avg_loss:4.815816
+Epoch [45/100]    avg_loss:4.819623
+Epoch [46/100]    avg_loss:4.750248
+Epoch [47/100]    avg_loss:4.747644
+Epoch [48/100]    avg_loss:4.828635
+Epoch [49/100]    avg_loss:4.792738
+Epoch [50/100]    avg_loss:4.768286
+Epoch [51/100]    avg_loss:4.818572
+Epoch [52/100]    avg_loss:4.751690
+Epoch [53/100]    avg_loss:4.790164
+Epoch [54/100]    avg_loss:4.724739
+Epoch [55/100]    avg_loss:4.758807
+Epoch [56/100]    avg_loss:4.734157
+Epoch [57/100]    avg_loss:4.700451
+Epoch [58/100]    avg_loss:4.687743
+Epoch [59/100]    avg_loss:4.696931
+Epoch [60/100]    avg_loss:4.690614
+Epoch [61/100]    avg_loss:4.642889
+Epoch [62/100]    avg_loss:4.634437
+Epoch [63/100]    avg_loss:4.571268
+Epoch [64/100]    avg_loss:4.563109
+Epoch [65/100]    avg_loss:4.505177
+Epoch [66/100]    avg_loss:4.513118
+Epoch [67/100]    avg_loss:4.456113
+Epoch [68/100]    avg_loss:4.451019
+Epoch [69/100]    avg_loss:4.492306
+Epoch [70/100]    avg_loss:4.433225
+Epoch [71/100]    avg_loss:4.450029
+Epoch [72/100]    avg_loss:4.349911
+Epoch [73/100]    avg_loss:4.366889
+Epoch [74/100]    avg_loss:4.379892
+Epoch [75/100]    avg_loss:4.355419
+Epoch [76/100]    avg_loss:4.323308
+Epoch [77/100]    avg_loss:4.301418
+Epoch [78/100]    avg_loss:4.325333
+Epoch [79/100]    avg_loss:4.272120
+Epoch [80/100]    avg_loss:4.224793
+Epoch [81/100]    avg_loss:4.240147
+Epoch [82/100]    avg_loss:4.203341
+Epoch [83/100]    avg_loss:4.174069
+Epoch [84/100]    avg_loss:4.186871
+Epoch [85/100]    avg_loss:4.189579
+Epoch [86/100]    avg_loss:4.250776
+Epoch [87/100]    avg_loss:4.177045
+Epoch [88/100]    avg_loss:4.121421
+Epoch [89/100]    avg_loss:4.155751
+Epoch [90/100]    avg_loss:4.123156
+Epoch [91/100]    avg_loss:4.140774
+Epoch [92/100]    avg_loss:4.119355
+Epoch [93/100]    avg_loss:4.114003
+Epoch [94/100]    avg_loss:4.101773
+Epoch [95/100]    avg_loss:4.087137
+Epoch [96/100]    avg_loss:4.073476
+Epoch [97/100]    avg_loss:4.045697
+Epoch [98/100]    avg_loss:4.003268
+Epoch [99/100]    avg_loss:3.999768
+Epoch [100/100]    avg_loss:3.999413
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:20--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/test_gt.npy)
+203642 samples selected for testing(over 204542)
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:21--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/test_gt.npy)
+203642 samples selected for testing(over 204542)
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:21:39--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/train_gt.npy)
+10227 samples selected for training(over 204542)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/0.05/test_gt.npy)
+194315 samples selected for training(over 204542)
+RUN:0
+10227 samples selected for training(over 204542)
+194315 samples selected for testing(over 204542)
+RUN:0
+Train dataloader:150
+Validation dataloader:13
+----------Training parameters----------
+dataset:WHU-Hi-LongKou
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.05
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:9
+n_bands:270
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2933, 1.2076, 3.3289, 0.1601, 2.4444, 0.8533, 0.1509, 1.4213],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:6.856018
+Epoch [2/100]    avg_loss:5.808744
+Epoch [3/100]    avg_loss:5.261245
+Epoch [4/100]    avg_loss:5.081257
+Epoch [5/100]    avg_loss:5.050214
+Epoch [6/100]    avg_loss:4.871304
+Epoch [7/100]    avg_loss:4.648140
+Epoch [8/100]    avg_loss:4.477103
+Epoch [9/100]    avg_loss:4.369670
+Epoch [10/100]    avg_loss:4.286376
+Epoch [11/100]    avg_loss:4.190408
+Epoch [12/100]    avg_loss:4.126505
+Epoch [13/100]    avg_loss:4.065139
+Epoch [14/100]    avg_loss:4.000109
+Epoch [15/100]    avg_loss:3.937781
+Epoch [16/100]    avg_loss:3.868643
+Epoch [17/100]    avg_loss:3.814997
+Epoch [18/100]    avg_loss:3.739196
+Epoch [19/100]    avg_loss:3.661243
+Epoch [20/100]    avg_loss:3.613832
+Epoch [21/100]    avg_loss:3.549804
+Epoch [22/100]    avg_loss:3.496433
+Epoch [23/100]    avg_loss:3.425530
+Epoch [24/100]    avg_loss:3.359728
+Epoch [25/100]    avg_loss:3.293005
+Epoch [26/100]    avg_loss:3.270203
+Epoch [27/100]    avg_loss:3.211095
+Epoch [28/100]    avg_loss:3.163208
+Epoch [29/100]    avg_loss:3.109555
+Epoch [30/100]    avg_loss:3.049170
+Epoch [31/100]    avg_loss:3.033254
+Epoch [32/100]    avg_loss:2.983252
+Epoch [33/100]    avg_loss:2.939687
+Epoch [34/100]    avg_loss:2.914786
+Epoch [35/100]    avg_loss:2.874444
+Epoch [36/100]    avg_loss:2.841789
+Epoch [37/100]    avg_loss:2.812512
+Epoch [38/100]    avg_loss:2.799066
+Epoch [39/100]    avg_loss:2.767684
+Epoch [40/100]    avg_loss:2.742035
+Epoch [41/100]    avg_loss:2.714603
+Epoch [42/100]    avg_loss:2.704885
+Epoch [43/100]    avg_loss:2.683485
+Epoch [44/100]    avg_loss:2.678814
+Epoch [45/100]    avg_loss:2.626779
+Epoch [46/100]    avg_loss:2.628593
+Epoch [47/100]    avg_loss:2.599549
+Epoch [48/100]    avg_loss:2.584894
+Epoch [49/100]    avg_loss:2.581802
+Epoch [50/100]    avg_loss:2.571236
+Epoch [51/100]    avg_loss:2.563875
+Epoch [52/100]    avg_loss:2.545035
+Epoch [53/100]    avg_loss:2.545085
+Epoch [54/100]    avg_loss:2.530744
+Epoch [55/100]    avg_loss:2.528918
+Epoch [56/100]    avg_loss:2.517116
+Epoch [57/100]    avg_loss:2.500470
+Epoch [58/100]    avg_loss:2.493181
+Epoch [59/100]    avg_loss:2.495439
+Epoch [60/100]    avg_loss:2.496397
+Epoch [61/100]    avg_loss:2.493629
+Epoch [62/100]    avg_loss:2.471485
+Epoch [63/100]    avg_loss:2.477192
+Epoch [64/100]    avg_loss:2.463079
+Epoch [65/100]    avg_loss:2.474126
+Epoch [66/100]    avg_loss:2.467312
+Epoch [67/100]    avg_loss:2.450734
+Epoch [68/100]    avg_loss:2.448733
+Epoch [69/100]    avg_loss:2.440803
+Epoch [70/100]    avg_loss:2.431137
+Epoch [71/100]    avg_loss:2.414648
+Epoch [72/100]    avg_loss:2.407825
+Epoch [73/100]    avg_loss:2.411262
+Epoch [74/100]    avg_loss:2.406336
+Epoch [75/100]    avg_loss:2.391314
+Epoch [76/100]    avg_loss:2.380789
+Epoch [77/100]    avg_loss:2.372866
+Epoch [78/100]    avg_loss:2.357485
+Epoch [79/100]    avg_loss:2.357255
+Epoch [80/100]    avg_loss:2.360930
+Epoch [81/100]    avg_loss:2.344022
+Epoch [82/100]    avg_loss:2.332540
+Epoch [83/100]    avg_loss:2.323305
+Epoch [84/100]    avg_loss:2.344431
+Epoch [85/100]    avg_loss:2.331511
+Epoch [86/100]    avg_loss:2.313260
+Epoch [87/100]    avg_loss:2.318715
+Epoch [88/100]    avg_loss:2.307915
+Epoch [89/100]    avg_loss:2.295043
+Epoch [90/100]    avg_loss:2.277821
+Epoch [91/100]    avg_loss:2.291083
+Epoch [92/100]    avg_loss:2.253979
+Epoch [93/100]    avg_loss:2.247077
+Epoch [94/100]    avg_loss:2.251340
+Epoch [95/100]    avg_loss:2.263625
+Epoch [96/100]    avg_loss:2.241178
+Epoch [97/100]    avg_loss:2.215600
+Epoch [98/100]    avg_loss:2.182537
+Epoch [99/100]    avg_loss:2.179469
+Epoch [100/100]    avg_loss:2.205376
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-04-02WHU-Hi-LongKou.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-02:22:15--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/train_gt.npy)
+900 samples selected for training(over 204542)
+Training Percentage:0.0044
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-LongKou/100/test_gt.npy)
+203642 samples selected for testing(over 204542)

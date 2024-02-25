@@ -1,0 +1,356 @@
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:11:46--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:11:51--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:11:52--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.30//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.30//test_gt.npy)
+RUN:0
+77259 samples selected for training(over 257530)
+180271 samples selected for testing(over 257530)
+RUN:0
+Train dataloader:1134
+Validation dataloader:377
+----------Training parameters----------
+dataset:WHU-Hi-HanChuan
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2208, 0.4341, 0.9603, 1.8453, 8.2319, 2.1790, 1.6733, 0.5495,
+        1.0431, 0.9393, 0.5842, 2.6843, 1.0835, 0.5322, 8.6906, 0.1310],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:6.871302
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:11:55--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.30/train_gt.npy)
+77259 samples selected for training(over 257530)
+Training Percentage:0.3
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.30/test_gt.npy)
+180271 samples selected for training(over 257530)
+RUN:0
+77259 samples selected for training(over 257530)
+180271 samples selected for testing(over 257530)
+RUN:0
+Train dataloader:1134
+Validation dataloader:377
+----------Training parameters----------
+dataset:WHU-Hi-HanChuan
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.30
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2208, 0.4341, 0.9603, 1.8453, 8.2319, 2.1790, 1.6733, 0.5495,
+        1.0431, 0.9393, 0.5842, 2.6843, 1.0835, 0.5322, 8.6906, 0.1310],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:6.980800
+Epoch [2/100]    avg_loss:5.538989
+Epoch [3/100]    avg_loss:5.153516
+Epoch [4/100]    avg_loss:4.936513
+Epoch [5/100]    avg_loss:4.583307
+Epoch [6/100]    avg_loss:4.407882
+Epoch [7/100]    avg_loss:4.314001
+Epoch [8/100]    avg_loss:4.246132
+Epoch [9/100]    avg_loss:4.177088
+Epoch [10/100]    avg_loss:4.115179
+Epoch [11/100]    avg_loss:4.031613
+Epoch [12/100]    avg_loss:3.952396
+Epoch [13/100]    avg_loss:3.883585
+Epoch [14/100]    avg_loss:3.789739
+Epoch [15/100]    avg_loss:3.696589
+Epoch [16/100]    avg_loss:3.632260
+Epoch [17/100]    avg_loss:3.572665
+Epoch [18/100]    avg_loss:3.517619
+Epoch [19/100]    avg_loss:3.447568
+Epoch [20/100]    avg_loss:3.399024
+Epoch [21/100]    avg_loss:3.358597
+Epoch [22/100]    avg_loss:3.318944
+Epoch [23/100]    avg_loss:3.278299
+Epoch [24/100]    avg_loss:3.235690
+Epoch [25/100]    avg_loss:3.215832
+Epoch [26/100]    avg_loss:3.195369
+Epoch [27/100]    avg_loss:3.189293
+Epoch [28/100]    avg_loss:3.152964
+Epoch [29/100]    avg_loss:3.124134
+Epoch [30/100]    avg_loss:3.093088
+Epoch [31/100]    avg_loss:3.035506
+Epoch [32/100]    avg_loss:3.010213
+Epoch [33/100]    avg_loss:2.990331
+Epoch [34/100]    avg_loss:2.975254
+Epoch [35/100]    avg_loss:2.953647
+Epoch [36/100]    avg_loss:2.915479
+Epoch [37/100]    avg_loss:2.890402
+Epoch [38/100]    avg_loss:2.870217
+Epoch [39/100]    avg_loss:2.865202
+Epoch [40/100]    avg_loss:2.856999
+Epoch [41/100]    avg_loss:2.864043
+Epoch [42/100]    avg_loss:2.851428
+Epoch [43/100]    avg_loss:2.865847
+Epoch [44/100]    avg_loss:2.870336
+Epoch [45/100]    avg_loss:2.849277
+Epoch [46/100]    avg_loss:2.844416
+Epoch [47/100]    avg_loss:2.830666
+Epoch [48/100]    avg_loss:2.827951
+Epoch [49/100]    avg_loss:2.818699
+Epoch [50/100]    avg_loss:2.818819
+Epoch [51/100]    avg_loss:2.827293
+Epoch [52/100]    avg_loss:2.851637
+Epoch [53/100]    avg_loss:2.844801
+Epoch [54/100]    avg_loss:2.833957
+Epoch [55/100]    avg_loss:2.822866
+Epoch [56/100]    avg_loss:2.819607
+Epoch [57/100]    avg_loss:2.818394
+Epoch [58/100]    avg_loss:2.816500
+Epoch [59/100]    avg_loss:2.794522
+Epoch [60/100]    avg_loss:2.803921
+Epoch [61/100]    avg_loss:2.793725
+Epoch [62/100]    avg_loss:2.782352
+Epoch [63/100]    avg_loss:2.787725
+Epoch [64/100]    avg_loss:2.769709
+Epoch [65/100]    avg_loss:2.745177
+Epoch [66/100]    avg_loss:2.742532
+Epoch [67/100]    avg_loss:2.737669
+Epoch [68/100]    avg_loss:2.724044
+Epoch [69/100]    avg_loss:2.716995
+Epoch [70/100]    avg_loss:2.725013
+Epoch [71/100]    avg_loss:2.708801
+Epoch [72/100]    avg_loss:2.708582
+Epoch [73/100]    avg_loss:2.707086
+Epoch [74/100]    avg_loss:2.683177
+Epoch [75/100]    avg_loss:2.691821
+Epoch [76/100]    avg_loss:2.696137
+Epoch [77/100]    avg_loss:2.671705
+Epoch [78/100]    avg_loss:2.662343
+Epoch [79/100]    avg_loss:2.646192
+Epoch [80/100]    avg_loss:2.630650
+Epoch [81/100]    avg_loss:2.619186
+Epoch [82/100]    avg_loss:2.604458
+Epoch [83/100]    avg_loss:2.580130
+Epoch [84/100]    avg_loss:2.574031
+Epoch [85/100]    avg_loss:2.547881
+Epoch [86/100]    avg_loss:2.532512
+Epoch [87/100]    avg_loss:2.517623
+Epoch [88/100]    avg_loss:2.502366
+Epoch [89/100]    avg_loss:2.487945
+Epoch [90/100]    avg_loss:2.482419
+Epoch [91/100]    avg_loss:2.459176
+Epoch [92/100]    avg_loss:2.447780
+Epoch [93/100]    avg_loss:2.435380
+Epoch [94/100]    avg_loss:2.431754
+Epoch [95/100]    avg_loss:2.403563
+Epoch [96/100]    avg_loss:2.397567
+Epoch [97/100]    avg_loss:2.373569
+Epoch [98/100]    avg_loss:2.357141
+Epoch [99/100]    avg_loss:2.344376
+Epoch [100/100]    avg_loss:2.340244
+The pretrain model vit training successfully!!!
+-----------------------------Next run finish log----------------------------
+---------------------------2023-06-03:14:51--------------------------
+---------------------------------------------------------------------
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:33--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Save train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05//train_gt.npy)
+Save test_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05//test_gt.npy)
+RUN:0
+12876 samples selected for training(over 257530)
+244654 samples selected for testing(over 257530)
+RUN:0
+Train dataloader:188
+Validation dataloader:377
+----------Training parameters----------
+dataset:WHU-Hi-HanChuan
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.05
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.2206, 0.4340, 0.9601, 1.8414, 8.2250, 2.1740, 1.6729, 0.5489,
+        1.0433, 0.9382, 0.5840, 2.6821, 1.0822, 0.5318, 8.6579, 0.1309],
+       device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.430355
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:33--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/train_gt.npy)
+12876 samples selected for training(over 257530)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/test_gt.npy)
+244654 samples selected for testing(over 257530)
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:37--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/train_gt.npy)
+12876 samples selected for training(over 257530)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/test_gt.npy)
+244654 samples selected for testing(over 257530)
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:37--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/train_gt.npy)
+12876 samples selected for training(over 257530)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/test_gt.npy)
+244654 samples selected for testing(over 257530)
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:39--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/train_gt.npy)
+12876 samples selected for training(over 257530)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/test_gt.npy)
+244654 samples selected for testing(over 257530)
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:40--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/train_gt.npy)
+12876 samples selected for training(over 257530)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/test_gt.npy)
+244654 samples selected for testing(over 257530)
+creating ./logs/logs-2023-06-03WHU-Hi-HanChuan.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-06-03:15:42--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/train_gt.npy)
+12876 samples selected for training(over 257530)
+Training Percentage:0.05
+Load train_gt successfully!(PATH:../dataset/WHU-Hi-HanChuan/0.05/test_gt.npy)
+244654 samples selected for testing(over 257530)
+----------Training result----------
+
+Confusion matrix:
+[[42162     1     0     0     0    57     0     0    10     0     7     0
+    202    59     0     0]
+ [   13 21364     6     6    24    12    44    33    21     0     0     7
+     86     0     0     0]
+ [    1     1  9656     7     0    86     0    20     0     0     0     0
+      1     0     1     0]
+ [    0     0     8  5070     0     0     0     1     4     0     0     0
+      2     0     0     0]
+ [    8     0     0     0  1035     0     0     0    64     0     0     2
+     31     0     0     0]
+ [   40    70    52     0     0  3951     0    18     0     5     0    10
+    158     0     2     0]
+ [    2    11     0     0     0     1  5484    35     1     0     2    10
+      8    46     4     4]
+ [    0    93     6     0     0     0   107 16763    47     9    15     0
+      4    32     0     3]
+ [    0     1     0     0    10     4     3    30  8820     0     5     0
+     62    15     0    46]
+ [    2     0     0     0     0     0     0    53     0  9846    89     0
+      0     0     0     0]
+ [    8     1     0     0     0     0     1    41    37    20 15831     0
+      0   104     0    23]
+ [   10     0     0     0     0     0     0     1     0     0     0  3449
+     10    25     0     0]
+ [  208    52     8     1     2   144    13    10    12     1     0    38
+   8149    21     1     0]
+ [  160     6     0     0     0     0     2    20   112     0    53    21
+     64 17154    40     0]
+ [    2     8     0     0     0     6     0     0    27     0     0     0
+     24    34   978     0]
+ [    0     0     0     0     0     0     0     8    45     0     3     0
+      0     0     0 71575]]
+
+Accuracy:
+98.6238
+
+F1 scores:
+[0.9907 0.9885 0.9899 0.9971 0.9362 0.9224 0.9739 0.9828 0.9694 0.991
+ 0.9872 0.9809 0.9334 0.9768 0.9292 0.9991]
+
+AA:
+0.9705200000000002
+
+Kappa:
+0.9839

@@ -1,0 +1,67 @@
+creating ./logs/logs-2023-03-30PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-30:17:22--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+creating ./logs/logs-2023-03-30PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-03-30:21:26--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+RUN:0
+4277 samples selected for training(over 42776)
+38499 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:61
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:20
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4615, 0.1641, 1.4571, 1.0000, 2.2836, 0.6083, 2.3008, 0.8315,
+        3.2211], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:2.745955
+Epoch [2/100]    avg_loss:2.090507
+Epoch [3/100]    avg_loss:1.764984
+Epoch [4/100]    avg_loss:1.654412
+Epoch [5/100]    avg_loss:1.627539
+Epoch [6/100]    avg_loss:1.618070
+Epoch [7/100]    avg_loss:1.600313
+Epoch [8/100]    avg_loss:1.616277
+Epoch [9/100]    avg_loss:1.609295
+Epoch [10/100]    avg_loss:1.593984
+Epoch [11/100]    avg_loss:1.573474
+Epoch [12/100]    avg_loss:1.565719
+Epoch [13/100]    avg_loss:1.557941

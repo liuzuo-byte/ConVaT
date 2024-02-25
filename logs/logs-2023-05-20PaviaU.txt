@@ -1,0 +1,1027 @@
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:13:58--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:13:59--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5895     0     5    11     0     6     0    49     2]
+ [    0     0 16749     2    33     0     0     0     0     0]
+ [    0     1     0  1849     3     0     0     0    19    17]
+ [    0    47    39     1  2608     0    16     0    39     8]
+ [    0     0     0     0     0  1202     0     0     0     9]
+ [    0     0     0     0     0     0  4526     0     0     0]
+ [    0    12     0     1     0     0     0  1172     3     9]
+ [    0    61     2    31    49     0     0     3  3168     0]
+ [    0     5     0    17     5    34     0     0     3   788]]
+
+Accuracy:
+98.5922
+
+F1 scores:
+[   nan 0.9834 0.9977 0.9744 0.9541 0.9824 0.9976 0.9882 0.9607 0.9353]
+
+AA:
+0.9748666666666667
+
+Kappa:
+0.9813
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:04--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5864     0     3    13     3     7     0    66    12]
+ [    0     2 16746     0    34     0     0     0     0     2]
+ [    0     2     0  1833     2     3     0     0    36    13]
+ [    0    52    36     0  2616     0     9     0    35    10]
+ [    0     0     0     0     0  1189     0     0     0    22]
+ [    0     0     3     0     1     0  4522     0     0     0]
+ [    0    12     0     0     0     0     1  1168     1    15]
+ [    0    62     7    42    71     0     0     0  3132     0]
+ [    0     7     0    14     2    17     0     2     1   809]]
+
+Accuracy:
+98.3896
+
+F1 scores:
+[   nan 0.9799 0.9975 0.9696 0.9518 0.9814 0.9977 0.9869 0.9513 0.9326]
+
+AA:
+0.9720777777777779
+
+Kappa:
+0.9787
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:07--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5899     0     2    14     0     5     0    47     1]
+ [    0     0 16748     0    30     0     0     0     0     6]
+ [    0     3     0  1834     5     0     0     0    31    16]
+ [    0    57    38     1  2608     0    12     0    37     5]
+ [    0     0     0     0     0  1202     0     0     0     9]
+ [    0     0     0     0     0     0  4526     0     0     0]
+ [    0    12     0     1     0     0     0  1176     1     7]
+ [    0    63     1    26    63     0     0     1  3160     0]
+ [    0    10     0    22     5    31     0     2     3   779]]
+
+Accuracy:
+98.5272
+
+F1 scores:
+[   nan 0.9822 0.9978 0.9717 0.9513 0.9836 0.9981 0.9899 0.9586 0.9301]
+
+AA:
+0.9736999999999999
+
+Kappa:
+0.9805
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:29--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5878     0     3    21     0     6     0    60     0]
+ [    0     0 16754     0    27     0     0     0     0     3]
+ [    0     4     0  1824     9     0     0     0    38    14]
+ [    0    41    34     0  2634     0    12     0    33     4]
+ [    0     0     0     0     0  1203     0     0     0     8]
+ [    0     0     0     0     0     0  4526     0     0     0]
+ [    0     9     0     0     0     0     0  1182     2     4]
+ [    0    50     4    21    70     0     0     0  3169     0]
+ [    0     5     0    19     6    33     0     7     3   779]]
+
+Accuracy:
+98.5714
+
+F1 scores:
+[   nan 0.9834 0.998  0.9712 0.9535 0.9832 0.998  0.9908 0.9575 0.9363]
+
+AA:
+0.9746555555555556
+
+Kappa:
+0.9811
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:30--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5828     0     1    19     3     0     1   112     4]
+ [    0     9 16751     0    24     0     0     0     0     0]
+ [    0     0     0  1800     4     0     0     0    59    26]
+ [    0    63    28     0  2608     0    17     0    36     6]
+ [    0     0     0     0     0  1184     0     0     0    27]
+ [    0     0     0     0     0     0  4521     5     0     0]
+ [    0     3     0     0     0     0     0  1187     0     7]
+ [    0    18     0    44    57     0     0     0  3195     0]
+ [    0     0     0     9     7    17     0    11     0   808]]
+
+Accuracy:
+98.3974
+
+F1 scores:
+[   nan 0.9804 0.9982 0.9618 0.9523 0.9805 0.9976 0.9888 0.9515 0.9341]
+
+AA:
+0.9716888888888889
+
+Kappa:
+0.9788
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:35--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/train_gt.npy)
+8555 samples selected for training(over 42776)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/test_gt.npy)
+34221 samples selected for training(over 42776)
+RUN:0
+8555 samples selected for training(over 42776)
+34221 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:122
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4623, 0.1643, 1.4595, 1.0000, 2.2788, 0.6093, 2.3045, 0.8329,
+        3.2434], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:36--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/train_gt.npy)
+8555 samples selected for training(over 42776)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/test_gt.npy)
+34221 samples selected for training(over 42776)
+RUN:0
+8555 samples selected for training(over 42776)
+34221 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:122
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4623, 0.1643, 1.4595, 1.0000, 2.2788, 0.6093, 2.3045, 0.8329,
+        3.2434], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:8.055431
+Epoch [2/100]    avg_loss:6.937962
+Epoch [3/100]    avg_loss:8.049213
+Epoch [4/100]    avg_loss:5.507790
+Epoch [5/100]    avg_loss:6.236907
+Epoch [6/100]    avg_loss:6.869813
+Epoch [7/100]    avg_loss:5.995995
+Epoch [8/100]    avg_loss:5.254570
+Epoch [9/100]    avg_loss:5.065318
+Epoch [10/100]    avg_loss:5.077800
+Epoch [11/100]    avg_loss:5.223473
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:38--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/train_gt.npy)
+8555 samples selected for training(over 42776)
+Training Percentage:0.2
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.20/test_gt.npy)
+34221 samples selected for training(over 42776)
+RUN:0
+8555 samples selected for training(over 42776)
+34221 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:122
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.20
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4623, 0.1643, 1.4595, 1.0000, 2.2788, 0.6093, 2.3045, 0.8329,
+        3.2434], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.267007
+Epoch [2/100]    avg_loss:7.030359
+Epoch [3/100]    avg_loss:6.304742
+Epoch [4/100]    avg_loss:5.879829
+Epoch [5/100]    avg_loss:5.053033
+Epoch [6/100]    avg_loss:5.263740
+Epoch [7/100]    avg_loss:5.379738
+Epoch [8/100]    avg_loss:5.168603
+Epoch [9/100]    avg_loss:4.867895
+Epoch [10/100]    avg_loss:4.638205
+Epoch [11/100]    avg_loss:4.540069
+Epoch [12/100]    avg_loss:4.475481
+Epoch [13/100]    avg_loss:4.454767
+Epoch [14/100]    avg_loss:4.446906
+Epoch [15/100]    avg_loss:4.452271
+Epoch [16/100]    avg_loss:4.442522
+Epoch [17/100]    avg_loss:4.428425
+Epoch [18/100]    avg_loss:4.428527
+Epoch [19/100]    avg_loss:4.379852
+Epoch [20/100]    avg_loss:4.330125
+Epoch [21/100]    avg_loss:4.282789
+Epoch [22/100]    avg_loss:4.211648
+Epoch [23/100]    avg_loss:4.154424
+Epoch [24/100]    avg_loss:4.125370
+Epoch [25/100]    avg_loss:4.083083
+Epoch [26/100]    avg_loss:4.025695
+Epoch [27/100]    avg_loss:3.973326
+Epoch [28/100]    avg_loss:3.932201
+Epoch [29/100]    avg_loss:3.909108
+Epoch [30/100]    avg_loss:3.824115
+Epoch [31/100]    avg_loss:3.792241
+Epoch [32/100]    avg_loss:3.749783
+Epoch [33/100]    avg_loss:3.702998
+Epoch [34/100]    avg_loss:3.677037
+Epoch [35/100]    avg_loss:3.650956
+Epoch [36/100]    avg_loss:3.634867
+Epoch [37/100]    avg_loss:3.617706
+Epoch [38/100]    avg_loss:3.579307
+Epoch [39/100]    avg_loss:3.584677
+Epoch [40/100]    avg_loss:3.564174
+Epoch [41/100]    avg_loss:3.539716
+Epoch [42/100]    avg_loss:3.495172
+Epoch [43/100]    avg_loss:3.487030
+Epoch [44/100]    avg_loss:3.482433
+Epoch [45/100]    avg_loss:3.463006
+Epoch [46/100]    avg_loss:3.443842
+Epoch [47/100]    avg_loss:3.450334
+Epoch [48/100]    avg_loss:3.408850
+Epoch [49/100]    avg_loss:3.388332
+Epoch [50/100]    avg_loss:3.382721
+Epoch [51/100]    avg_loss:3.335318
+Epoch [52/100]    avg_loss:3.294254
+Epoch [53/100]    avg_loss:3.302699
+Epoch [54/100]    avg_loss:3.309126
+Epoch [55/100]    avg_loss:3.274707
+Epoch [56/100]    avg_loss:3.257686
+Epoch [57/100]    avg_loss:3.230034
+Epoch [58/100]    avg_loss:3.212864
+Epoch [59/100]    avg_loss:3.190666
+Epoch [60/100]    avg_loss:3.180338
+Epoch [61/100]    avg_loss:3.147740
+Epoch [62/100]    avg_loss:3.149624
+Epoch [63/100]    avg_loss:3.124126
+Epoch [64/100]    avg_loss:3.110079
+Epoch [65/100]    avg_loss:3.092947
+Epoch [66/100]    avg_loss:3.082530
+Epoch [67/100]    avg_loss:3.048746
+Epoch [68/100]    avg_loss:3.041181
+Epoch [69/100]    avg_loss:3.005063
+Epoch [70/100]    avg_loss:3.029323
+Epoch [71/100]    avg_loss:2.996276
+Epoch [72/100]    avg_loss:2.983942
+Epoch [73/100]    avg_loss:2.956076
+Epoch [74/100]    avg_loss:2.961146
+Epoch [75/100]    avg_loss:2.940780
+Epoch [76/100]    avg_loss:2.941218
+Epoch [77/100]    avg_loss:2.906376
+Epoch [78/100]    avg_loss:2.898027
+Epoch [79/100]    avg_loss:2.861331
+Epoch [80/100]    avg_loss:2.860910
+Epoch [81/100]    avg_loss:2.869211
+Epoch [82/100]    avg_loss:2.828839
+Epoch [83/100]    avg_loss:2.832687
+Epoch [84/100]    avg_loss:2.826192
+Epoch [85/100]    avg_loss:2.811926
+Epoch [86/100]    avg_loss:2.770232
+Epoch [87/100]    avg_loss:2.780384
+Epoch [88/100]    avg_loss:2.738080
+Epoch [89/100]    avg_loss:2.764789
+Epoch [90/100]    avg_loss:2.748998
+Epoch [91/100]    avg_loss:2.717579
+Epoch [92/100]    avg_loss:2.706204
+Epoch [93/100]    avg_loss:2.701272
+Epoch [94/100]    avg_loss:2.697784
+Epoch [95/100]    avg_loss:2.701895
+Epoch [96/100]    avg_loss:2.674899
+Epoch [97/100]    avg_loss:2.694780
+Epoch [98/100]    avg_loss:2.684194
+Epoch [99/100]    avg_loss:2.690730
+Epoch [100/100]    avg_loss:2.612728
+The pretrain model vit training successfully!!!
+-----------------------------Next run finish log----------------------------
+---------------------------2023-05-20:14:56--------------------------
+---------------------------------------------------------------------
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:14:59--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5857     0     0    18     0     1     3    89     0]
+ [    0     1 16742     0    41     0     0     0     0     0]
+ [    0     5     0  1818     5     0     0     0    47    14]
+ [    0    72    30     0  2616     0     4     0    28     8]
+ [    0     0     0     0     0  1206     0     0     0     5]
+ [    0     0     0     0     0     1  4525     0     0     0]
+ [    0     2     0     0     0     0     0  1187     0     8]
+ [    0    57     5    22    98     0     0     3  3127     2]
+ [    0    19     0    18     6    27     0     7     7   768]]
+
+Accuracy:
+98.3039
+
+F1 scores:
+[   nan 0.9777 0.9977 0.9704 0.9441 0.9865 0.9993 0.9904 0.9459 0.927 ]
+
+AA:
+0.9709999999999999
+
+Kappa:
+0.9775
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:15:02--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+RUN:0
+4277 samples selected for training(over 42776)
+38499 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:61
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4615, 0.1641, 1.4571, 1.0000, 2.2836, 0.6083, 2.3008, 0.8315,
+        3.2211], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:6.523081
+Epoch [2/100]    avg_loss:5.310466
+Epoch [3/100]    avg_loss:4.693120
+Epoch [4/100]    avg_loss:4.468982
+Epoch [5/100]    avg_loss:4.376321
+Epoch [6/100]    avg_loss:4.171661
+Epoch [7/100]    avg_loss:4.037185
+Epoch [8/100]    avg_loss:3.871344
+Epoch [9/100]    avg_loss:3.694819
+Epoch [10/100]    avg_loss:3.554600
+Epoch [11/100]    avg_loss:3.471327
+Epoch [12/100]    avg_loss:3.376807
+Epoch [13/100]    avg_loss:3.286884
+Epoch [14/100]    avg_loss:3.190969
+Epoch [15/100]    avg_loss:3.147101
+Epoch [16/100]    avg_loss:3.117474
+Epoch [17/100]    avg_loss:3.061316
+Epoch [18/100]    avg_loss:2.984959
+Epoch [19/100]    avg_loss:2.951053
+Epoch [20/100]    avg_loss:2.907140
+Epoch [21/100]    avg_loss:2.875734
+Epoch [22/100]    avg_loss:2.856429
+Epoch [23/100]    avg_loss:2.837239
+Epoch [24/100]    avg_loss:2.822265
+Epoch [25/100]    avg_loss:2.904492
+Epoch [26/100]    avg_loss:2.810286
+Epoch [27/100]    avg_loss:2.800543
+Epoch [28/100]    avg_loss:2.776698
+Epoch [29/100]    avg_loss:2.776824
+Epoch [30/100]    avg_loss:2.780894
+Epoch [31/100]    avg_loss:2.811970
+Epoch [32/100]    avg_loss:2.817255
+Epoch [33/100]    avg_loss:2.862331
+Epoch [34/100]    avg_loss:2.865371
+Epoch [35/100]    avg_loss:2.783964
+Epoch [36/100]    avg_loss:2.805770
+Epoch [37/100]    avg_loss:2.807423
+Epoch [38/100]    avg_loss:2.784243
+Epoch [39/100]    avg_loss:2.773591
+Epoch [40/100]    avg_loss:2.794853
+Epoch [41/100]    avg_loss:2.773700
+Epoch [42/100]    avg_loss:2.789535
+Epoch [43/100]    avg_loss:2.755594
+Epoch [44/100]    avg_loss:2.773049
+Epoch [45/100]    avg_loss:2.738282
+Epoch [46/100]    avg_loss:2.760116
+Epoch [47/100]    avg_loss:2.770009
+Epoch [48/100]    avg_loss:2.728952
+Epoch [49/100]    avg_loss:2.743742
+Epoch [50/100]    avg_loss:2.721734
+Epoch [51/100]    avg_loss:nan
+Epoch [52/100]    avg_loss:nan
+Epoch [53/100]    avg_loss:nan
+Epoch [54/100]    avg_loss:nan
+Epoch [55/100]    avg_loss:nan
+Epoch [56/100]    avg_loss:nan
+Epoch [57/100]    avg_loss:nan
+Epoch [58/100]    avg_loss:nan
+Epoch [59/100]    avg_loss:nan
+Epoch [60/100]    avg_loss:nan
+Epoch [61/100]    avg_loss:nan
+Epoch [62/100]    avg_loss:nan
+Epoch [63/100]    avg_loss:nan
+Epoch [64/100]    avg_loss:nan
+Epoch [65/100]    avg_loss:nan
+Epoch [66/100]    avg_loss:nan
+Epoch [67/100]    avg_loss:nan
+Epoch [68/100]    avg_loss:nan
+Epoch [69/100]    avg_loss:nan
+Epoch [70/100]    avg_loss:nan
+Epoch [71/100]    avg_loss:nan
+Epoch [72/100]    avg_loss:nan
+Epoch [73/100]    avg_loss:nan
+Epoch [74/100]    avg_loss:nan
+Epoch [75/100]    avg_loss:nan
+Epoch [76/100]    avg_loss:nan
+Epoch [77/100]    avg_loss:nan
+Epoch [78/100]    avg_loss:nan
+Epoch [79/100]    avg_loss:nan
+Epoch [80/100]    avg_loss:nan
+Epoch [81/100]    avg_loss:nan
+Epoch [82/100]    avg_loss:nan
+Epoch [83/100]    avg_loss:nan
+Epoch [84/100]    avg_loss:nan
+Epoch [85/100]    avg_loss:nan
+Epoch [86/100]    avg_loss:nan
+Epoch [87/100]    avg_loss:nan
+Epoch [88/100]    avg_loss:nan
+Epoch [89/100]    avg_loss:nan
+Epoch [90/100]    avg_loss:nan
+Epoch [91/100]    avg_loss:nan
+Epoch [92/100]    avg_loss:nan
+Epoch [93/100]    avg_loss:nan
+Epoch [94/100]    avg_loss:nan
+Epoch [95/100]    avg_loss:nan
+Epoch [96/100]    avg_loss:nan
+Epoch [97/100]    avg_loss:nan
+Epoch [98/100]    avg_loss:nan
+Epoch [99/100]    avg_loss:nan
+Epoch [100/100]    avg_loss:nan
+The pretrain model vit training successfully!!!
+-----------------------------Next run finish log----------------------------
+---------------------------2023-05-20:15:11--------------------------
+---------------------------------------------------------------------
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:15:12--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+RUN:0
+4277 samples selected for training(over 42776)
+38499 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:61
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4615, 0.1641, 1.4571, 1.0000, 2.2836, 0.6083, 2.3008, 0.8315,
+        3.2211], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:15:12--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for training(over 42776)
+RUN:0
+4277 samples selected for training(over 42776)
+38499 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:61
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4615, 0.1641, 1.4571, 1.0000, 2.2836, 0.6083, 2.3008, 0.8315,
+        3.2211], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.474183
+Epoch [2/100]    avg_loss:6.095709
+Epoch [3/100]    avg_loss:5.446770
+Epoch [4/100]    avg_loss:5.281464
+Epoch [5/100]    avg_loss:5.295095
+Epoch [6/100]    avg_loss:4.788717
+Epoch [7/100]    avg_loss:4.492336
+Epoch [8/100]    avg_loss:4.415199
+Epoch [9/100]    avg_loss:4.413931
+Epoch [10/100]    avg_loss:4.355162
+Epoch [11/100]    avg_loss:4.341471
+Epoch [12/100]    avg_loss:4.277032
+Epoch [13/100]    avg_loss:4.209525
+Epoch [14/100]    avg_loss:4.075833
+Epoch [15/100]    avg_loss:3.979076
+Epoch [16/100]    avg_loss:3.887736
+Epoch [17/100]    avg_loss:3.824528
+Epoch [18/100]    avg_loss:3.788735
+Epoch [19/100]    avg_loss:3.714147
+Epoch [20/100]    avg_loss:3.684816
+Epoch [21/100]    avg_loss:3.610141
+Epoch [22/100]    avg_loss:3.571650
+Epoch [23/100]    avg_loss:3.511473
+Epoch [24/100]    avg_loss:3.488767
+Epoch [25/100]    avg_loss:3.467762
+Epoch [26/100]    avg_loss:3.397538
+Epoch [27/100]    avg_loss:3.379390
+Epoch [28/100]    avg_loss:3.347046
+Epoch [29/100]    avg_loss:3.324605
+Epoch [30/100]    avg_loss:3.279685
+Epoch [31/100]    avg_loss:3.252661
+Epoch [32/100]    avg_loss:3.222058
+Epoch [33/100]    avg_loss:3.188727
+Epoch [34/100]    avg_loss:3.154892
+Epoch [35/100]    avg_loss:3.138996
+Epoch [36/100]    avg_loss:3.060710
+Epoch [37/100]    avg_loss:3.064971
+Epoch [38/100]    avg_loss:3.060279
+Epoch [39/100]    avg_loss:2.969273
+Epoch [40/100]    avg_loss:2.974195
+Epoch [41/100]    avg_loss:2.879111
+Epoch [42/100]    avg_loss:2.869026
+Epoch [43/100]    avg_loss:2.861849
+Epoch [44/100]    avg_loss:2.790316
+Epoch [45/100]    avg_loss:2.769725
+Epoch [46/100]    avg_loss:2.720961
+Epoch [47/100]    avg_loss:2.700436
+Epoch [48/100]    avg_loss:2.662525
+Epoch [49/100]    avg_loss:2.653136
+Epoch [50/100]    avg_loss:2.612774
+Epoch [51/100]    avg_loss:2.611764
+Epoch [52/100]    avg_loss:2.534582
+Epoch [53/100]    avg_loss:2.542470
+Epoch [54/100]    avg_loss:2.526528
+Epoch [55/100]    avg_loss:2.557097
+Epoch [56/100]    avg_loss:2.524643
+Epoch [57/100]    avg_loss:2.478291
+Epoch [58/100]    avg_loss:2.459296
+Epoch [59/100]    avg_loss:2.423788
+Epoch [60/100]    avg_loss:2.451698
+Epoch [61/100]    avg_loss:2.409097
+Epoch [62/100]    avg_loss:2.403208
+Epoch [63/100]    avg_loss:2.383577
+Epoch [64/100]    avg_loss:2.397578
+Epoch [65/100]    avg_loss:2.346480
+Epoch [66/100]    avg_loss:2.376753
+Epoch [67/100]    avg_loss:2.377516
+Epoch [68/100]    avg_loss:2.311759
+Epoch [69/100]    avg_loss:2.315204
+Epoch [70/100]    avg_loss:2.347984
+Epoch [71/100]    avg_loss:2.346315
+Epoch [72/100]    avg_loss:2.282045
+Epoch [73/100]    avg_loss:2.297978
+Epoch [74/100]    avg_loss:2.275973
+Epoch [75/100]    avg_loss:2.302985
+Epoch [76/100]    avg_loss:2.299983
+Epoch [77/100]    avg_loss:2.254676
+Epoch [78/100]    avg_loss:2.312534
+Epoch [79/100]    avg_loss:2.279705
+Epoch [80/100]    avg_loss:2.274322
+Epoch [81/100]    avg_loss:2.285170
+Epoch [82/100]    avg_loss:2.250646
+Epoch [83/100]    avg_loss:2.243768
+Epoch [84/100]    avg_loss:2.217697
+Epoch [85/100]    avg_loss:2.243363
+Epoch [86/100]    avg_loss:2.231540
+Epoch [87/100]    avg_loss:2.232724
+Epoch [88/100]    avg_loss:2.256837
+Epoch [89/100]    avg_loss:2.267544
+Epoch [90/100]    avg_loss:2.235678
+Epoch [91/100]    avg_loss:2.275441
+Epoch [92/100]    avg_loss:2.235439
+Epoch [93/100]    avg_loss:2.244457
+Epoch [94/100]    avg_loss:2.200434
+Epoch [95/100]    avg_loss:2.235311
+Epoch [96/100]    avg_loss:2.218038
+Epoch [97/100]    avg_loss:2.218835
+Epoch [98/100]    avg_loss:2.336294
+Epoch [99/100]    avg_loss:2.234226
+Epoch [100/100]    avg_loss:2.233137
+The pretrain model vit training successfully!!!
+-----------------------------Next run finish log----------------------------
+---------------------------2023-05-20:15:21--------------------------
+---------------------------------------------------------------------
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:15:28--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5842     2     9    30     0     0     0    74    11]
+ [    0     0 16749     0    34     0     0     0     0     1]
+ [    0     1     0  1819     4     0     0     0    54    11]
+ [    0    61    36     0  2605     0     7     0    47     2]
+ [    0     0     0     0     0  1194     0     0     0    17]
+ [    0     0     2     0     0     0  4524     0     0     0]
+ [    0    11     0     0     0     0     0  1183     0     3]
+ [    0    36     3    15    54     0     0     0  3205     1]
+ [    0     6     0    12    10    22     0     3    10   789]]
+
+Accuracy:
+98.4701
+
+F1 scores:
+[   nan 0.9798 0.9977 0.9717 0.9481 0.9839 0.999  0.9929 0.9561 0.9354]
+
+AA:
+0.9738444444444444
+
+Kappa:
+0.9797
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:15:33--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/train_gt.npy)
+4277 samples selected for training(over 42776)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.10/test_gt.npy)
+38499 samples selected for testing(over 42776)
+----------Training result----------
+
+Confusion matrix:
+[[    0     0     0     0     0     0     0     0     0     0]
+ [    0  5855     2     8    32     0     0     1    60    10]
+ [    0     0 16747     0    36     0     1     0     0     0]
+ [    0     0     0  1840     4     0     0     0    33    12]
+ [    0    54    38     0  2616     0     8     0    40     2]
+ [    0     0     0     0     0  1191     0     0     0    20]
+ [    0     0     3     0     0     0  4523     0     0     0]
+ [    0     6     0     0     0     0     0  1188     0     3]
+ [    0    31     5    27    57     0     0     0  3193     1]
+ [    0     4     0    13    11    16     0     3     9   796]]
+
+Accuracy:
+98.5714
+
+F1 scores:
+[   nan 0.9825 0.9975 0.9743 0.9489 0.9851 0.9987 0.9946 0.9604 0.9387]
+
+AA:
+0.9756333333333335
+
+Kappa:
+0.9811
+creating ./logs/logs-2023-05-20PaviaU.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-05-20:15:47--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.99/train_gt.npy)
+42348 samples selected for training(over 42776)
+Training Percentage:0.99
+Load train_gt successfully!(PATH:../dataset/PaviaU/0.99/test_gt.npy)
+428 samples selected for training(over 42776)
+RUN:0
+42348 samples selected for training(over 42776)
+428 samples selected for testing(over 42776)
+RUN:0
+Train dataloader:608
+Validation dataloader:61
+----------Training parameters----------
+dataset:PaviaU
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:random
+training_percentage:0.3
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.99
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:10
+n_bands:103
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([0.0000, 0.4620, 0.1643, 1.4596, 1.0000, 2.2770, 0.6092, 2.3030, 0.8321,
+        3.2369], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.726406
+Epoch [2/100]    avg_loss:6.216367
+Epoch [3/100]    avg_loss:5.650240
+Epoch [4/100]    avg_loss:5.250692
+Epoch [5/100]    avg_loss:5.402088
+Epoch [6/100]    avg_loss:5.064720
+Epoch [7/100]    avg_loss:4.713765
+Epoch [8/100]    avg_loss:4.536598
+Epoch [9/100]    avg_loss:4.465778
+Epoch [10/100]    avg_loss:4.444173
+Epoch [11/100]    avg_loss:4.429079
+Epoch [12/100]    avg_loss:4.395748
+Epoch [13/100]    avg_loss:4.367708
+Epoch [14/100]    avg_loss:4.329753
+Epoch [15/100]    avg_loss:4.293815
+Epoch [16/100]    avg_loss:4.245739
+Epoch [17/100]    avg_loss:4.177832
+Epoch [18/100]    avg_loss:4.113929
+Epoch [19/100]    avg_loss:4.059268
+Epoch [20/100]    avg_loss:3.988664
+Epoch [21/100]    avg_loss:3.932777
+Epoch [22/100]    avg_loss:3.861972
+Epoch [23/100]    avg_loss:3.818268
+Epoch [24/100]    avg_loss:3.790054
+Epoch [25/100]    avg_loss:3.745807
+Epoch [26/100]    avg_loss:3.700225
+Epoch [27/100]    avg_loss:3.666299
+Epoch [28/100]    avg_loss:3.637159
+Epoch [29/100]    avg_loss:3.597905
+Epoch [30/100]    avg_loss:3.581012
+Epoch [31/100]    avg_loss:3.540845
+Epoch [32/100]    avg_loss:3.520780
+Epoch [33/100]    avg_loss:3.507578
+Epoch [34/100]    avg_loss:3.481048
+Epoch [35/100]    avg_loss:3.459357
+Epoch [36/100]    avg_loss:3.443271
+Epoch [37/100]    avg_loss:3.424412
+Epoch [38/100]    avg_loss:3.410416
+Epoch [39/100]    avg_loss:3.388131
+Epoch [40/100]    avg_loss:3.378570
+Epoch [41/100]    avg_loss:3.360594
+Epoch [42/100]    avg_loss:3.351493
+Epoch [43/100]    avg_loss:3.321502
+Epoch [44/100]    avg_loss:3.320636
+Epoch [45/100]    avg_loss:3.301876
+Epoch [46/100]    avg_loss:3.273459
+Epoch [47/100]    avg_loss:3.255707
+Epoch [48/100]    avg_loss:3.242535
+Epoch [49/100]    avg_loss:3.222686
+Epoch [50/100]    avg_loss:3.193263
+Epoch [51/100]    avg_loss:3.177374
+Epoch [52/100]    avg_loss:3.163301
+Epoch [53/100]    avg_loss:3.140540
+Epoch [54/100]    avg_loss:3.110403
+Epoch [55/100]    avg_loss:3.098442
+Epoch [56/100]    avg_loss:3.094156
+Epoch [57/100]    avg_loss:3.077513
+Epoch [58/100]    avg_loss:3.058316
+Epoch [59/100]    avg_loss:3.040046
+Epoch [60/100]    avg_loss:3.025913
+Epoch [61/100]    avg_loss:2.997057
+Epoch [62/100]    avg_loss:2.983612
+Epoch [63/100]    avg_loss:2.978542
+Epoch [64/100]    avg_loss:2.958450
+Epoch [65/100]    avg_loss:2.957901
+Epoch [66/100]    avg_loss:2.927533
+Epoch [67/100]    avg_loss:2.908485
+Epoch [68/100]    avg_loss:2.906161
+Epoch [69/100]    avg_loss:2.906692
+Epoch [70/100]    avg_loss:2.890775
+Epoch [71/100]    avg_loss:2.880628
+Epoch [72/100]    avg_loss:2.874789
+Epoch [73/100]    avg_loss:2.892477
+Epoch [74/100]    avg_loss:2.862980
+Epoch [75/100]    avg_loss:2.858026
+Epoch [76/100]    avg_loss:2.858755
+Epoch [77/100]    avg_loss:2.830653
+Epoch [78/100]    avg_loss:2.836911
+Epoch [79/100]    avg_loss:2.833009
+Epoch [80/100]    avg_loss:2.828485
+Epoch [81/100]    avg_loss:2.826723
+Epoch [82/100]    avg_loss:2.821066
+Epoch [83/100]    avg_loss:2.827361
+Epoch [84/100]    avg_loss:2.830388
+Epoch [85/100]    avg_loss:2.829283
+Epoch [86/100]    avg_loss:2.823426
+Epoch [87/100]    avg_loss:2.824841
+Epoch [88/100]    avg_loss:2.827098
+Epoch [89/100]    avg_loss:2.839118
+Epoch [90/100]    avg_loss:2.825932
+Epoch [91/100]    avg_loss:2.834083
+Epoch [92/100]    avg_loss:2.825090
+Epoch [93/100]    avg_loss:2.828364
+Epoch [94/100]    avg_loss:2.832488
+Epoch [95/100]    avg_loss:2.823467
+Epoch [96/100]    avg_loss:2.828094
+Epoch [97/100]    avg_loss:2.830047
+Epoch [98/100]    avg_loss:2.825401
+Epoch [99/100]    avg_loss:2.823599
+Epoch [100/100]    avg_loss:2.828708
+The pretrain model vit training successfully!!!
+-----------------------------Next run finish log----------------------------
+---------------------------2023-05-20:17:16--------------------------
+---------------------------------------------------------------------

@@ -1,0 +1,250 @@
+creating ./logs/logs-2023-04-03IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-03:13:07--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for training(over 10249)
+RUN:0
+1024 samples selected for training(over 10249)
+9225 samples selected for testing(over 10249)
+RUN:0
+Train dataloader:14
+Validation dataloader:18
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.10
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000,  9.6000,  0.3357,  0.5783,  2.0000,  1.0000,  0.6575, 16.0000,
+         1.0000, 24.0000,  0.4948,  0.1959,  0.8136,  2.4000,  0.3810,  1.2308,
+         5.3333], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2023-04-03IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-03:13:07--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.99/train_gt.npy)
+10146 samples selected for training(over 10249)
+Training Percentage:0.99
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.99/test_gt.npy)
+103 samples selected for training(over 10249)
+RUN:0
+10146 samples selected for training(over 10249)
+103 samples selected for testing(over 10249)
+RUN:0
+Train dataloader:142
+Validation dataloader:18
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.99
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.5667,  0.3363,  0.5785,  2.0234,  0.9948,  0.6577, 16.9821,
+         1.0053, 23.7750,  0.4943,  0.1957,  0.8101,  2.3424,  0.3798,  1.2448,
+         5.1685], device='cuda:0')
+---------- pretrain model training----------
+creating ./logs/logs-2023-04-03IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-03:13:08--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.99/train_gt.npy)
+10146 samples selected for training(over 10249)
+Training Percentage:0.99
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.99/test_gt.npy)
+103 samples selected for training(over 10249)
+RUN:0
+10146 samples selected for training(over 10249)
+103 samples selected for testing(over 10249)
+RUN:0
+Train dataloader:142
+Validation dataloader:18
+----------Training parameters----------
+dataset:IndianPines
+folder:../dataset/
+cuda:0
+run:1
+sampling_mode:fixed
+training_percentage:0.1
+validation_percentage:0.1
+train_gt:False
+test_gt:False
+load_data:0.99
+sample_nums:100
+epoch:100
+save_epoch:20
+patch_size:15
+lr:0.0001
+batch_size:64
+class_balancing:True
+test_stride:1
+n_classes:17
+n_bands:200
+ignored_labels:[0]
+device:cuda:0
+weights:tensor([ 0.0000, 10.5667,  0.3363,  0.5785,  2.0234,  0.9948,  0.6577, 16.9821,
+         1.0053, 23.7750,  0.4943,  0.1957,  0.8101,  2.3424,  0.3798,  1.2448,
+         5.1685], device='cuda:0')
+---------- pretrain model training----------
+Epoch [1/100]    avg_loss:7.000844
+Epoch [2/100]    avg_loss:5.749010
+Epoch [3/100]    avg_loss:5.482803
+Epoch [4/100]    avg_loss:5.031536
+Epoch [5/100]    avg_loss:4.950733
+Epoch [6/100]    avg_loss:4.853541
+Epoch [7/100]    avg_loss:4.667153
+Epoch [8/100]    avg_loss:4.492908
+Epoch [9/100]    avg_loss:4.338906
+Epoch [10/100]    avg_loss:4.174222
+Epoch [11/100]    avg_loss:4.074084
+Epoch [12/100]    avg_loss:3.940679
+Epoch [13/100]    avg_loss:3.860933
+Epoch [14/100]    avg_loss:3.779439
+Epoch [15/100]    avg_loss:3.714493
+Epoch [16/100]    avg_loss:3.639808
+Epoch [17/100]    avg_loss:3.567693
+Epoch [18/100]    avg_loss:3.506762
+Epoch [19/100]    avg_loss:3.443514
+Epoch [20/100]    avg_loss:3.398080
+Epoch [21/100]    avg_loss:3.344597
+Epoch [22/100]    avg_loss:3.314568
+Epoch [23/100]    avg_loss:3.253946
+Epoch [24/100]    avg_loss:3.146731
+Epoch [25/100]    avg_loss:3.112525
+Epoch [26/100]    avg_loss:3.069109
+Epoch [27/100]    avg_loss:3.030308
+Epoch [28/100]    avg_loss:2.945815
+Epoch [29/100]    avg_loss:2.923976
+Epoch [30/100]    avg_loss:2.897327
+Epoch [31/100]    avg_loss:2.853180
+Epoch [32/100]    avg_loss:2.840948
+Epoch [33/100]    avg_loss:2.758314
+Epoch [34/100]    avg_loss:2.737726
+Epoch [35/100]    avg_loss:2.727581
+Epoch [36/100]    avg_loss:2.677250
+Epoch [37/100]    avg_loss:2.676756
+Epoch [38/100]    avg_loss:2.647024
+Epoch [39/100]    avg_loss:2.626174
+Epoch [40/100]    avg_loss:2.641635
+Epoch [41/100]    avg_loss:2.589213
+Epoch [42/100]    avg_loss:2.576781
+Epoch [43/100]    avg_loss:2.548028
+Epoch [44/100]    avg_loss:2.541913
+Epoch [45/100]    avg_loss:2.533557
+Epoch [46/100]    avg_loss:2.532042
+Epoch [47/100]    avg_loss:2.520152
+Epoch [48/100]    avg_loss:2.511456
+Epoch [49/100]    avg_loss:2.503623
+Epoch [50/100]    avg_loss:2.488529
+Epoch [51/100]    avg_loss:2.480561
+Epoch [52/100]    avg_loss:2.491907
+Epoch [53/100]    avg_loss:2.479558
+Epoch [54/100]    avg_loss:2.485074
+Epoch [55/100]    avg_loss:2.494661
+Epoch [56/100]    avg_loss:2.468251
+Epoch [57/100]    avg_loss:2.504701
+Epoch [58/100]    avg_loss:2.477352
+Epoch [59/100]    avg_loss:2.454644
+Epoch [60/100]    avg_loss:2.462718
+Epoch [61/100]    avg_loss:2.460802
+Epoch [62/100]    avg_loss:2.458931
+Epoch [63/100]    avg_loss:2.437410
+Epoch [64/100]    avg_loss:2.456405
+Epoch [65/100]    avg_loss:2.429744
+Epoch [66/100]    avg_loss:2.430385
+Epoch [67/100]    avg_loss:2.411640
+Epoch [68/100]    avg_loss:2.438834
+Epoch [69/100]    avg_loss:2.465800
+Epoch [70/100]    avg_loss:2.424064
+Epoch [71/100]    avg_loss:2.410268
+Epoch [72/100]    avg_loss:2.410446
+Epoch [73/100]    avg_loss:2.403843
+Epoch [74/100]    avg_loss:2.396400
+Epoch [75/100]    avg_loss:2.380580
+Epoch [76/100]    avg_loss:2.362055
+Epoch [77/100]    avg_loss:2.380537
+Epoch [78/100]    avg_loss:2.352375
+Epoch [79/100]    avg_loss:2.366675
+Epoch [80/100]    avg_loss:2.349632
+Epoch [81/100]    avg_loss:2.323596
+Epoch [82/100]    avg_loss:2.331132
+Epoch [83/100]    avg_loss:2.288856
+Epoch [84/100]    avg_loss:2.310567
+Epoch [85/100]    avg_loss:2.284734
+Epoch [86/100]    avg_loss:2.262463
+Epoch [87/100]    avg_loss:2.265773
+Epoch [88/100]    avg_loss:2.262798
+Epoch [89/100]    avg_loss:2.243886
+Epoch [90/100]    avg_loss:2.216738
+Epoch [91/100]    avg_loss:2.211831
+Epoch [92/100]    avg_loss:2.196878
+Epoch [93/100]    avg_loss:2.162083
+Epoch [94/100]    avg_loss:2.199428
+Epoch [95/100]    avg_loss:2.165912
+Epoch [96/100]    avg_loss:2.208683
+Epoch [97/100]    avg_loss:2.161535
+Epoch [98/100]    avg_loss:2.135990
+Epoch [99/100]    avg_loss:2.166961
+Epoch [100/100]    avg_loss:2.099059
+The pretrain model vit training successfully!!!
+creating ./logs/logs-2023-04-03IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-03:13:34--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+creating ./logs/logs-2023-04-03IndianPines.txt
+---------------------------------------------------------------------
+-----------------------------Next run log----------------------------
+---------------------------2023-04-03:13:34--------------------------
+---------------------------------------------------------------------
+Computation on CUDA GPU device 0
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/train_gt.npy)
+1024 samples selected for training(over 10249)
+Training Percentage:0.1
+Load train_gt successfully!(PATH:../dataset/IndianPines/0.10/test_gt.npy)
+9225 samples selected for testing(over 10249)
