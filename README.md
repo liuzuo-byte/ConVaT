@@ -1,5 +1,5 @@
+ConVaT: A Variational Generative Transformer with Momentum Contrastive Learning for Hyperspectral Image Classification
 
-python main.py --dataset 数据集名字  --patch_size 输入数据空间大小 --lr 学习率 --epoch 训练轮次 --run 重复进行多次实验，作用是取平均值 --load_data 加载数据比例共有（0.01，0.03，0.05，0.10，0.15）种  --class_balancing 类别平衡设置，无需更改
 
 
 #注意!!!!!!!：byol.py为论文中的MCL模块，vit_copy.py为论文中的VGT模块。
